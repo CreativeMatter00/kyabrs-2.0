@@ -7,7 +7,7 @@ const SolutionGallery = () => {
 			<div className="container p-4 flex flex-col gap-4">
 				<div className="flex gap-4 max-lg:flex-col">
 					<div className="basis-4/12  max-lg:order-2 group">
-						<Link href="/solutions/clinical-service">
+						<Link href="/solutions/clinical-development-service">
 							<div className="relative flex items-center justify-center overflow-hidden group hover:cursor-pointer h-full rounded-md max-lg:h-80">
 								<Image
 									src={`/assets/images/solutions-home/Mask group.png`}

@@ -53,36 +53,16 @@ function OurValues() {
 						We are dedicated to fulfilling our customers' needs through. We are
 						dedicated to serve the needs of our customers with:
 					</p>
-					<div className="flex items-start justify-between">
-						<div>
-							<div className="flex items-center">
-								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
-								<p className="pl-4">
-									A resolute commitment to reliability and quality
-								</p>
-							</div>
-							<div className="flex items-center">
-								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
-								<p className="pl-4">
-									Extensive global regulatory experience and expertise
-								</p>
-							</div>
-						</div>
 
-						<div>
-							<div className="flex items-center">
-								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
-								<p className="pl-4">A team of talented and motivated staff</p>
-							</div>
-							<div className="flex items-center">
-								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
-								<p className="pl-4">
-									A personalized approach, firmly grounded in our adherence to
-									global regulations
-								</p>
-							</div>
-						</div>
-					</div>
+					<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
+						<li>A resolute commitment to reliability and quality</li>
+						<li>Extensive global regulatory experience and expertise</li>
+						<li>A team of talented and motivated staff</li>
+						<li>
+							A personalized approach, firmly grounded in our adherence to
+							global regulations
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

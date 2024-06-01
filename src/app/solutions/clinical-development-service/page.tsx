@@ -2,7 +2,8 @@ import Loader from "@/components/ui/loader/Loader";
 import dynamic from "next/dynamic";
 
 const DynamicClinicalService = dynamic(
-	() => import("@/components/solution/services/ClinicalService"),
+	() =>
+		import("@/components/solution/services/clinicalService/ClinicalService"),
 	{
 		loading: () => <Loader />,
 	}
@@ -10,7 +11,7 @@ const DynamicClinicalService = dynamic(
 
 const page = () => {
 	return (
-		<div className="mt-28 container mx-auto">
+		<div className="mt-28 bg-brandSecondary">
 			<DynamicClinicalService />
 		</div>
 	);
