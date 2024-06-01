@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 222.2 84% 4.9%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 222.2 84% 4.9%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 222.2 84% 4.9%;
+
+		--primary: 222.2 47.4% 11.2%;
+		--primary-foreground: 210 40% 98%;
+
+		--secondary: 210 40% 96.1%;
+		--secondary-foreground: 222.2 47.4% 11.2%;
+
+		--muted: 210 40% 96.1%;
+		--muted-foreground: 215.4 16.3% 46.9%;
+
+		--accent: 210 40% 96.1%;
+		--accent-foreground: 222.2 47.4% 11.2%;
+
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 210 40% 98%;
+
+		--border: 214.3 31.8% 91.4%;
+		--input: 214.3 31.8% 91.4%;
+		--ring: 222.2 84% 4.9%;
+
+		--radius: 0.5rem;
+	}
+
+	.dark {
+		--background: 222.2 84% 4.9%;
+		--foreground: 210 40% 98%;
+
+		--card: 222.2 84% 4.9%;
+		--card-foreground: 210 40% 98%;
+
+		--popover: 222.2 84% 4.9%;
+		--popover-foreground: 210 40% 98%;
+
+		--primary: 210 40% 98%;
+		--primary-foreground: 222.2 47.4% 11.2%;
+
+		--secondary: 217.2 32.6% 17.5%;
+		--secondary-foreground: 210 40% 98%;
+
+		--muted: 217.2 32.6% 17.5%;
+		--muted-foreground: 215 20.2% 65.1%;
+
+		--accent: 217.2 32.6% 17.5%;
+		--accent-foreground: 210 40% 98%;
+
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 210 40% 98%;
+
+		--border: 217.2 32.6% 17.5%;
+		--input: 217.2 32.6% 17.5%;
+		--ring: 212.7 26.8% 83.9%;
+	}
+}
+
+@layer base {
+	body {
+		@apply bg-background text-foreground;
+	}
+}
+
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden; /* Add this line to hide horizontal scrollbar */
+	font-family: "Inter", sans-serif;
+}
+
+.section {
+	display: flex;
+	/* height: 100vh; */
+	min-height: 30vh;
+	/* min-height: calc(100vh - 1rem); */
+	position: relative;
+	width: 100%;
+	/* z-index: -1; */
+}
+
+.image-container {
+	position: relative;
+	display: flex;
+	width: 100%;
+}
+
+.image {
+	/* height: calc(100vh - 1rem); */
+	height: 100vh;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	mix-blend-mode: multiply;
+	filter: blur(20px);
+	opacity: 0;
+	transition: filter 0s ease, opacity 0s ease;
+	/* transition: filter 0.3s ease, opacity 0.2s ease; */
+	z-index: 1;
+}
+
+.section.active .image {
+	opacity: 1;
+	filter: blur(0);
+}
+
+.greyish-layer {
+	position: fixed; /* Change to fixed position */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		to bottom right,
+		rgba(128, 128, 128, 1),
+		rgba(128, 128, 128, 0.5)
+	); /* Linear gradient from top left to bottom right */
+	z-index: 0; /* Change z-index to be below the text and above the image */
+	pointer-events: none; /* Allow clicks to pass through the layer */
+	transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+.section.active .image-container {
+	position: relative;
+	z-index: 1; /* Ensure the image is above the greyish layer */
+}
+
+.text-container {
+	position: relative;
+	margin: auto;
+	display: flex;
+}
+
+.scrolling-text {
+	position: relative;
+	z-index: 2;
+	opacity: 0;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+	text-align: center;
+	max-width: 100%; /* Ensure the text container does not exceed viewport width */
+}
+
+/* .left {
+        left: 0%;
+        transform: translate(50%, -50%);
+        top: 50%;
+    }
+    
+    .right {
+        right: 0%;
+        transform: translate(50%, -50%);
+    } */
+
+/* .right {
+        right: 20%; 
+        transform: translate(50%, -50%); 
+    }
+    
+    .center {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } */
+
+.section.active .scrolling-text {
+	opacity: 1;
+}
+
+button.next-section-button {
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2; /* Increase the z-index to make it the topmost layer */
+}
+
+.footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999; /* Ensure the footer is on top of other elements */
+}
