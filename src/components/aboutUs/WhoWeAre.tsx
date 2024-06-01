@@ -1,18 +1,14 @@
-import React from "react";
-import Underline from "../ui/underline/Underline";
-
 function WhoWeAre() {
 	return (
-		<div className="mb-16">
-			<div className="px-4">
-				<p className="text-4xl font-semibold">
-					Trusted
-					<br /> Bio-Research Partner
+		<div className="text-bgPrimary px-4">
+			<div className="pb-6">
+				<p className="text-2xl">
+					<span className="text-brandPrimaryLs3"> Trusted </span> Bio-Research
+					Partner
 				</p>
-				<Underline />
 			</div>
 
-			<div className="text-textSecondary text-base font-medium pt-4 px-4">
+			<div className="text-bgPrimary text-base font-medium">
 				<p>
 					The first pioneering contract research company in Bangladesh offering
 					clinical and non-clinical research services is Khwaja Yunus Ali Bio

@@ -1,63 +1,88 @@
 /* eslint-disable react/no-unescaped-entities */
-import Underline from "../ui/underline/Underline";
+import Image from "next/image";
+import { GoDotFill } from "react-icons/go";
 
 function OurValues() {
 	return (
-		<div className="px-4">
-			<div>
-				<p className="text-4xl font-semibold">
-					Our
-					<br /> Values
+		<div className="text-bgPrimary px-4">
+			<div className="pb-4">
+				<p className="text-2xl">
+					Our <span className="text-brandPrimaryLs3"> Values </span>
 				</p>
-				<Underline />
 			</div>
 
-			<div className="py-8">
-				<p className="text-textSecondary text-base font-medium mb-8">
+			<div className="py-6 text-bgPrimary">
+				<p className="mb-6">
 					Our core values define our identity and serve as the cornerstone of
 					our patient-centered care and research excellence.
 				</p>
 
-				<div className="mb-8">
-					<p className="text-primary text-2xl font-semibold mb-4">Mission</p>
-					<p className="text-textSecondary text-base font-medium">
-						Our commitment is a journey, a relentless pursuit of excellence,
-						where we harmonize with the forefront of techniques and procedures.
-						We safeguard the scientific integrity of every project and stand
-						resolute in our compliance with global regulations.
-					</p>
+				<div className="flex flex-col md:flex-row items-center gap-8 mb-4">
+					<div className="w-full md:w-1/2">
+						<p className="text-brandPrimaryLs2 font-bold mb-4"> Mission </p>
+						<p className="mb-6">
+							Our commitment is a journey, a relentless pursuit of excellence,
+							where we harmonize with the forefront of techniques and
+							procedures. We safeguard the scientific integrity of every project
+							and stand resolute in our compliance with global regulations.
+						</p>
+
+						<p className="text-brandPrimaryLs2 font-bold mb-4"> Vision </p>
+						<p className="mb-6">
+							Forge the path to industry excellence, crafting benchmarks that
+							illuminate the way. We champion reliability, unwavering quality,
+							and aspire to crown Bangladesh as the global epicenter of
+							dependable, cost-effective clinical trials.
+						</p>
+					</div>
+
+					<div className="w-full md:w-1/2">
+						<Image
+							src="/assets/images/about/value.jpg"
+							height={1920}
+							width={1080}
+							alt="our values"
+							className="w-full h-auto rounded-lg"
+						/>
+					</div>
 				</div>
-				<div className="mb-8">
-					<p className="text-primary text-2xl font-semibold mb-4">Vision</p>
-					<p className="text-textSecondary text-base font-medium">
-						Forge the path to industry excellence, crafting benchmarks that
-						illuminate the way. We champion reliability, unwavering quality, and
-						aspire to crown Bangladesh as the global epicenter of dependable,
-						cost-effective clinical trials.
-					</p>
-				</div>
-				<div className="mb-8">
-					<p className="text-primary text-2xl font-semibold mb-4">
-						Commitments
-					</p>
-					<p className="text-textSecondary text-base font-bold">
+
+				<p className="text-brandPrimaryLs2 font-bold mb-4"> Commitments </p>
+				<div className="mb-6">
+					<p className="mb-4">
 						We are dedicated to fulfilling our customers' needs through. We are
 						dedicated to serve the needs of our customers with:
 					</p>
-					<ol
-						type="1"
-						className="text-textSecondary text-base font-medium pl-4"
-					>
-						<li> 1. A resolute commitment to reliability and quality,</li>
-						<li> 2. A team of talented and motivated staff,</li>
-						<li>
-							3. Extensive global regulatory experience and expertise, and
-						</li>
-						<li>
-							4. A personalized approach, firmly grounded in our adherence to
-							global regulations.
-						</li>
-					</ol>
+					<div className="flex items-start justify-between">
+						<div>
+							<div className="flex items-center">
+								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
+								<p className="pl-4">
+									A resolute commitment to reliability and quality
+								</p>
+							</div>
+							<div className="flex items-center">
+								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
+								<p className="pl-4">
+									Extensive global regulatory experience and expertise
+								</p>
+							</div>
+						</div>
+
+						<div>
+							<div className="flex items-center">
+								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
+								<p className="pl-4">A team of talented and motivated staff</p>
+							</div>
+							<div className="flex items-center">
+								<GoDotFill className="text-brandPrimaryLs2 text-xl" />
+								<p className="pl-4">
+									A personalized approach, firmly grounded in our adherence to
+									global regulations
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
