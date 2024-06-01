@@ -30,7 +30,7 @@ const config = {
 				textPrimary: "#1C1C1C",
 				textSecondary: "#282828",
 				textTertiary: "#5A5A5A",
-				bgPrimary: "#5A5A5A",
+				bgPrimary: "#F5F5F5",
 				bgSecondary: "#FFFFFF",
 				grayPrimary: "#EBEBEB",
 				link: "#0096FF",

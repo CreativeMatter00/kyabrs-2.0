@@ -1,20 +1,22 @@
 import Image from "next/image";
 
-function Banner({ name }: { name: string }) {
+function Banner({ image, name }: { image: string; name: string }) {
 	return (
-		<div className="relative container mx-auto w-full mb-12 overflow-hidden">
-			<div className="banner-image-wrapper w-full h-[222px] lg:w-auto lg:h-auto">
-				<Image
-					src={"/assets/images/about/banner.png"}
-					height={222}
-					width={1280}
-					alt="banner"
-					className="object-fill w-auto max-w-none h-full"
-				/>
-			</div>
-			<div className="absolute top-0 left-0 w-full h-full bg-black opacity-30 z-10"></div>
-			<div className="absolute bottom-0 left-8 transform -translate-y-1/2 z-20 text-white text-5xl font-bold">
-				{name}
+		<div style={{ background: "linear-gradient( #313639 80%, #414A50 20%)" }}>
+			<div className="container mx-auto">
+				<div className="relative">
+					<Image
+						src={image}
+						height={460}
+						width={1024}
+						className="w-full h-auto rounded-lg"
+						alt="about-us"
+					/>
+					<p className="text-4xl text-bgPrimary absolute bottom-0 left-0 bg-brandColorLs1 py-8 px-8 opacity-90 rounded-bl-lg rounded-tr-lg w-[260px]">
+						{name}
+					</p>
+					<div className="h-12 absolute bottom-0 right-0 bg-brandColorLs1 w-[calc(100%-260px)] opacity-90 rounded-br-lg"></div>
+				</div>
 			</div>
 		</div>
 	);
