@@ -115,3 +115,7 @@
   background-size: 100% 4px;
   background-position: 0 100%;
 }
+
+.blurNav {
+  backdrop-filter: blur(3px);
+}
