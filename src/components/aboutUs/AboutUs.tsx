@@ -11,7 +11,7 @@ function AboutUs() {
 
 	return (
 		<div className="container mx-auto py-6">
-			<div className="flex items-center flex-wrap gap-8 text-bgPrimary font-bold">
+			<div className="flex items-center flex-wrap text-bgPrimary font-bold">
 				<div
 					className={`p-4 cursor-pointer ${
 						activeSection === 0
