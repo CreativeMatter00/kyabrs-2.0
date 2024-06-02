@@ -3,9 +3,8 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
 import { useState } from "react";
-import Overview from "./Overview";
-import EarlyPhase from "./EarlyPhase";
-import PhaseTwoAndThree from "./PhaseTwoAndThree";
+import BioanalyticalLaboratory from "./BioanalyticalLaboratory";
+import ClinicalLaboratory from "./ClinicalLaboratory";
 
 const ClinicalService = () => {
 	const [activeSection, setActiveSection] = useState<number>(0);
@@ -17,7 +16,7 @@ const ClinicalService = () => {
 					<Breadcrumb
 						link1="/solutions"
 						title1="Solutions"
-						title2="Clinical Development & Research Services"
+						title2="Laboratory Services"
 					/>
 				</div>
 
@@ -26,14 +25,12 @@ const ClinicalService = () => {
 						src={"/assets/images/solutions/clinical-service/hero.jpg"}
 						height={300}
 						width={1024}
-						alt="Clinical Services"
+						alt="Laboratory Services"
 						className="rounded-lg w-full"
 					/>
 				</div>
 
-				<div className="text-4xl pb-4">
-					Clinical Development & Research Services
-				</div>
+				<div className="text-4xl pb-4">Laboratory Services</div>
 			</div>
 
 			<div className="py-6 border-t border-textTertiary">
@@ -47,7 +44,7 @@ const ClinicalService = () => {
 							}`}
 							onClick={() => setActiveSection(0)}
 						>
-							Overview
+							Bioanalytical Laboratory
 						</div>
 						<div
 							className={`p-4 cursor-pointer ${
@@ -57,7 +54,7 @@ const ClinicalService = () => {
 							}`}
 							onClick={() => setActiveSection(1)}
 						>
-							Early Phase Clinical Trials
+							Clinical Laboratory
 						</div>
 						<div
 							className={`p-4 cursor-pointer ${
@@ -67,16 +64,16 @@ const ClinicalService = () => {
 							}`}
 							onClick={() => setActiveSection(2)}
 						>
-							Phase II & Phase III Clinical Trial
+							Radiology, Imaging & Core Lab
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div className="py-9">
-				{activeSection === 0 && <Overview />}
-				{activeSection === 1 && <EarlyPhase />}
-				{activeSection === 2 && <PhaseTwoAndThree />}
+				{activeSection === 0 && <BioanalyticalLaboratory />}
+				{activeSection === 1 && <ClinicalLaboratory />}
+				{/*	{activeSection === 2 && <PhaseTwoAndThree />} */}
 			</div>
 		</div>
 	);
