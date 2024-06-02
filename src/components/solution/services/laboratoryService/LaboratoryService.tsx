@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import BioanalyticalLaboratory from "./BioanalyticalLaboratory";
 import ClinicalLaboratory from "./ClinicalLaboratory";
+import Radiology from "./Radiology";
 
 const ClinicalService = () => {
 	const [activeSection, setActiveSection] = useState<number>(0);
@@ -73,7 +74,7 @@ const ClinicalService = () => {
 			<div className="py-9">
 				{activeSection === 0 && <BioanalyticalLaboratory />}
 				{activeSection === 1 && <ClinicalLaboratory />}
-				{/*	{activeSection === 2 && <PhaseTwoAndThree />} */}
+				{activeSection === 2 && <Radiology />}
 			</div>
 		</div>
 	);
