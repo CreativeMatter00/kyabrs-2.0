@@ -11,7 +11,7 @@ const DynamicClinicalService = dynamic(
 
 const page = () => {
 	return (
-		<div className="mt-28 bg-brandSecondary">
+		<div className="pt-20 bg-brandSecondary">
 			<DynamicClinicalService />
 		</div>
 	);
