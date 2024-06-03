@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="p-4 bg-white flex divide-x-2 w-full">
+    <div className="p-4 bg-white flex divide-x-2 w-full h-[calc(100vh-250px)]">
       <div className="basis-1/3 flex flex-col gap-4 p-4">
         <p className="text-[#414A50] text-2xl">About</p>
         <Image
@@ -21,12 +22,50 @@ const About = () => {
           trials at our state-of-the-art facility, adhering to international
           regulatory standards.
         </p>
-        <div className="text-[#0096FF] flex items-center gap-2">
-          Know more about us <BsArrowRight fontSize={16} />
+        <div className="text-[#0096FF] flex items-center gap-2 cursor-pointer group">
+          Know more about us{" "}
+          <BsArrowRight
+            fontSize={16}
+            className=" ml-0 duration-300 group-hover:ml-2"
+          />
         </div>
       </div>
-      <div className="basis-1/3">2</div>
-      <div className="basis-1/3">3</div>
+      <div className="basis-1/3 p-4 flex flex-col  h-[calc(100vh-300px)] overflow-auto custom-scrollbar">
+        <div className="divide-y-2 divide-[#EBEBEB] mt-6">
+          <div>
+            <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <p className=" text-[#414A50] text-xs font-medium">Who we are</p>
+              <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
+            </div>
+          </div>
+
+          <div>
+            <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <p className=" text-[#414A50] text-xs font-medium">
+                Management Team
+              </p>
+              <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
+            </div>
+          </div>
+          <div>
+            <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <p className=" text-[#414A50] text-xs font-medium">
+                Mission & Values
+              </p>
+              <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
+            </div>
+          </div>
+          <div>
+            <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <p className=" text-[#414A50] text-xs font-medium">
+                Accreditations & Inspections
+              </p>
+              <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="basis-1/3"></div>
     </div>
   );
 };
