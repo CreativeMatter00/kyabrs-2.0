@@ -3,21 +3,21 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
 import { useState } from "react";
-import BioanalyticalLaboratory from "./BioanalyticalLaboratory";
-import ClinicalLaboratory from "./ClinicalLaboratory";
-import Radiology from "./Radiology";
+import Overview from "./Overview";
+import MonitoringStrategy from "./MonitoringStrategies";
+import ClinicalMonitoringDistinction from "./ClinicalMonitoringDistinction";
 
-const ClinicalService = () => {
+const ClinicalMonitoring = () => {
 	const [activeSection, setActiveSection] = useState<number>(0);
 
 	return (
-		<div className="py-16 px-4 text-bgPrimary">
+		<div className="py-16 px-4  text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
 						link1="/solutions"
 						title1="Solutions"
-						title2="Laboratory Services"
+						title2="Clinical Monitoring"
 					/>
 				</div>
 
@@ -26,12 +26,12 @@ const ClinicalService = () => {
 						src={"/assets/images/solutions/clinical-service/hero.jpg"}
 						height={300}
 						width={1024}
-						alt="Laboratory Services"
+						alt="Hero"
 						className="rounded-lg w-full"
 					/>
 				</div>
 
-				<div className="text-4xl pb-4">Laboratory Services</div>
+				<div className="text-4xl pb-4">Clinical Monitoring</div>
 			</div>
 
 			<div className="py-6 border-t border-textTertiary">
@@ -45,7 +45,7 @@ const ClinicalService = () => {
 							}`}
 							onClick={() => setActiveSection(0)}
 						>
-							Bioanalytical Laboratory
+							Overview
 						</div>
 						<div
 							className={`p-4 cursor-pointer ${
@@ -55,7 +55,7 @@ const ClinicalService = () => {
 							}`}
 							onClick={() => setActiveSection(1)}
 						>
-							Clinical Laboratory
+							Monitoring Strategies
 						</div>
 						<div
 							className={`p-4 cursor-pointer ${
@@ -65,19 +65,19 @@ const ClinicalService = () => {
 							}`}
 							onClick={() => setActiveSection(2)}
 						>
-							Radiology, Imaging & Core Lab
+							Clinical Monitoring Distinction
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div className="py-9">
-				{activeSection === 0 && <BioanalyticalLaboratory />}
-				{activeSection === 1 && <ClinicalLaboratory />}
-				{activeSection === 2 && <Radiology />}
+				{activeSection === 0 && <Overview />}
+				{activeSection === 1 && <MonitoringStrategy />}
+				{activeSection === 2 && <ClinicalMonitoringDistinction />}
 			</div>
 		</div>
 	);
 };
 
-export default ClinicalService;
+export default ClinicalMonitoring;

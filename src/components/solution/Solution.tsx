@@ -1,4 +1,3 @@
-import Underline from "../ui/underline/Underline";
 import SolutionGallery from "./SolutionGallery";
 
 const Solution = () => {
