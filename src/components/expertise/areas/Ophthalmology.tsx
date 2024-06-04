@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
 
-const NeurologyPsychiatry = () => {
+const Ophthalmology = () => {
 	return (
 		<div className="py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
@@ -9,7 +9,7 @@ const NeurologyPsychiatry = () => {
 					<Breadcrumb
 						link1="/expertise"
 						title1="Expertise"
-						title2="Neurology & Psychiatry"
+						title2="Ophthalmology"
 					/>
 				</div>
 
@@ -23,29 +23,22 @@ const NeurologyPsychiatry = () => {
 					/>
 				</div>
 
-				<p className="text-2xl mb-6"> Neurology & Psychiatry </p>
+				<p className="text-2xl mb-6"> Ophthalmology </p>
 			</div>
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/expertise/neurology.jpg"
+					src="/assets/images/expertise/ophthalmology.png"
 					height={480}
 					width={720}
-					alt="Neurology & Psychiatry"
+					alt="Ophthalmology"
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						Flow your neurology and psychiatric trials efficiently with our
-						accelerated recruitment and integrated imaging services.
-						<br />
-						Neurology/central nervous system (CNS) and psychiatric clinical
-						research is a key therapeutic focus for KYABRS. Well-established
-						sponsor relationships, exceptional clinical operations, and
-						committed study teams drive your success. KYABRS has built a team of
-						experienced medical, clinical, and regulatory experts who have been
-						involved with the management and execution of neuroscience trials.
+						Our full-service CRO offers specialized expertise in ophthalmology,
+						ensuring adaptable solutions tailored to your research needs.
 					</p>
 				</div>
 			</div>
@@ -53,4 +46,4 @@ const NeurologyPsychiatry = () => {
 	);
 };
 
-export default NeurologyPsychiatry;
+export default Ophthalmology;

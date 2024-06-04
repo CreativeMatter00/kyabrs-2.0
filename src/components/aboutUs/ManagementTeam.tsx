@@ -18,7 +18,7 @@ function ManagementTeam() {
 						src="/assets/images/about/1.png"
 						height={300}
 						width={300}
-						className="h-auto w-auto max-h-[300px] mx-auto"
+						className="h-auto w-auto max-h-[300px] mx-auto rounded-lg"
 						alt="chairman"
 					/>
 
@@ -51,7 +51,7 @@ function ManagementTeam() {
 						src="/assets/images/about/2.png"
 						height={300}
 						width={300}
-						className="h-auto w-auto max-h-[300px] mx-auto"
+						className="h-auto w-auto max-h-[300px] mx-auto rounded-lg"
 						alt="md"
 					/>
 
@@ -81,10 +81,10 @@ function ManagementTeam() {
 			<div className="mb-10">
 				<div className="p-6 flex flex-col md:flex-row gap-8 bg-brandColorLs1 rounded-lg">
 					<Image
-						src="/assets/images/about/3.png"
+						src="/assets/images/about/3-new.jpg"
 						height={300}
 						width={300}
-						className="h-auto w-auto max-h-[300px] mx-auto"
+						className="h-auto w-auto max-h-[300px] mx-auto rounded-lg"
 						alt="head of operations"
 					/>
 

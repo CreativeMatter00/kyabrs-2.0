@@ -8,7 +8,7 @@ const DynamicAboutUs = dynamic(() => import("@/components/aboutUs/AboutUs"), {
 
 function page() {
 	return (
-		<div className="mt-24 lg:mt-32 bg-brandSecondary">
+		<div className="pt-24 lg:pt-32 bg-brandSecondary">
 			<Banner image="/assets/images/about/hero.jpg" name="About Us" />
 			<div className="container mx-auto">
 				<DynamicAboutUs />

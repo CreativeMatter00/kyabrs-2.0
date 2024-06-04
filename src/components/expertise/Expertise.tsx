@@ -3,9 +3,9 @@ import TherapeuticAreas from "./TherapeuticAreas";
 
 const Expertise = () => {
 	return (
-		<div className="text-bgPrimary py-8">
-			<div className="flex gap-8 px-4">
-				<div className="w-1/2">
+		<div className="text-bgPrimary py-16">
+			<div className="flex flex-col lg:flex-row gap-8 px-4">
+				<div className="w-full lg:w-1/2">
 					<div className="mb-6">
 						<div className="pb-6">
 							<p className="text-2xl">Overview</p>
@@ -60,7 +60,7 @@ const Expertise = () => {
 					</div>
 				</div>
 
-				<div className="w-1/2">
+				<div className="w-full lg:w-1/2">
 					<TherapeuticAreas />
 				</div>
 			</div>
