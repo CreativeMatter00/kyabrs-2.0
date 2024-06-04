@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import styles from "@/styles/Navbar.module.css";
 
 const services = [
   "Regulatory Strategy and Development",
@@ -32,7 +33,9 @@ const Consulting = () => {
           />
         </div>
       </div>
-      <div className="basis-1/3 p-4 flex flex-col  h-[calc(100vh-300px)] overflow-auto custom-scrollbar">
+      <div
+        className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-300px)] overflow-auto  ${styles.customScrollbar}`}
+      >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           {services.map((service, index) => (
             <div key={index} className="">
