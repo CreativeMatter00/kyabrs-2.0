@@ -1,4 +1,3 @@
-import OurAchievements from "@/components/home/OurAchievements/OurAchievements";
 import "./test.css";
 
 const page = () => {
@@ -36,9 +35,7 @@ const page = () => {
     //     </div>
     //   </div>
     // </div>
-    <div>
-      <OurAchievements />
-    </div>
+    <div>this is test</div>
   );
 };
 

@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/ui/Navbar/Navbar";
 import Footer from "@/components/ui/footer/Footer";
 import NavTest from "@/components/ui/Navbar/NavTest";
+import HomeFooter from "@/components/ui/footer/homeFooter/HomeFooter";
 
 export const metadata: Metadata = {
   title: "KYABRS",
@@ -19,7 +20,7 @@ export default function RootLayout({
       <body>
         <NavTest />
         <div>{children}</div>
-        <Footer />
+        <HomeFooter />
       </body>
     </html>
   );
