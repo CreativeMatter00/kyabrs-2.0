@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import {
 	Carousel,
 	CarouselContent,

@@ -10,7 +10,7 @@ const DynamicEndocrineMetabolic = dynamic(
 
 const page = () => {
 	return (
-		<div className="mt-28 container mx-auto">
+		<div className="pt-20 bg-brandSecondary">
 			<DynamicEndocrineMetabolic />
 		</div>
 	);

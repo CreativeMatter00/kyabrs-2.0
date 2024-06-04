@@ -12,7 +12,7 @@ function Banner({ image, name }: { image: string; name: string }) {
 						className="w-full h-auto rounded-lg"
 						alt="about-us"
 					/>
-					<p className="text-4xl text-bgPrimary absolute bottom-0 left-0 bg-brandColorLs1 py-8 px-8 opacity-90 rounded-bl-lg rounded-tr-lg w-[260px]">
+					<p className="text-4xl font-bold text-bgPrimary absolute bottom-0 left-0 bg-brandColorLs1 py-8 px-8 opacity-90 rounded-bl-lg rounded-tr-lg w-[260px] capitalize">
 						{name}
 					</p>
 					<div className="h-12 absolute bottom-0 right-0 bg-brandColorLs1 w-[calc(100%-260px)] opacity-90 rounded-br-lg"></div>

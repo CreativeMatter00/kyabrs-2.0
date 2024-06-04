@@ -1,60 +1,54 @@
-import Back from "@/components/ui/back/Back";
-import Underline from "@/components/ui/underline/Underline";
+import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
-import React from "react";
 
 const Cardiovascular = () => {
-  return (
-    <div className="py-16 px-4">
-      <div className="mb-9">
-        <Back />
-      </div>
+	return (
+		<div className="py-16 px-4 text-bgPrimary">
+			<div className="container mx-auto">
+				<div className="mb-9">
+					<Breadcrumb
+						link1="/expertise"
+						title1="Expertise"
+						title2="Cardiovascular"
+					/>
+				</div>
 
-      <div className="font-medium text-5xl text-textPrimary mb-20 break-words max-md:text-4xl">
-        CARDIOVASCULAR
-        <Underline />
-      </div>
+				<div className="h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
+					<Image
+						src={"/assets/images/expertise/area-hero.jpg"}
+						height={300}
+						width={1024}
+						alt="Expertise"
+						className="rounded-lg w-full"
+					/>
+				</div>
 
-      <div className="mb-20">
-        <Image
-          src="/assets/images/expertise/cardiovascular.jpg"
-          height={480}
-          width={720}
-          alt="CARDIOVASCULAR"
-          className="h-auto w-auto mx-auto rounded-lg mb-10"
-        />
+				<p className="text-2xl mb-6"> Cardiovascular </p>
+			</div>
 
-        <p className="text-textSecondary text-base font-medium pt-4 pb-8 px-4">
-          Effectively plan, manage, and integrate your cardiovascular and
-          cardiac safety trials, regardless of test size or safety requirements.
-          <br />
-          The Cardiovascular teams at KYABRS are highly skilled in the
-          scientific methodology, standard of care, evolving regulatory
-          requirements and operational considerations that are necessary to
-          bring drugs and devices that treat or prevent heart disease to market.
-        </p>
+			<div className="container mx-auto text-bgPrimary">
+				<Image
+					src="/assets/images/expertise/cardiovascular.jpg"
+					height={480}
+					width={720}
+					alt="Cardiovascular"
+					className="h-auto w-auto mx-auto rounded-lg mb-10"
+				/>
 
-        <p className="font-medium text-xl text-textPrimary mb-4 px-4">
-          IN ORDER TO ENSURE SUCCESS, WE HELP OUR CLIENTS:
-        </p>
-
-        <ul className="text-textSecondary text-base font-medium list-disc list-inside px-4">
-          <li>
-            Effectively plan and conduct cardiovascular studies for drug/device
-            and cardiac safety.
-          </li>
-          <li>
-            Efficiently conduct large cardiovascular endpoint trials that demand
-            rigorous safety requirements.
-          </li>
-          <li>
-            Seamlessly integrate cardiovascular trials with
-            metabolic/endocrinology projects.
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
+				<div className="pt-4 px-4">
+					<p className="text-base font-medium mb-10">
+						Our experienced medical leadership possesses a thorough
+						understanding of the complex conditions that cause autoimmune
+						diseases. Our team is prepared to support clinical research in
+						autoimmune diseases, ensuring quality results, meeting deadlines,
+						and maximizing efficiencies. Partner with a full-service CRO that
+						excels in designing and executing clinical research across a
+						spectrum of autoimmune diseases.
+					</p>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Cardiovascular;
