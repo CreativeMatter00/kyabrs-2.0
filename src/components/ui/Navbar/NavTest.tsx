@@ -54,7 +54,11 @@ const NavTest = () => {
       <nav
         className={`top-0 fixed w-full  z-[100000]  max-lg:hidden 
         
-        ${pathName === "/" ? "bg-[rgba(65, 74, 80, 0.9)]" : "bg-[#414A50]"}
+        ${
+          pathName === "/" || pathName === "/test-mahfuz"
+            ? "bg-[rgba(65, 74, 80, 0.9)]"
+            : "bg-[#414A50]"
+        }
 
       `}
       >
@@ -66,7 +70,11 @@ const NavTest = () => {
                 <div
                   className={`px-4 pt-4 duration-500 transition-all w-full  ${
                     mobileNav ? "opacity-100 bg-white" : "bg-transparent "
-                  }  ${pathName === "/" ? "border-b" : "border-none"} `}
+                  }  ${
+                    pathName === "/" || pathName === "/test-mahfuz"
+                      ? "border-b"
+                      : "border-none"
+                  } `}
                 >
                   <div className="container mx-auto  relative ">
                     <div className="flex items-center justify-between text-[#F5F5F5]  ">
