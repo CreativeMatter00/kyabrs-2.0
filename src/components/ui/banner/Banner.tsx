@@ -2,7 +2,10 @@ import Image from "next/image";
 
 function Banner({ image, name }: { image: string; name: string }) {
 	return (
-		<div style={{ background: "linear-gradient( #313639 80%, #414A50 20%)" }}>
+		<div
+			style={{ background: "linear-gradient( #313639 80%, #414A50 20%)" }}
+			className="pt-8"
+		>
 			<div className="container mx-auto">
 				<div className="relative">
 					<Image

@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const Nephrology = () => {
 	return (
@@ -43,6 +44,8 @@ const Nephrology = () => {
 						meet your research objectives effectively.
 					</p>
 				</div>
+
+				<TherapeuticAreasCarousel />
 			</div>
 		</div>
 	);
