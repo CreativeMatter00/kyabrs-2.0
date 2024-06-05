@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const AutoimmuneDiseases = () => {
 	return (
@@ -46,6 +47,8 @@ const AutoimmuneDiseases = () => {
 						spectrum of autoimmune diseases.
 					</p>
 				</div>
+
+				<TherapeuticAreasCarousel />
 			</div>
 		</div>
 	);

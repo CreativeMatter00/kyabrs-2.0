@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const NeurologyPsychiatry = () => {
 	return (
@@ -48,6 +49,8 @@ const NeurologyPsychiatry = () => {
 						involved with the management and execution of neuroscience trials.
 					</p>
 				</div>
+
+				<TherapeuticAreasCarousel />
 			</div>
 		</div>
 	);

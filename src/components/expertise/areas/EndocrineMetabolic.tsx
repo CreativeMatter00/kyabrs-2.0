@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 
 import Image from "next/image";
+import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const EndocrineMetabolic = () => {
 	return (
@@ -14,7 +15,7 @@ const EndocrineMetabolic = () => {
 					/>
 				</div>
 
-				<div className="h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
+				<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
 					<Image
 						src={"/assets/images/expertise/area-hero.jpg"}
 						height={300}
@@ -42,6 +43,8 @@ const EndocrineMetabolic = () => {
 						endocrine and metabolic development programs.
 					</p>
 				</div>
+
+				<TherapeuticAreasCarousel />
 			</div>
 		</div>
 	);

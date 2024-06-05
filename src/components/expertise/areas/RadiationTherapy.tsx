@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const RadiationTherapy = () => {
 	return (
@@ -13,7 +14,7 @@ const RadiationTherapy = () => {
 					/>
 				</div>
 
-				<div className="h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
+				<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
 					<Image
 						src={"/assets/images/expertise/area-hero.jpg"}
 						height={300}
@@ -44,6 +45,8 @@ const RadiationTherapy = () => {
 						application, delivering optimal outcomes for your trial.
 					</p>
 				</div>
+
+				<TherapeuticAreasCarousel />
 			</div>
 		</div>
 	);

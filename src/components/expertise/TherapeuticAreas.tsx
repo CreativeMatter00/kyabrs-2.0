@@ -172,15 +172,17 @@ const TherapeuticAreas = () => {
 								key={index}
 								className=" bg-brandColorLs1 rounded-lg basis-1/3 mx-4 p-4"
 							>
-								<div className="flex flex-col items-center justify-center gap-4 px-4">
-									<Image
-										src={area.image}
-										width={80}
-										height={75}
-										alt={area.title}
-									/>
-									<p className="text-center"> {area.title} </p>
-								</div>
+								<Link href={area.link}>
+									<div className="flex flex-col items-center justify-center gap-4 px-4">
+										<Image
+											src={area.image}
+											width={80}
+											height={75}
+											alt={area.title}
+										/>
+										<p className="text-center"> {area.title} </p>
+									</div>
+								</Link>
 							</CarouselItem>
 						);
 					})}
