@@ -77,19 +77,23 @@ const OurAchievements = () => {
 								{achievementsData.map((achievement, index) => (
 									<CarouselItem
 										key={index}
-										className="mt-8 bg-[#4F5961] mr-8 rounded-lg p-6 flex gap-4 w-auto"
+										className="mt-8 bg-[#4F5961] mr-8 rounded-lg p-6 flex gap-4 w-auto text-center"
 									>
 										<Image
 											src={achievement.imageSrc}
 											height={310}
 											width={306}
 											alt="achievements"
-											className="rounded-lg h-[310px] w-[306px]"
+											className="rounded-lg h-[310px] w-[306px] hidden md:block"
 										/>
 										<div className="flex justify-between flex-col pt-4 px-4">
-											<p className="text-4xl">{achievement.title}</p>
+											<p className="text-2xl md:text-4xl">
+												{achievement.title}
+											</p>
 											<div>
-												<p className="mb-4">{achievement.description}</p>
+												<p className="mb-4 text-sm md:text-base">
+													{achievement.description}
+												</p>
 												<button className="border border-[#F5F5F5] px-6 py-2.5 text-sm font-medium rounded-full hover:text-[#FF6A5E] hover:border-[#FF6A5E]">
 													Learn more
 												</button>
@@ -99,7 +103,7 @@ const OurAchievements = () => {
 												{achievement.tags.map((tag, tagIndex) => (
 													<p
 														key={tagIndex}
-														className="hover:underline cursor-pointer"
+														className="hover:underline cursor-pointer text-sm md:text-base"
 													>
 														{tag}
 													</p>
