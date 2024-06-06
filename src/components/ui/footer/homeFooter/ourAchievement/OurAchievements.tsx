@@ -71,6 +71,7 @@ const OurAchievements = () => {
             showcasing our dedication to healthcare excellence.
           </p>
 
+<<<<<<< HEAD
           <div className="container mx-auto">
             <Carousel className="w-full">
               <CarouselContent>
@@ -114,9 +115,8 @@ const OurAchievements = () => {
             </Carousel>
           </div>
         </div>
-        {/* #313639
-        #4F5961 */}
-        {/* bg-[#FF6A5E] hover:bg-[#FF4E3F] */}
+
+       
         <div className="flex justify-between gap-4">
           {/* <button className="">
 						<svg
