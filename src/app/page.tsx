@@ -41,7 +41,7 @@ export default function Home() {
         direction="justify-start"
         text="specialized in providing support to the pharmaceutical, biotechnology, and medical device industries"
       >
-        <p className="text-5xl text-[#F5F5F5] font-normal leading-[3.5rem] ">
+        <p className="text-5xl text-[#F5F5F5] font-normal leading-[3.5rem] max-lg:text-4xl max-lg:leading-[3rem]">
           Specialized in providing <br />
           support to the <br />
           <span className="text-[#FF6A5E] font-bold">Pharmaceutical</span>,
@@ -54,13 +54,14 @@ export default function Home() {
           </span>
         </p>
       </SectionFinal>
+
       <SectionFinal
         activeSection={activeSection}
         img="url(/assets/images/home/slide-2.png)"
         direction="justify-end"
         text="KYA-BRS plays a crucial role in the drug development process by assisting in various aspects of clinical trials and research studies"
       >
-        <p className="leading-[3.5rem] text-4xl text-[#F5F5F5] font-normal content-center">
+        <p className="leading-[3.5rem] text-4xl text-[#F5F5F5] font-normal content-center max-lg:text-3xl max-lg:leading-[3rem]">
           KYA-BRS plays a crucial role is the <br />
           <span className="text-[#FF6A5E] text-5xl">
             drug development process&nbsp;
@@ -75,6 +76,7 @@ export default function Home() {
           </span>
         </p>
       </SectionFinal>
+
       <SectionFinal
         activeSection={activeSection}
         img="url(/assets/images/home/slide-6.png)"
