@@ -6,22 +6,22 @@ import NavTest from "@/components/ui/Navbar/NavTest";
 import HomeFooter from "@/components/ui/footer/homeFooter/HomeFooter";
 
 export const metadata: Metadata = {
-  title: "KYABRS",
-  description: "KYABRS",
+	title: "KYABRS",
+	description: "KYABRS",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>
-        <NavTest />
-        <div>{children}</div>
-        <HomeFooter />
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>
+				<NavTest />
+				<div>{children}</div>
+				<HomeFooter />
+			</body>
+		</html>
+	);
 }

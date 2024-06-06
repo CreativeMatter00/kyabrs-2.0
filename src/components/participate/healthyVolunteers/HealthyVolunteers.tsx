@@ -9,7 +9,7 @@ const HealthyVolunteers = () => {
 				<div className="py-10 pb-4">
 					<Breadcrumb
 						title1="Participate"
-						link1="participate"
+						link1="/participate"
 						title2="Healthy Volunteers"
 					/>
 				</div>
@@ -22,7 +22,7 @@ const HealthyVolunteers = () => {
 						className="w-full h-auto rounded-lg"
 					/>
 					<div className="absolute top-0 left-0 right-0 bottom-0 bg-brandColorDs1 bg-opacity-60"></div>
-					<h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-bold">
+					<h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl md:text-5xl font-bold text-center">
 						Healthy Volunteers
 					</h1>
 				</div>

@@ -1,6 +1,5 @@
 import HealthyVolunteers from "@/components/participate/healthyVolunteers/HealthyVolunteers";
 import RegistrationForm from "@/components/participate/healthyVolunteers/RegistrationForm";
-import React from "react";
 
 const page = () => {
 	return (
