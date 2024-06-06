@@ -1,174 +1,90 @@
 "use client";
 
-import SectionFinal from "@/components/home/SectionFinal";
-import { useEffect, useState } from "react";
+import {
+	Carousel,
+	CarouselContent,
+	CarouselItem,
+	CarouselNext,
+	CarouselPrevious,
+} from "@/components/ui/carousel";
+import Image from "next/image";
 
-const Page = () => {
-  const [activeSection, setActiveSection] = useState<number>(0);
+const achievementsData = [
+	{
+		title: "Groundbreaking Clinical Trial",
+		description:
+			"KYA-BRS successfully completed a Phase III clinical trial leading to the approval of a new cancer therapy. This breakthrough offers hope to thousands of patients.",
+		imageSrc: "/assets/images/home/RUM1062 2.png",
+		tags: ["Clinical Trials", "Cancer Research", "New Therapies"],
+	},
+	{
+		title: "State-of-the-Art Bioanalytical Lab",
+		description:
+			"Our bioanalytical laboratory achieved international accreditation for its cutting-edge research and quality standards, enhancing our research capabilities.",
+		imageSrc: "/assets/images/home/RUM1062 2.png",
+		tags: ["Bioanalytical Lab", "Accreditation", "Research Excellence"],
+	},
+	{
+		title: "Community Engagement Award",
+		description:
+			"KYA-BRS received a prestigious award for outstanding community outreach and education efforts, highlighting our commitment to public health awareness.",
+		imageSrc: "/assets/images/home/RUM1062 2.png",
+		tags: ["Community Engagement", "Public Health", "Education"],
+	},
+	{
+		title: "First Hospital-Affiliated Bio-Research Institution",
+		description:
+			"We are proud to be the first hospital-affiliated bio-research institution in Bangladesh, enabling seamless integration of clinical practice and research.",
+		imageSrc: "/assets/images/home/bg-4.jpeg",
+		tags: ["Hospital-Affiliated", "Bio-Research", "Innovation"],
+	},
+];
 
-  useEffect(() => {
-    function changeImage() {
-      const scroll = window.scrollY + window.innerHeight / 12;
-      const sections = document.getElementsByClassName("section");
-
-      for (let i = 0; i < sections.length; i++) {
-        const section = sections[i] as HTMLElement;
-        section.classList.remove("active");
-
-        if (
-          section.offsetTop <= scroll &&
-          section.offsetTop + section.offsetHeight > scroll
-        ) {
-          setActiveSection(i);
-          section.classList.add("active");
-        }
-      }
-    }
-
-    window.addEventListener("scroll", changeImage);
-    changeImage();
-
-    return () => {
-      window.removeEventListener("scroll", changeImage);
-    };
-  }, []);
-
-  const scrollToNextSection = () => {
-    const sections = document.getElementsByClassName("section");
-    if (activeSection < sections.length - 1) {
-      const nextSection = sections[activeSection + 1] as HTMLElement;
-      const scrollOptions: ScrollToOptions = {
-        top: nextSection.offsetTop,
-        behavior: "smooth",
-        // easing: "ease-in-out",
-      };
-      nextSection.style.scrollBehavior = "smooth";
-      window.scrollTo(scrollOptions);
-      setActiveSection(activeSection + 1);
-    }
-  };
-  return (
-    <div>
-      <div>
-        <div className="scroll-smooth text-center">
-          <SectionFinal
-            activeSection={activeSection}
-            img="url(/assets/images/home/slide-5.png)"
-            direction="justify-start"
-            text="specialized in providing support to the pharmaceutical, biotechnology, and medical device industries"
-          >
-            <p className="text-5xl text-[#F5F5F5] font-normal leading-[3.5rem] ">
-              Specialized in providing <br />
-              support to the <br />
-              <span className="text-[#FF6A5E] font-bold">Pharmaceutical</span>,
-              <br />
-              <span className="text-[#FF6A5E] font-bold">
-                Biotechnology &nbsp;
-              </span>
-              and
-              <span className="text-[#FF6A5E] font-bold">
-                &nbsp; Medical
-                <br /> Device Industries
-              </span>
-            </p>
-          </SectionFinal>
-          <SectionFinal
-            activeSection={activeSection}
-            img="url(/assets/images/home/slide-2.png)"
-            direction="justify-end"
-            text="KYA-BRS plays a crucial role in the drug development process by assisting in various aspects of clinical trials and research studies"
-          >
-            <p className="leading-[3.5rem] text-4xl text-[#F5F5F5] font-normal content-center">
-              KYA-BRS plays a crucial role is the <br />
-              <span className="text-[#FF6A5E] text-5xl">
-                drug development process&nbsp;
-              </span>
-              by <br /> assisting in various aspects of
-              <span className="text-[#FF6A5E] text-5xl">
-                &nbsp;clinical <br /> trials&nbsp;
-              </span>
-              and
-              <span className="text-[#FF6A5E] text-5xl">
-                &nbsp; research studies
-              </span>
-            </p>
-          </SectionFinal>
-          <SectionFinal
-            activeSection={activeSection}
-            img="url(/assets/images/home/slide-6.png)"
-            direction="justify-start"
-            text="We offer services ranging from clinical trial management, data management, regulatory affairs, pharmacovigilance, biostatistics, and medical writing"
-          >
-            <p className="leading-[3.5rem] text-5xl text-[#F5F5F5] font-normal ">
-              We offer services ranging <br />{" "}
-              <span className="text-[#FF6A5E]  font-bold">
-                from Clinical Trial <br /> Management{" "}
-              </span>{" "}
-              ,{" "}
-              <span className="text-[#FF6A5E]  font-bold">
-                Data <br />
-                Management{" "}
-              </span>
-              ,
-              <span className="text-[#FF6A5E]  font-bold">
-                {" "}
-                Regulatory <br /> Affairs{" "}
-              </span>
-              ,
-              <span className="text-[#FF6A5E]  font-bold">
-                {" "}
-                Pharmacovigilance{" "}
-              </span>
-              , <br />{" "}
-              <span className="text-[#FF6A5E]  font-bold">
-                Biostatistics{" "}
-              </span>{" "}
-              and{" "}
-              <span className="text-[#FF6A5E]  font-bold">
-                Medical <br /> Writing
-              </span>
-            </p>
-          </SectionFinal>
-          <SectionFinal
-            activeSection={activeSection}
-            img="url(/assets/images/home/slide-4.png)"
-            direction="justify-start"
-            text="Aims to tailor medical treatments to individual patients based on their unique genetic makeup, environmental exposures, and lifestyle factors."
-          >
-            <p className="leading-[3.5rem] text-5xl text-[#F5F5F5] font-normal">
-              Aims to tailor medical <br /> treatments to individual <br />{" "}
-              patients based on their <br />{" "}
-              <span className="font-bold">
-                {" "}
-                Unique Genetic Makeup, <br /> Environmental Exposures <br /> and
-                Lifestyle Factors{" "}
-              </span>
-            </p>
-          </SectionFinal>
-          {/* <HomeFooter /> */}
-        </div>
-
-        {/* {activeSection === 3 ? (
-        (<button
-          className="next-section-button bg-primary p-4 rounded-full text-2xl text-white animate-bounce"
-          onClick={scrollToNextSection}
-        >
-          <FaArrowDown />
-        </button>):(<div></div>)
-      )} */}
-        {/* {activeSection === 3 ? (
-        <div></div>
-      ) : (
-        <button
-          className="next-section-button bg-primary p-4 rounded-full text-2xl text-white animate-bounce"
-          onClick={scrollToNextSection}
-        >
-          <FaArrowDown />
-        </button>
-      )} */}
-      </div>
-    </div>
-  );
+const page = () => {
+	return (
+		<div className="container mx-auto">
+			<Carousel className="w-full">
+				<CarouselContent>
+					{achievementsData.map((achievement, index) => (
+						<CarouselItem
+							key={index}
+							className="mt-8 bg-[#4F5961] rounded-lg p-6 flex gap-4 w-auto"
+						>
+							<Image
+								src={achievement.imageSrc}
+								height={310}
+								width={306}
+								alt="achievements"
+								className="rounded-lg h-[310px] w-[306px]"
+							/>
+							<div className="flex justify-between flex-col pt-4 px-4">
+								<p className="text-4xl">{achievement.title}</p>
+								<div>
+									<p className="mb-4">{achievement.description}</p>
+									<button className="border border-[#F5F5F5] px-6 py-2.5 text-sm font-medium rounded-full hover:text-[#FF6A5E] hover:border-[#FF6A5E]">
+										Learn more
+									</button>
+								</div>
+								<div className="gap-2 text-[#F5F5F5] text-sm flex">
+									<p className="font-bold mr-2">Tags:</p>
+									{achievement.tags.map((tag, tagIndex) => (
+										<p
+											key={tagIndex}
+											className="hover:underline cursor-pointer"
+										>
+											{tag}
+										</p>
+									))}
+								</div>
+							</div>
+						</CarouselItem>
+					))}
+				</CarouselContent>
+				<CarouselPrevious className="left-0" />
+				<CarouselNext className="right-0" />
+			</Carousel>
+		</div>
+	);
 };
 
-export default Page;
+export default page;

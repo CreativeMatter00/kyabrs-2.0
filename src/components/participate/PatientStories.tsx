@@ -8,7 +8,7 @@ const PatientStories = () => {
 			<div className="container mx-auto p-6 flex flex-col md:flex-row gap-8">
 				<div className="w-full md:w-2/5">
 					<Image
-						src="/assets/images/participate/patient.jpg"
+						src="/assets/images/participate/story.jpg"
 						width="390"
 						height="260"
 						alt="patient"
@@ -28,7 +28,7 @@ const PatientStories = () => {
 					</p>
 
 					<Link
-						href={"#"}
+						href={"/registration-form"}
 						className="flex items-center font-medium gap-4 text-brandPrimaryLs2"
 					>
 						See Our Patient Stories <FaArrowRightLong />
