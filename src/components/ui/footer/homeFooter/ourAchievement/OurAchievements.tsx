@@ -77,7 +77,11 @@ const OurAchievements = () => {
                 {achievementsData.map((achievement, index) => (
                   <CarouselItem
                     key={index}
-                    className="mt-8 bg-[#4F5961] mr-8 rounded-lg p-6 flex gap-4 w-full"
+                    className={`mt-8 bg-[#4F5961] mr-8 rounded-lg p-6 flex gap-4 w-full ${
+                      achievement.title ===
+                        "First Hospital-Affiliated Bio-Research Institution" &&
+                      "ml-9"
+                    }`}
                   >
                     <Image
                       src={achievement.imageSrc}
@@ -86,9 +90,11 @@ const OurAchievements = () => {
                       alt="achievements"
                       className="rounded-lg h-[310px] w-[306px]"
                     />
-                    <div className="flex justify-between flex-col pt-4 px-4">
-                      <p className="text-4xl">{achievement.title}</p>
-                      <div>
+                    <div className="flex  flex-col pt-4 px-4">
+                      {/* <div className="flex justify-between flex-col pt-4 px-4"> */}
+                      <p className="text-4xl mb-6">{achievement.title}</p>
+                      <p className="mb-4">{achievement.description}</p>
+                      {/* <div>
                         <p className="mb-4">{achievement.description}</p>
                         <button className="border border-[#F5F5F5] px-6 py-2.5 text-sm font-medium rounded-full hover:text-[#FF6A5E] hover:border-[#FF6A5E]">
                           Learn more
@@ -104,7 +110,7 @@ const OurAchievements = () => {
                             {tag}
                           </p>
                         ))}
-                      </div>
+                      </div> */}
                     </div>
                   </CarouselItem>
                 ))}
