@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import OurVolunteers from "./OurVolunteers";
 import WhatOurVolunteersDo from "./WhatOurVolunteersDo";
+import HowToGetInvolved from "./HowToGetInvolved";
 
 const StoryOfVolunteers = () => {
 	return (
@@ -35,6 +36,7 @@ const StoryOfVolunteers = () => {
 
 			<OurVolunteers />
 			<WhatOurVolunteersDo />
+			<HowToGetInvolved />
 		</div>
 	);
 };

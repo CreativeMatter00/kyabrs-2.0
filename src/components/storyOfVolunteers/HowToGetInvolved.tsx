@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-const OurVolunteers = () => {
+const HowToGetInvolved = () => {
 	return (
 		<div className="container mx-auto p-6 text-bgPrimary">
 			<p className="text-brandPrimaryLs2 font-bold mb-4"> Our Volunteer </p>
 
 			<div className="flex flex-col md:flex-row gap-4">
-				<div className="w-full md:w-[50%]">
+				<div className="w-full md:w-[70%]">
 					Our volunteers are the heart and soul of Khwaja Yunus Ali-Bio Research
 					Services (KYA-BRS). Coming from diverse backgrounds, including
 					students, professionals, and retirees, they bring unique skills,
@@ -37,16 +37,9 @@ const OurVolunteers = () => {
 					volunteer opportunities available and become part of our mission to
 					advance clinical research and improve patient care.
 				</div>
-				<div className="w-full md:w-[50%] gap-8">
+				<div className="w-full md:w-[30%]">
 					<Image
-						src="/assets/images/storyOfVolunteers/1.jpg"
-						width={480}
-						height={320}
-						className="rounded-lg w-full h-auto"
-						alt="Our Volunteers"
-					/>
-					<Image
-						src="/assets/images/storyOfVolunteers/2.jpg"
+						src="/assets/images/storyOfVolunteers/3.jpg"
 						width={480}
 						height={320}
 						className="rounded-lg w-full h-auto"
@@ -58,4 +51,4 @@ const OurVolunteers = () => {
 	);
 };
 
-export default OurVolunteers;
+export default HowToGetInvolved;

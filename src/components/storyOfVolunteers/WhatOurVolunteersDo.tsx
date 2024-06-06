@@ -2,8 +2,8 @@ import React from "react";
 
 const WhatOurVolunteersDo = () => {
 	return (
-		<div className="bg-brandColorLs1 p-6 text-bgPrimary">
-			<div className="container mx-auto">
+		<div className="bg-brandColorLs1 py-6 text-bgPrimary">
+			<div className="container px-6 mx-auto">
 				<p className="text-brandPrimaryLs2 font-bold mb-4">
 					What Our Volunteers Do
 				</p>
