@@ -24,6 +24,13 @@ const Areas = [
 		link: "/expertise/cardiovascular",
 	},
 	{
+		image: "/assets/images/expertise/icons/Endocrine & Metabolic.png",
+		title: "Endocrine & Metabolic",
+		desription:
+			"We develop innovative treatments for autoimmune diseases like rheumatoid arthritis and lupus through clinical trials.",
+		link: "/expertise/endocrine-metabolic",
+	},
+	{
 		image: "/assets/images/expertise/icons/Gastroenterology.png",
 		title: "Gastroenterology",
 		desription:

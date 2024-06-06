@@ -20,6 +20,11 @@ const Areas = [
 		link: "/expertise/cardiovascular",
 	},
 	{
+		image: "/assets/images/expertise/icons/Endocrine & Metabolic.png",
+		title: "Endocrine & Metabolic",
+		link: "/expertise/endocrine-metabolic",
+	},
+	{
 		image: "/assets/images/expertise/icons/Gastroenterology.png",
 		title: "Gastroenterology",
 		link: "/expertise/gastroenterology",

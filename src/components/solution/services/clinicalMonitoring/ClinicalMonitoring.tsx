@@ -11,7 +11,7 @@ const ClinicalMonitoring = () => {
 	const [activeSection, setActiveSection] = useState<number>(0);
 
 	return (
-		<div className="py-16 px-4  text-bgPrimary">
+		<div className="py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
