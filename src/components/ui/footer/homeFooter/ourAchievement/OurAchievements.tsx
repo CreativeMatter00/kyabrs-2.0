@@ -77,7 +77,7 @@ const OurAchievements = () => {
 								{achievementsData.map((achievement, index) => (
 									<CarouselItem
 										key={index}
-										className="mt-8 bg-[#4F5961] mr-8 rounded-lg p-6 flex gap-4 w-auto"
+										className="mt-8 bg-[#4F5961] mr-8 rounded-lg p-6 flex gap-4 w-full"
 									>
 										<Image
 											src={achievement.imageSrc}
