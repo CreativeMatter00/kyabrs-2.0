@@ -30,7 +30,7 @@ const Gastroenterology = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/expertise/gastroenterology.jpg"
+					src="/assets/images/expertise/Gastroenterology.jpg"
 					height={480}
 					width={720}
 					alt="Gastroenterology"

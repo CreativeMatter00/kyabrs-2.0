@@ -29,7 +29,7 @@ const Cardiovascular = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/expertise/cardiovascular.jpg"
+					src="/assets/images/expertise/Cardiovascular.jpg"
 					height={480}
 					width={720}
 					alt="Cardiovascular"
