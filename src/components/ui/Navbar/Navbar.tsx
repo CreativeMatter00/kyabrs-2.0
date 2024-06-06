@@ -143,9 +143,11 @@ const Navbar = () => {
                         </NavigationMenuItem>
                       </NavigationMenuList>
 
-                      <button className="text-sm font-medium py-2.5 px-10 rounded-full bg-[#FF3726] cursor-pointer hover:bg-[#FF1501]">
-                        Contact Us
-                      </button>
+                      <Link href={`/contact-us `}>
+                        <button className="text-sm font-medium py-2.5 px-10 rounded-full bg-[#FF3726] cursor-pointer hover:bg-[#FF1501]">
+                          Contact Us
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

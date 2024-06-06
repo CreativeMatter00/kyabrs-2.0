@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import WhoWeAre from "./WhoWeAre";
 import ManagementTeam from "./ManagementTeam";
 import OurValues from "./OurValues";
@@ -11,14 +11,14 @@ function AboutUs() {
   //   const [activeSection, setActiveSection] = useState<number>( 0 );
 
   const searchParams = useSearchParams();
-  let property1 = searchParams.get("tab");
+  const property1 = searchParams.get("tab");
+  const property = Number(property1);
 
-  const [activeSection, setActiveSection] = useState<number>(
-    property1 ? parseInt(property1) : 0
-  );
+  const [activeSection, setActiveSection] = useState<number>(property || 0);
 
-  console.log("searchParams", activeSection);
-  console.log("property1", property1);
+  useEffect(() => {
+    setActiveSection(property);
+  }, [property1]);
 
   return (
     <div className="container mx-auto py-6">

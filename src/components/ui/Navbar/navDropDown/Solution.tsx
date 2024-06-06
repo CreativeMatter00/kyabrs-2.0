@@ -6,16 +6,45 @@ import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 
 const services = [
-  "Clinical Development & Research Services",
-  "Feasibility Study",
-  "Clinical Data Management",
-  "Quality Assurance",
-  "Clinical Trial Management",
-  "Bioanalytical Laboratory",
-  "Clinical Laboratory",
-  "Radiology, Imaging and Core Lab",
-  "Clinical Monitoring",
-  "Biostatics Services",
+  {
+    href: "/solutions/clinical-development-service",
+    title: "Clinical Development & Research Services",
+  },
+
+  {
+    href: "/solutions/feasibility-study",
+    title: "Feasibility study",
+  },
+
+  {
+    href: "/solutions/clinical-data-management",
+    title: "Clinical Data Management",
+  },
+
+  {
+    href: "/solutions/quality-assurance",
+    title: "Quality Assurance",
+  },
+
+  {
+    href: "/solutions/clinical-trial-management",
+    title: "Clinical Trial Management",
+  },
+
+  {
+    href: "/solutions/laboratory-services",
+    title: "Laboratory Services",
+  },
+
+  {
+    href: "/solutions/clinical-monitoring",
+    title: "Clinical Monitoring",
+  },
+
+  {
+    href: "/solutions/biostatics-services",
+    title: "Biostatics Services",
+  },
 ];
 
 const Solution = () => {
@@ -52,12 +81,14 @@ const Solution = () => {
       >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           {services.map((service, index) => (
-            <div key={index} className="">
+            <Link key={index} href={service.href} className="">
               <div className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
-                <p className="text-[#414A50] text-xs font-medium">{service}</p>
+                <p className="text-[#414A50] text-xs font-medium">
+                  {service.title}
+                </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
