@@ -4,7 +4,6 @@ import { BsArrowRight } from "react-icons/bs";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 const About = () => {
   return (
@@ -40,10 +39,14 @@ const About = () => {
       >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           <div>
-            <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
-              <p className=" text-[#414A50] text-xs font-medium">Who we are</p>
-              <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-            </div>
+            <Link href={{ pathname: "/about", query: { tab: 0 } }}>
+              <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+                <p className=" text-[#414A50] text-xs font-medium">
+                  Who we are
+                </p>
+                <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
+              </div>
+            </Link>
           </div>
 
           <div>
@@ -57,20 +60,24 @@ const About = () => {
             </Link>
           </div>
           <div>
-            <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
-              <p className=" text-[#414A50] text-xs font-medium">
-                Mission & Values
-              </p>
-              <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-            </div>
+            <Link href={{ pathname: "/about", query: { tab: 2 } }}>
+              <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+                <p className=" text-[#414A50] text-xs font-medium">
+                  Mission & Values
+                </p>
+                <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
+              </div>
+            </Link>
           </div>
           <div>
-            <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
-              <p className=" text-[#414A50] text-xs font-medium">
-                Accreditations & Inspections
-              </p>
-              <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-            </div>
+            <Link href={{ pathname: "/about", query: { tab: 3 } }}>
+              <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+                <p className=" text-[#414A50] text-xs font-medium">
+                  Accreditations & Inspections
+                </p>
+                <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

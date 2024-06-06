@@ -3,11 +3,33 @@ import { BsArrowRight } from "react-icons/bs";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
+// const services = [
+//   "Healthy Volunteers",
+//   "Patient Volunteers",
+//   "Registration Form",
+//   "Patient Stories",
+// ];
+
 const services = [
-  "Healthy Volunteers",
-  "Patient Volunteers",
-  "Registration Form",
-  "Patient Stories",
+  {
+    href: "/participate/healthy-volunteers",
+    title: "Healthy Volunteers",
+  },
+
+  {
+    href: "/participate/patient-volunteers",
+    title: "Patient Volunteers",
+  },
+
+  {
+    href: "/participate/registration-form",
+    title: "Registration Form",
+  },
+
+  // {
+  //   href: "/participate/patient-stories",
+  //   title: "Patient Stories",
+  // },
 ];
 
 const Participate = () => {
@@ -43,12 +65,14 @@ const Participate = () => {
       >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           {services.map((service, index) => (
-            <div key={index} className="">
+            <Link key={index} className="" href={service.href}>
               <div className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
-                <p className="text-[#414A50] text-xs font-medium">{service}</p>
+                <p className="text-[#414A50] text-xs font-medium">
+                  {service.title}
+                </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

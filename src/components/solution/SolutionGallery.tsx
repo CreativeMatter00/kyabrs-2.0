@@ -60,7 +60,7 @@ const solutions: Solution[] = [
   {
     href: "/solutions/laboratory-services",
     imageSrc: "/assets/images/solutions/card/Clinical Laboratory.png",
-    imageAlt: "Clinical Laboratory",
+    imageAlt: "Laboratory Services",
     details:
       "KYA-BRS operates a fully equipped clinical laboratory, providing a wide range of diagnostic and testing services. Our experienced team ensures accurate and timely results for research studies.",
     title: "Laboratory Services",

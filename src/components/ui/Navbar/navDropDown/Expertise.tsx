@@ -5,20 +5,75 @@ import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 
 const services = [
-  "Autoimmune Diseases",
-  "Cardiovascular",
-  "Endocrine & Metabolic",
-  "Gastroenterology",
-  "Hematology & Oncology",
-  "Infectious Diseases & Vaccines",
-  "NASH & Liver Diseases",
-  "Neurology & Psychiatry",
-  "Nephrology",
-  "Ophthalmology",
-  "Pediatrics",
-  "Rare Diseases",
-  "Cellular & Gene Therapy",
-  "Radiation Therapy",
+  {
+    href: "/expertise/autoimmune-diseases",
+    title: "Autoimmune Diseases",
+  },
+
+  {
+    href: "/expertise/cardiovascular",
+    title: "Cardiovascular",
+  },
+
+  {
+    href: "/expertise/endocrine-metabolic",
+    title: "Endocrine & Metabolic",
+  },
+
+  {
+    href: "/expertise/gastroenterology",
+    title: "Gastroenterology",
+  },
+
+  {
+    href: "/expertise/hematology-oncology",
+    title: "Hematology & Oncology",
+  },
+
+  {
+    href: "/expertise/infectious-diseases",
+    title: "Infectious Diseases & Vaccines",
+  },
+
+  {
+    href: "/expertise/nash-liver-disease",
+    title: "NASH & Liver Diseases",
+  },
+
+  {
+    href: "/expertise/neurology-psychiatry",
+    title: "Neurology & Psychiatry",
+  },
+
+  {
+    href: "/expertise/nephrology",
+    title: "Nephrology",
+  },
+
+  {
+    href: "/expertise/ophthalmology",
+    title: "Ophthalmology",
+  },
+
+  {
+    href: "/expertise/pediatrics",
+    title: "Pediatrics",
+  },
+
+  {
+    href: "/expertise/rare-diseases",
+    title: "Rare Diseases",
+  },
+
+  {
+    href: "/expertise/cellular-gene-therapy",
+    title: "Cellular & Gene Therapy",
+  },
+
+  {
+    href: "/expertise/radiation-therapy",
+    title: "Radiation Therapy",
+  },
 ];
 
 const Expertise = () => {
@@ -55,12 +110,14 @@ const Expertise = () => {
       >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           {services.map((service, index) => (
-            <div key={index} className="">
+            <Link key={index} href={service.href} className="">
               <div className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
-                <p className="text-[#414A50] text-xs font-medium">{service}</p>
+                <p className="text-[#414A50] text-xs font-medium">
+                  {service.title}
+                </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
