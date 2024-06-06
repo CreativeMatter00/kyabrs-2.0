@@ -28,7 +28,7 @@ const FeasibilityStudy = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/solutions/feasibility.png"
+					src="/assets/images/solutions/feasibility.jpg"
 					height={480}
 					width={720}
 					alt="feasibility study"

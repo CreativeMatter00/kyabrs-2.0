@@ -28,7 +28,7 @@ const ClinicalTrial = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/solutions/clinical-trial.jpg"
+					src="/assets/images/solutions/clinic-trial.jpg"
 					height={480}
 					width={720}
 					alt="Clinical Trial"

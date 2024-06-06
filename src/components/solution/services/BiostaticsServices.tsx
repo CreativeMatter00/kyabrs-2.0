@@ -28,7 +28,7 @@ const BiostaticsServices = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/solutions/biostatics.jpg"
+					src="/assets/images/solutions/biostatics-services.jpg"
 					height={480}
 					width={720}
 					alt="feasibility study"

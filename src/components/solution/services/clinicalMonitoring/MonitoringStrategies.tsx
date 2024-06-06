@@ -4,7 +4,7 @@ const MonitoringStrategy = () => {
 	return (
 		<div className="container mx-auto text-bgPrimary">
 			<Image
-				src="/assets/images/solutions/clinical-monitoring/monitoring-strategy.jpg"
+				src="/assets/images/solutions/clinical-monitoring/monitoring.jpg"
 				height={480}
 				width={720}
 				alt="Monitoring Strategies"

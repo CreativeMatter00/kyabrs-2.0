@@ -30,7 +30,7 @@ const QualityAssurance = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/solutions/qa.jpg"
+					src="/assets/images/solutions/quality.jpg"
 					height={480}
 					width={720}
 					alt="Quality Assurance"

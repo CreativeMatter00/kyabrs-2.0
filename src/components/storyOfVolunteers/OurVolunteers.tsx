@@ -37,7 +37,7 @@ const OurVolunteers = () => {
 					volunteer opportunities available and become part of our mission to
 					advance clinical research and improve patient care.
 				</div>
-				<div className="w-full md:w-[50%] gap-8">
+				<div className="w-full md:w-[50%] flex flex-col gap-8">
 					<Image
 						src="/assets/images/storyOfVolunteers/1.jpg"
 						width={480}
