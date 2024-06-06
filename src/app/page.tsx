@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/dialog";
 import RegistrationForm from "@/components/home/RegistrationForm";
 import Image from "next/image";
+import { BrsIcon } from "@/components/ui/Icon";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState<number>(0);
@@ -48,7 +49,9 @@ export default function Home() {
     <div className="scroll-smooth text-center relative">
       <Dialog>
         <DialogTrigger asChild>
-          <button className="fixed bottom-10 right-10 z-20"> Test </button>
+          <button className="fixed bottom-10 right-10 z-20 text-[#414A50] hover:text-[#F5F5F5] border-2 border-[#313639]  hover:border-[#F5F5F5] bg-[#F5F5F5] hover:bg-[#313639] text-xs font-bold px-6 py-4 rounded-full">
+            Registration
+          </button>
         </DialogTrigger>
         <DialogContent className="bg-brandSecondary text-bgPrimary">
           <DialogHeader>
@@ -62,7 +65,9 @@ export default function Home() {
 
       <Dialog>
         <DialogTrigger asChild>
-          <button className="fixed bottom-20 right-10 z-20"> Test 2 </button>
+          <button className="fixed bottom-32 right-14 z-20 bg-danger px-6 py-4 rounded-full group hover:bg-bgPrimary">
+            <BrsIcon />
+          </button>
         </DialogTrigger>
         <DialogContent className="bg-brandSecondary text-bgPrimary">
           <DialogHeader>
@@ -118,6 +123,7 @@ export default function Home() {
           </span>
         </p>
       </SectionFinal>
+
       <SectionFinal
         activeSection={activeSection}
         img="url(/assets/images/home/slide-6.png)"
@@ -150,6 +156,7 @@ export default function Home() {
           </span>
         </p>
       </SectionFinal>
+
       <SectionFinal
         activeSection={activeSection}
         img="url(/assets/images/home/slide-4.png)"

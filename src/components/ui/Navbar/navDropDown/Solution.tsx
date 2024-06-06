@@ -3,6 +3,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import styles from "@/styles/Navbar.module.css";
+import Link from "next/link";
 
 const services = [
   "Clinical Development & Research Services",
@@ -36,13 +37,15 @@ const Solution = () => {
           and bioequivalence studies, ensuring quality and compliance under
           international standards.
         </p>
-        <div className="text-[#0096FF] flex items-center gap-2 cursor-pointer group">
-          Know more about solutions
-          <BsArrowRight
-            fontSize={16}
-            className=" ml-0 duration-300 group-hover:ml-2"
-          />
-        </div>
+        <Link href="/solutions">
+          <div className="text-[#0096FF] flex items-center gap-2 cursor-pointer group">
+            Know more about solutions
+            <BsArrowRight
+              fontSize={16}
+              className=" ml-0 duration-300 group-hover:ml-2"
+            />
+          </div>
+        </Link>
       </div>
       <div
         className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-300px)] overflow-auto  ${styles.customScrollbar}`}

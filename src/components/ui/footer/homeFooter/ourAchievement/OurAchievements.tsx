@@ -71,7 +71,6 @@ const OurAchievements = () => {
             showcasing our dedication to healthcare excellence.
           </p>
 
-<<<<<<< HEAD
           <div className="container mx-auto">
             <Carousel className="w-full">
               <CarouselContent>
@@ -114,37 +113,6 @@ const OurAchievements = () => {
               <CarouselNext className="right-0 bg-[#FF6A5E] hover:bg-[#FF4E3F]" />
             </Carousel>
           </div>
-        </div>
-
-       
-        <div className="flex justify-between gap-4">
-          {/* <button className="">
-						<svg
-							width="11"
-							height="18"
-							viewBox="0 0 11 18"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M10 1L2 9L10 17"
-								stroke="#F5F5F5"
-								stroke-width="2.66667"
-							/>
-						</svg>
-					</button> */}
-
-          {/* <button>
-						<svg
-							width="11"
-							height="18"
-							viewBox="0 0 11 18"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path d="M1 1L9 9L1 17" stroke="#F5F5F5" stroke-width="2.66667" />
-						</svg>
-					</button> */}
         </div>
       </div>
     </div>
