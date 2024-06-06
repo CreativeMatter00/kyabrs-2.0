@@ -3,7 +3,7 @@
 import SectionFinal from "@/components/home/SectionFinal";
 import { useEffect, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [activeSection, setActiveSection] = useState<number>(0);
 
   useEffect(() => {
@@ -171,4 +171,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
