@@ -5,14 +5,14 @@ import Volunteers from "./Volunteers";
 import PatientStories from "./PatientStories";
 
 const Participate = () => {
-	return (
-		<div className="text-bgPrimary">
-			<Difference />
-			<ClinicalTrial />
-			<Volunteers />
-			{/* <PatientStories /> */}
-		</div>
-	);
+  return (
+    <div className="text-bgPrimary">
+      <Difference />
+      <ClinicalTrial />
+      <Volunteers />
+      <PatientStories />
+    </div>
+  );
 };
 
 export default Participate;
