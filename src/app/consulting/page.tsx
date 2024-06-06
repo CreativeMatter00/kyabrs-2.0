@@ -11,9 +11,11 @@ const DynamicConsulting = dynamic(
 
 const page = () => {
 	return (
-		<div className="mt-24 lg:mt-32 container mx-auto">
-			<Banner name="Consulting" />
-			<DynamicConsulting />
+		<div className="pt-24 lg:pt-32 bg-brandSecondary">
+			<Banner image="/assets/images/consulting/hero.jpg" name="Consulting" />
+			<div className="container mx-auto">
+				<DynamicConsulting />
+			</div>
 		</div>
 	);
 };

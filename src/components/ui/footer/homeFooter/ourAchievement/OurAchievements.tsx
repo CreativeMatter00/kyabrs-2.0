@@ -77,7 +77,7 @@ const OurAchievements = () => {
 								{achievementsData.map((achievement, index) => (
 									<CarouselItem
 										key={index}
-										className="mt-8 bg-[#4F5961] mr-8 rounded-lg p-6 flex gap-4 w-auto text-center"
+										className="mt-8 bg-[#4F5961] rounded-lg p-6 flex gap-4 w-auto text-center"
 									>
 										<Image
 											src={achievement.imageSrc}
@@ -94,11 +94,11 @@ const OurAchievements = () => {
 												<p className="mb-4 text-sm md:text-base">
 													{achievement.description}
 												</p>
-												<button className="border border-[#F5F5F5] px-6 py-2.5 text-sm font-medium rounded-full hover:text-[#FF6A5E] hover:border-[#FF6A5E]">
+												{/* <button className="border border-[#F5F5F5] px-6 py-2.5 text-sm font-medium rounded-full hover:text-[#FF6A5E] hover:border-[#FF6A5E]">
 													Learn more
-												</button>
+												</button> */}
 											</div>
-											<div className="gap-2 text-[#F5F5F5] text-sm flex">
+											{/* <div className="gap-2 text-[#F5F5F5] text-sm flex">
 												<p className="font-bold mr-2">Tags:</p>
 												{achievement.tags.map((tag, tagIndex) => (
 													<p
@@ -108,7 +108,7 @@ const OurAchievements = () => {
 														{tag}
 													</p>
 												))}
-											</div>
+											</div> */}
 										</div>
 									</CarouselItem>
 								))}
