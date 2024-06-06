@@ -20,14 +20,14 @@ const achievementsData = [
     title: "State-of-the-Art Bioanalytical Lab",
     description:
       "Our bioanalytical laboratory achieved international accreditation for its cutting-edge research and quality standards, enhancing our research capabilities.",
-    imageSrc: "/assets/images/home/RUM1062 2.png",
+    imageSrc: "/assets/images/home/RUM1153 1.png",
     tags: ["Bioanalytical Lab", "Accreditation", "Research Excellence"],
   },
   {
     title: "Community Engagement Award",
     description:
       "KYA-BRS received a prestigious award for outstanding community outreach and education efforts, highlighting our commitment to public health awareness.",
-    imageSrc: "/assets/images/home/RUM1062 2.png",
+    imageSrc: "/assets/images/home/RUM1153 3.png",
     tags: ["Community Engagement", "Public Health", "Education"],
   },
   {
