@@ -10,7 +10,7 @@ const Participate = () => {
 			<Difference />
 			<ClinicalTrial />
 			<Volunteers />
-			<PatientStories />
+			{/* <PatientStories /> */}
 		</div>
 	);
 };

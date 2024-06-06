@@ -49,7 +49,7 @@ const NavTest = () => {
 
   return (
     <div className="flex flex-col z-[100000] mb-1 ">
-      <div className="fixed bg-gradient-to-b from-[#5B6367] opacity-75 inset-0 z-10 h-28 top-0 "></div>
+      <div className="fixed bg-gradient-to-b from-[#5B6367] opacity-100 inset-0 z-10 h-32 top-0 "></div>
 
       <nav
         className={`top-0 fixed w-full  z-[100000]  max-lg:hidden 

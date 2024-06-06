@@ -22,10 +22,10 @@ const Footer = () => {
             <Link href="/">
               <Image
                 className="inline-block h-[118px] w-64 mb-8"
-                src="/assets/logo/logo.png"
+                src="/assets/logo/bio-logo.png"
                 alt="logo"
-                width={255}
-                height={118}
+                width={300}
+                height={125}
               />
             </Link>
             <div className="flex  items-center gap-4">

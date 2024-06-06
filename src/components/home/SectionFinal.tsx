@@ -28,9 +28,12 @@ const SectionFinal = (props: ISectionCard) => {
                 className={`text-5xl font-bold text-white w-[60vw] px-4  ${
                   props.activeSection === 0 &&
                   "mt-10 max-md:mt-1 max-lg:mt-10 text-left"
-                } ${props.activeSection === 1 && "text-start w-[50vw]"} ${
-                  props.activeSection === 2 && "text-left"
-                } ${props.activeSection === 3 && "text-left"}`}
+                } ${
+                  props.activeSection === 1 &&
+                  "text-start w-[50vw] max-lg:w-[60vw]"
+                } ${props.activeSection === 2 && "text-left"} ${
+                  props.activeSection === 3 && "text-left"
+                }`}
               >
                 {props.children}
               </div>

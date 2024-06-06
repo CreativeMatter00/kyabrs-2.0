@@ -11,8 +11,7 @@ const DynamicContactUs = dynamic(
 
 const page = () => {
 	return (
-		<div className="mt-24 lg:mt-32 container mx-auto">
-			<Banner name="Contact Us" />
+		<div className="mp-24 lg:pt-32 bg-brandSecondary">
 			<DynamicContactUs />
 		</div>
 	);
