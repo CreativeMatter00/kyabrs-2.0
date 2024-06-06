@@ -98,16 +98,20 @@ const NavTest = () => {
                           }`}
                         >
                           <div className="flex items-center justify-end font-bold text-sm gap-6  py-2 px-4">
-                            <p
-                              className={`${styles.linkUnderline} ${styles.linkUnderlineBlack} cursor-pointer w-fit`}
-                            >
-                              Employment
-                            </p>
-                            <p
-                              className={`${styles.linkUnderline} ${styles.linkUnderlineBlack} cursor-pointer w-fit`}
-                            >
-                              Story of Volunteers
-                            </p>
+                            <Link href={"/employment"}>
+                              <p
+                                className={`${styles.linkUnderline} ${styles.linkUnderlineBlack} cursor-pointer w-fit`}
+                              >
+                                Employment
+                              </p>
+                            </Link>
+                            <Link href={"/story-of-volunteers"}>
+                              <p
+                                className={`${styles.linkUnderline} ${styles.linkUnderlineBlack} cursor-pointer w-fit`}
+                              >
+                                Story of Volunteers
+                              </p>
+                            </Link>
                             {/* <BiSearch
                               fontSize={20}
                               className="cursor-pointer"
