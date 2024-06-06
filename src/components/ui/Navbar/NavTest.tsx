@@ -49,7 +49,8 @@ const NavTest = () => {
 
   return (
     <div className="flex flex-col z-[100000] mb-1 ">
-      <div className="fixed bg-gradient-to-b from-[#5B6367] opacity-100 inset-0 z-10 h-32 top-0 "></div>
+      {/* <div className="fixed bg-gradient-to-b from-[#181b1c] opacity-100 inset-0 z-10 h-32 top-0 border"></div> */}
+      <div className="fixed bg-gradient-to-b from-[#333739] opacity-100 inset-0 z-10 h-32 top-0 "></div>
 
       <nav
         className={`top-0 fixed w-full  z-[100000]  max-lg:hidden 
@@ -96,7 +97,7 @@ const NavTest = () => {
                             isNavbarVisible ? styles.visible : styles.hidden
                           }`}
                         >
-                          <div className="flex items-center justify-end font-bold text-sm gap-6  py-2">
+                          <div className="flex items-center justify-end font-bold text-sm gap-6  py-2 px-4">
                             <p
                               className={`${styles.linkUnderline} ${styles.linkUnderlineBlack} cursor-pointer w-fit`}
                             >
@@ -107,10 +108,10 @@ const NavTest = () => {
                             >
                               Story of Volunteers
                             </p>
-                            <BiSearch
+                            {/* <BiSearch
                               fontSize={20}
                               className="cursor-pointer"
-                            />
+                            /> */}
                           </div>
                         </div>
 
