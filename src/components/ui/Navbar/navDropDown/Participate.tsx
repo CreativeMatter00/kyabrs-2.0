@@ -26,10 +26,10 @@ const services = [
     title: "Registration Form",
   },
 
-  // {
-  //   href: "/participate/patient-stories",
-  //   title: "Patient Stories",
-  // },
+  {
+    href: "/participate/patient-stories",
+    title: "Patient Stories",
+  },
 ];
 
 const Participate = () => {

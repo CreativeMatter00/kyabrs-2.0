@@ -1,90 +1,97 @@
 "use client";
-
-import {
-	Carousel,
-	CarouselContent,
-	CarouselItem,
-	CarouselNext,
-	CarouselPrevious,
-} from "@/components/ui/carousel";
 import Image from "next/image";
+import Link from "next/link";
+import { BsArrowRight } from "react-icons/bs";
 
-const achievementsData = [
-	{
-		title: "Groundbreaking Clinical Trial",
-		description:
-			"KYA-BRS successfully completed a Phase III clinical trial leading to the approval of a new cancer therapy. This breakthrough offers hope to thousands of patients.",
-		imageSrc: "/assets/images/home/RUM1062 2.png",
-		tags: ["Clinical Trials", "Cancer Research", "New Therapies"],
-	},
-	{
-		title: "State-of-the-Art Bioanalytical Lab",
-		description:
-			"Our bioanalytical laboratory achieved international accreditation for its cutting-edge research and quality standards, enhancing our research capabilities.",
-		imageSrc: "/assets/images/home/RUM1062 2.png",
-		tags: ["Bioanalytical Lab", "Accreditation", "Research Excellence"],
-	},
-	{
-		title: "Community Engagement Award",
-		description:
-			"KYA-BRS received a prestigious award for outstanding community outreach and education efforts, highlighting our commitment to public health awareness.",
-		imageSrc: "/assets/images/home/RUM1062 2.png",
-		tags: ["Community Engagement", "Public Health", "Education"],
-	},
-	{
-		title: "First Hospital-Affiliated Bio-Research Institution",
-		description:
-			"We are proud to be the first hospital-affiliated bio-research institution in Bangladesh, enabling seamless integration of clinical practice and research.",
-		imageSrc: "/assets/images/home/bg-4.jpeg",
-		tags: ["Hospital-Affiliated", "Bio-Research", "Innovation"],
-	},
+const cards = [
+  {
+    id: 1,
+    title: "Sarah's Journey",
+    description:
+      "Sarah Johnson faced a challenging diagnosis but found hope through research.",
+    imageUrl:
+      "/assets/images/solutions/card/Clinical Development & Research Services 1.png",
+    hoverEffect: "hover-effect-1",
+  },
+  {
+    id: 2,
+    title: "Emma's Story",
+    description:
+      "Emma Williams bravely joined a clinical trial, seeing improved outcomes.",
+    imageUrl: "/assets/images/solutions/card/Feasibility Study.png",
+    hoverEffect: "hover-effect-2",
+  },
+  {
+    id: 3,
+    title: "Grace's Path",
+    description:
+      "Grace loves participation in a clinical trial, bringing hope and progress.",
+    imageUrl: "/assets/images/solutions/card/Clinical Data Management.png",
+    hoverEffect: "hover-effect-1",
+  },
+  {
+    id: 4,
+    title: "Emily's Fight",
+    description:
+      "Emily Brown joined a clinical trial after her initial treatments were unsuccessful, finding new hope.",
+    imageUrl: "/assets/images/solutions/card/Quality Assurance.png",
+    hoverEffect: "hover-effect-2",
+  },
+  {
+    id: 5,
+    title: "Mark's Experience",
+    description:
+      "Mark Thompson participated in a research study that greatly improved his quality of life.",
+    imageUrl: "/assets/images/solutions/card/Clinical Trial Management.png",
+    hoverEffect: "hover-effect-1",
+  },
+  {
+    id: 6,
+    title: "Olivia's Hope",
+    description:
+      "Olivia Green discovered renewed hope through a clinical trial, transforming her outlook on the future.",
+    imageUrl: "/assets/images/solutions/card/Clinical Laboratory.png",
+    hoverEffect: "hover-effect-2",
+  },
 ];
 
-const page = () => {
-	return (
-		<div className="container mx-auto">
-			<Carousel className="w-full">
-				<CarouselContent>
-					{achievementsData.map((achievement, index) => (
-						<CarouselItem
-							key={index}
-							className="mt-8 bg-[#4F5961] rounded-lg p-6 flex gap-4 w-auto"
-						>
-							<Image
-								src={achievement.imageSrc}
-								height={310}
-								width={306}
-								alt="achievements"
-								className="rounded-lg h-[310px] w-[306px]"
-							/>
-							<div className="flex justify-between flex-col pt-4 px-4">
-								<p className="text-4xl">{achievement.title}</p>
-								<div>
-									<p className="mb-4">{achievement.description}</p>
-									<button className="border border-[#F5F5F5] px-6 py-2.5 text-sm font-medium rounded-full hover:text-[#FF6A5E] hover:border-[#FF6A5E]">
-										Learn more
-									</button>
-								</div>
-								<div className="gap-2 text-[#F5F5F5] text-sm flex">
-									<p className="font-bold mr-2">Tags:</p>
-									{achievement.tags.map((tag, tagIndex) => (
-										<p
-											key={tagIndex}
-											className="hover:underline cursor-pointer"
-										>
-											{tag}
-										</p>
-									))}
-								</div>
-							</div>
-						</CarouselItem>
-					))}
-				</CarouselContent>
-				<CarouselPrevious className="left-0" />
-				<CarouselNext className="right-0" />
-			</Carousel>
-		</div>
-	);
+const Page = () => {
+  return (
+    <div className="container mx-auto p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-44">
+      {cards.map((card) => (
+        <div
+          key={card.id}
+          className={` bg-[#4F5961] hover:bg-[#FF6A5E] p-2  rounded-lg overflow-hidden group cursor-pointer`}
+        >
+          <Image
+            src={card.imageUrl}
+            alt={card.title}
+            height={200}
+            width={300}
+            className="h-[200px] w-full object-cover group-hover:transition-all duration-500 rounded-md"
+          />
+
+          <p className="text-[#43B276] group-hover:text-[#F5F5F5] text-sm my-4 pl-2 ">
+            Patient Story
+          </p>
+
+          <div className="mt-4 text-[#F5F5F5] p-2 mb-4">
+            <h3 className="text-2xl mt-2 mb-4">{card.title}</h3>
+            <p className="">{card.description}</p>
+          </div>
+          {/* <Link href="/about"> */}
+          {/* <div className="text-[#FF6A5E] group-hover:text-[#F5F5F5] flex items-center gap-2 cursor-pointer group my-8">
+            Read more
+            <BsArrowRight
+              fontSize={16}
+              className=" ml-0 duration-300 group-hover:ml-2"
+            />
+          </div> */}
+          {/* </Link> */}
+        </div>
+      ))}
+    </div>
+  );
 };
 
-export default page;
+export default Page;
