@@ -1,39 +1,39 @@
 import Image from "next/image";
 
 const Radiology = () => {
-	return (
-		<div className="container mx-auto">
-			<div className="flex flex-col-reverse md:flex-row gap-8">
-				<div className="w-full md:w-1/2">
-					<p className="text-2xl mb-6"> RADIOLOGY, IMAGING AND CORE LAB </p>
+  return (
+    <div className="container mx-auto">
+      <div className="flex flex-col-reverse md:flex-row gap-8">
+        <div className="w-full md:w-1/2">
+          <p className="text-2xl mb-6"> RADIOLOGY, IMAGING AND CORE LAB </p>
 
-					<p>
-						Our Department of Radiology & Imaging combines state-of-the-art
-						technology with world-class clinical expertise to deliver the best
-						results. The Department of Radiology and Imaging has all the updated
-						modalities necessary for diagnosis including cardiac and oncologic
-						imaging, serving the purpose of screening, detection, obtaining
-						diagnosis, guiding therapy, response assessment, and follow-up of
-						post-treatment patients. <br />
-						All modalities are connected by PACS (Picture Archiving and
-						Communication System), and radiology reporting is done through the
-						Radiology Information System (RIS) and is integrated into the Health
-						Management System (HMS).
-					</p>
-				</div>
+          <p>
+            Our Department of Radiology & Imaging combines state-of-the-art
+            technology with world-class clinical expertise to deliver the best
+            results. The Department of Radiology and Imaging has all the updated
+            modalities necessary for diagnosis including cardiac and oncologic
+            imaging, serving the purpose of screening, detection, obtaining
+            diagnosis, guiding therapy, response assessment, and follow-up of
+            post-treatment patients. <br />
+            All modalities are connected by PACS (Picture Archiving and
+            Communication System), and radiology reporting is done through the
+            Radiology Information System (RIS) and is integrated into the Health
+            Management System (HMS).
+          </p>
+        </div>
 
-				<div className="w-full md:w-1/2">
-					<Image
-						src="/assets/images/solutions/laboratory-service/radio.png"
-						height={320}
-						width={480}
-						className="w-full h-auto rounded-lg"
-						alt="Bioanalytical Service"
-					/>
-				</div>
-			</div>
+        <div className="w-full md:w-1/2">
+          <Image
+            src="/assets/images/solutions/radio.png"
+            height={320}
+            width={480}
+            className="w-full h-auto rounded-lg"
+            alt="Bioanalytical Service"
+          />
+        </div>
+      </div>
 
-			{/* <div className="my-6">
+      {/* <div className="my-6">
 				<p className="text-brandPrimaryLs2 font-bold mb-4">
 					MACHINES FACILITIES ARE:
 				</p>
@@ -75,8 +75,8 @@ const Radiology = () => {
 					</ul>
 				</div>
 			</div> */}
-		</div>
-	);
+    </div>
+  );
 };
 
 export default Radiology;
