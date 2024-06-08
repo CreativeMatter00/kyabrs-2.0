@@ -13,11 +13,12 @@ const Radiology = () => {
 						results. The Department of Radiology and Imaging has all the updated
 						modalities necessary for diagnosis including cardiac and oncologic
 						imaging, serving the purpose of screening, detection, obtaining
-						diagnosis, guiding therapy, response assessment and follow up of
-						post treatment patients. All modalities are connected by PACS
-						(picture archiving and communication system), radiology reporting is
-						done through radiology information system (RIS) and is integrated to
-						Health Management System (HMS).
+						diagnosis, guiding therapy, response assessment, and follow-up of
+						post-treatment patients. <br />
+						All modalities are connected by PACS (Picture Archiving and
+						Communication System), and radiology reporting is done through the
+						Radiology Information System (RIS) and is integrated into the Health
+						Management System (HMS).
 					</p>
 				</div>
 
