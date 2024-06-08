@@ -4,6 +4,10 @@ import { BsArrowRight } from "react-icons/bs";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
+import {
+  NavigationMenuLink,
+  navigationMenuTriggerStyle,
+} from "../../navigation-menu";
 
 const About = () => {
   return (
@@ -25,13 +29,13 @@ const About = () => {
           regulatory standards.
         </p>
         <Link href="/about">
-          <div className="text-[#0096FF] flex items-center gap-2 cursor-pointer group">
+          <NavigationMenuLink className="text-[#0096FF] flex items-center gap-2 cursor-pointer group disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
             Know more about us
             <BsArrowRight
               fontSize={16}
               className=" ml-0 duration-300 group-hover:ml-2"
-            />
-          </div>
+            />{" "}
+          </NavigationMenuLink>
         </Link>
       </div>
       <div
@@ -40,43 +44,59 @@ const About = () => {
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           <div>
             <Link href={{ pathname: "/about", query: { tab: 0 } }}>
-              <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <NavigationMenuLink
+                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
+     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
+                  "
+              >
                 <p className=" text-[#414A50] text-xs font-medium">
                   Who we are
                 </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-              </div>
+              </NavigationMenuLink>
             </Link>
           </div>
 
           <div>
             <Link href={{ pathname: "/about", query: { tab: 1 } }}>
-              <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <NavigationMenuLink
+                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
+     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
+                  "
+              >
                 <p className=" text-[#414A50] text-xs font-medium">
                   Management Team
                 </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-              </div>
+              </NavigationMenuLink>
             </Link>
           </div>
           <div>
             <Link href={{ pathname: "/about", query: { tab: 2 } }}>
-              <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <NavigationMenuLink
+                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
+     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
+                  "
+              >
                 <p className=" text-[#414A50] text-xs font-medium">
                   Mission & Values
                 </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-              </div>
+              </NavigationMenuLink>
             </Link>
           </div>
           <div>
             <Link href={{ pathname: "/about", query: { tab: 3 } }}>
-              <div className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <NavigationMenuLink
+                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
+     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
+                  "
+              >
                 <p className=" text-[#414A50] text-xs font-medium">
                   Accreditations & Inspections
                 </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-              </div>
+              </NavigationMenuLink>
             </Link>
           </div>
         </div>

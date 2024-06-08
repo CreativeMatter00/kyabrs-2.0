@@ -3,6 +3,10 @@ import { BsArrowRight } from "react-icons/bs";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
+import {
+  NavigationMenuLink,
+  navigationMenuTriggerStyle,
+} from "../../navigation-menu";
 
 const services = [
   {
@@ -41,13 +45,13 @@ const Consulting = () => {
         </p>
 
         <Link href="/consulting">
-          <div className="text-[#0096FF] flex items-center gap-2 cursor-pointer group">
+          <NavigationMenuLink className="text-[#0096FF] flex items-center gap-2 cursor-pointer group disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
             Know more about consulting
             <BsArrowRight
               fontSize={16}
               className=" ml-0 duration-300 group-hover:ml-2"
             />
-          </div>
+          </NavigationMenuLink>
         </Link>
       </div>
       <div
@@ -59,12 +63,16 @@ const Consulting = () => {
               key={index}
               href={{ pathname: "/consulting", query: { tab: service.tab } }}
             >
-              <div className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300">
+              <NavigationMenuLink
+                className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300
+     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
+                  "
+              >
                 <p className="text-[#414A50] text-xs font-medium">
                   {service.title}
                 </p>
                 <MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
-              </div>
+              </NavigationMenuLink>
             </Link>
           ))}
         </div>

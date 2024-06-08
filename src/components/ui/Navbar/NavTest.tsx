@@ -11,8 +11,10 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
+  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
 } from "../navigation-menu";
 import About from "./navDropDown/About";
 import Solution from "./navDropDown/Solution";
@@ -122,6 +124,16 @@ const NavTest = () => {
                         <div className={`px-2 pt-2 `}>
                           <div className="flex items-center justify-end font-bold text-base gap-4  py-2">
                             <NavigationMenuList>
+                              {/* <NavigationMenuItem className="text-black">
+                                <Link href="/about" legacyBehavior passHref>
+                                  <NavigationMenuLink
+                                    className={navigationMenuTriggerStyle()}
+                                  >
+                                    Documentation
+                                  </NavigationMenuLink>
+                                </Link>
+                              </NavigationMenuItem> */}
+
                               <NavigationMenuItem className="">
                                 <Link href="/about">
                                   <NavigationMenuTrigger className="font-bold text-base bg-transparent">

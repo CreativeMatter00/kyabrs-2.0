@@ -11,8 +11,10 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
+  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
 } from "../navigation-menu";
 import About from "./navDropDown/About";
 import Solution from "./navDropDown/Solution";
@@ -86,6 +88,16 @@ const Navbar = () => {
 
                     <div className="flex items-center justify-end font-bold text-base gap-4  py-2">
                       <NavigationMenuList>
+                        <NavigationMenuItem className="text-black">
+                          <Link href="/about" legacyBehavior passHref>
+                            <NavigationMenuLink
+                              className={navigationMenuTriggerStyle()}
+                            >
+                              Documentation
+                            </NavigationMenuLink>
+                          </Link>
+                        </NavigationMenuItem>
+
                         <NavigationMenuItem className="">
                           <Link href="/about">
                             <NavigationMenuTrigger className="font-bold text-base bg-transparent">
@@ -94,7 +106,16 @@ const Navbar = () => {
                           </Link>
 
                           <NavigationMenuContent className="border-none 2xl:w-[1520px]">
-                            <About />
+                            {/* <About /> */}
+                            <NavigationMenuItem className="text-black">
+                              <Link href="/about" legacyBehavior passHref>
+                                <NavigationMenuLink
+                                  className={navigationMenuTriggerStyle()}
+                                >
+                                  Documentation
+                                </NavigationMenuLink>
+                              </Link>
+                            </NavigationMenuItem>
                           </NavigationMenuContent>
                         </NavigationMenuItem>
 
