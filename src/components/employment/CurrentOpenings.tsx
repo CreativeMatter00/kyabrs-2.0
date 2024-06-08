@@ -35,7 +35,7 @@ const CurrentOpenings = () => {
 				{jobOpenings.map((job, index) => (
 					<div
 						key={index}
-						className="bg-[#4F5961] rounded-md p-8 text-bgPrimary flex justify-between flex-col"
+						className="bg-[#4F5961] hover:bg-brandPrimaryLs2 rounded-md p-8 text-bgPrimary flex justify-between flex-col"
 					>
 						<div>
 							{" "}
