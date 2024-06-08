@@ -1,7 +1,7 @@
 const WorkWithUs = () => {
   return (
     <div>
-      <p className="font-bold text-[#FF6A5E] mb-3">Why Work With Us</p>
+      <p className="font-bold text-[#FF6A5E] mb-4">Why Work With Us</p>
       <ul className="list-disc list-inside marker:text-[#FF6A5E] grid grid-cols-2 gap-x-8 gap-y-4">
         <li className="text-bgPrimary">
           <span className="font-bold">Innovative Environment :&nbsp;</span>
