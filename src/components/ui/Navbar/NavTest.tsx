@@ -11,10 +11,8 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "../navigation-menu";
 import About from "./navDropDown/About";
 import Solution from "./navDropDown/Solution";
@@ -24,7 +22,6 @@ import Consulting from "./navDropDown/Consulting";
 
 const NavTest = () => {
   const [isNavbarVisible, setIsNavbarVisible] = useState<Boolean>(true);
-  const [isHovered, setIsHovered] = useState<Boolean>(false);
   const [mobileNav, setMobileNav] = useState<boolean>(false);
 
   useEffect(() => {
@@ -69,7 +66,6 @@ const NavTest = () => {
           <div className="container px-4 pb-2 pt-2 flex justify-center items-center w-full ">
             <NavigationMenu className="relative flex items-center justify-center w-full  ">
               <div className=" w-full 2xl:w-[1520px] xl:w-[1260px] lg:w-[1010px] md:w-[760px]">
-                {/* {pathName !== "/" && ( */}
                 <div
                   className={`px-4 pt-4 duration-500 transition-all w-full  ${
                     mobileNav ? "opacity-100 bg-white" : "bg-transparent "
@@ -124,16 +120,6 @@ const NavTest = () => {
                         <div className={`px-2 pt-2 `}>
                           <div className="flex items-center justify-end font-bold text-base gap-4  py-2">
                             <NavigationMenuList>
-                              {/* <NavigationMenuItem className="text-black">
-                                <Link href="/about" legacyBehavior passHref>
-                                  <NavigationMenuLink
-                                    className={navigationMenuTriggerStyle()}
-                                  >
-                                    Documentation
-                                  </NavigationMenuLink>
-                                </Link>
-                              </NavigationMenuItem> */}
-
                               <NavigationMenuItem className="">
                                 <Link href="/about">
                                   <NavigationMenuTrigger className="font-bold text-base bg-transparent">
@@ -202,215 +188,21 @@ const NavTest = () => {
                     </div>
                   </div>
                 </div>
-                {/* )} */}
-
-                {/* {pathName === "/" && (
-                  <div>
-                    <div
-                      className={`${styles.toggleOther} ${
-                        isNavbarVisible ? styles.visibleOther : styles.hidden
-                      } max-lg:hidden`}
-                    >
-                      <div className="bg-[#E92429] flex justify-center ">
-                        <div className="container">
-                          <div className="flex justify-end p-2 gap-8 ">
-                            <div className="text-white cursor-pointer  text-base hover:scale-110 flex justify-center items-center transition-all">
-                              <Image
-                                className="inline-block mr-1"
-                                src="/assets/icons/youtube.png"
-                                alt=""
-                                width={18}
-                                height={18}
-                              />
-                              Youtube
-                            </div>
-
-                            <div className="text-white  cursor-pointer   hover:scale-110 flex justify-center items-center transition-all">
-                              <Image
-                                className="inline-block mr-2"
-                                src="/assets/icons/linkedin.png"
-                                alt=""
-                                width={18}
-                                height={18}
-                              />
-                              Linkedin
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="bg-[white] flex justify-center">
-                      <div className="container p-2 ">
-                        <div className="flex justify-between items-center">
-                          <div className="pb-2">
-                            <Link href="/">
-                              <Image
-                                className="inline-block mr-1"
-                                src="/assets/logo/logo.png"
-                                alt="logo"
-                                width={170}
-                                height={70}
-                              />
-                            </Link>
-                          </div>
-
-                          <div className="flex items-center justify-center max-lg:hidden">
-                            <div className="flex justify-end text-xl font-semibold gap-2 text-[#252525]">
-                              <Link href="/about">
-                                <div
-                                  className={`mx-3 cursor-pointer ${
-                                    styles.linkUnderlineNav
-                                  } ${styles.linkUnderlineBlackNav} ${
-                                    pathName.includes("about")
-                                      ? "text-primary font-bold"
-                                      : ""
-                                  }`}
-                                >
-                                  About
-                                </div>
-                              </Link>
-
-                              <Link href="/solutions">
-                                <div
-                                  className={`mx-3 cursor-pointer ${
-                                    styles.linkUnderlineNav
-                                  } ${styles.linkUnderlineBlackNav} ${
-                                    pathName.includes("solutions")
-                                      ? "text-primary font-bold"
-                                      : ""
-                                  }`}
-                                >
-                                  Solutions
-                                </div>
-                              </Link>
-
-                              <Link href="/expertise">
-                                <div
-                                  className={`mx-3 cursor-pointer ${
-                                    styles.linkUnderlineNav
-                                  } ${styles.linkUnderlineBlackNav} ${
-                                    pathName.includes("expertise")
-                                      ? "text-primary font-bold"
-                                      : ""
-                                  }`}
-                                >
-                                  Expertise
-                                </div>
-                              </Link>
-
-                              <Link href="/consulting">
-                                <div
-                                  className={`mx-3 cursor-pointer ${
-                                    styles.linkUnderlineNav
-                                  } ${styles.linkUnderlineBlackNav} ${
-                                    pathName.includes("consulting")
-                                      ? "text-primary font-bold"
-                                      : ""
-                                  }`}
-                                >
-                                  Consulting
-                                </div>
-                              </Link>
-
-                              <Link href="/contact-us">
-                                <button className="flex text-white rounded-lg bg-[#019490] hover:bg-[#0f6562] px-2 py-0.5 text-lg justify-center items-center ml-8">
-                                  <Image
-                                    className="inline-block mr-2"
-                                    src="/assets/icons/call1.png"
-                                    alt=""
-                                    width={18}
-                                    height={18}
-                                  />
-                                  Contact Us
-                                </button>
-                              </Link>
-                            </div>
-                          </div>
-
-                          <div className="lg:hidden cursor-pointer">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="44"
-                              height="44"
-                              viewBox="0 0 44 44"
-                              fill="none"
-                              className={`${mobileNav ? "hidden" : "block"}`}
-                              onClick={handleMobileSidebar}
-                            >
-                              <path
-                                d="M15 30L38 30"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                              <path
-                                d="M11 22L38 22"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                              <path
-                                d="M11 22L38 22"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                              <path
-                                d="M7 14H38"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                            </svg>
-
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="44"
-                              height="44"
-                              viewBox="0 0 44 44"
-                              fill="none"
-                              className={`${mobileNav ? "block" : "hidden"} `}
-                              onClick={handleMobileSidebar}
-                            >
-                              <path
-                                d="M23.0459 22H22.0459"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                              <path
-                                d="M13 12.4541L32.0919 31.546"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                              <path
-                                d="M13 31.5459L32.0919 12.454"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                              <path
-                                d="M22.0459 22H23.0459"
-                                stroke="black"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )} */}
               </div>
             </NavigationMenu>
           </div>
         </div>
       </nav>
 
-      <nav className="top-0 fixed w-full  z-[100000] bg-[rgba(65, 74, 80, 0.9)] flex justify-center items-center lg:hidden ">
+      {/* bg-[rgba(65, 74, 80, 0.9)] */}
+
+      <nav
+        className={`top-0 fixed w-full  z-[100000]  bg-[rgba(65, 74, 80, 0.1)] flex justify-center items-center lg:hidden border-4 border-red-800 ${
+          pathName === "/" || pathName === "/test-mahfuz"
+            ? "bg-[rgba(65, 74, 80, 0.9)]"
+            : "bg-[#414A50]"
+        } `}
+      >
         <div
           className={`relative w-full flex justify-center items-center duration-500 ${
             mobileNav ? "opacity-100 bg-white" : "bg-transparent"

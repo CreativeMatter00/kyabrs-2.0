@@ -13,7 +13,7 @@ const SectionFinal = (props: ISectionCard) => {
         <div
           className={`image ${
             props.activeSection === 0 ? "active" : ""
-          }  max-md:border-4  max-md:border-red-800 max-md:h-full`}
+          }   max-md:h-full`}
           style={{ backgroundImage: props.img }}
         ></div>
 
