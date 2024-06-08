@@ -24,7 +24,7 @@ const Radiology = () => {
 
 				<div className="w-full md:w-1/2">
 					<Image
-						src="/assets/images/solutions/laboratory-service/radio.jpg"
+						src="/assets/images/solutions/laboratory-service/radio.png"
 						height={320}
 						width={480}
 						className="w-full h-auto rounded-lg"
