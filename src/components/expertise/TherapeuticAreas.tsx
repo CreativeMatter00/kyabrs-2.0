@@ -17,7 +17,7 @@ const Areas = [
 		link: "/expertise/autoimmune-diseases",
 	},
 	{
-		image: "/assets/images/expertise/icons/Cardiovascular.png",
+		image: "/assets/images/expertise/icons/Cardio.png",
 		title: "Cardiovascular",
 		desription:
 			"We develop innovative treatments for autoimmune diseases like rheumatoid arthritis and lupus through clinical trials.",
@@ -31,7 +31,7 @@ const Areas = [
 		link: "/expertise/endocrine-metabolic",
 	},
 	{
-		image: "/assets/images/expertise/icons/Gastroenterology.png",
+		image: "/assets/images/expertise/icons/Gastro.png",
 		title: "Gastroenterology",
 		desription:
 			"We develop innovative treatments for autoimmune diseases like rheumatoid arthritis and lupus through clinical trials.",
@@ -66,21 +66,21 @@ const Areas = [
 		link: "/expertise/neurology-psychiatry",
 	},
 	{
-		image: "/assets/images/expertise/icons/Nephrology.png",
+		image: "/assets/images/expertise/icons/Nephro.png",
 		title: "Nephrology",
 		desription:
 			"We develop innovative treatments for autoimmune diseases like rheumatoid arthritis and lupus through clinical trials.",
 		link: "/expertise/nephrology",
 	},
 	{
-		image: "/assets/images/expertise/icons/Ophthalmology.png",
+		image: "/assets/images/expertise/icons/Ophtha.png",
 		title: "Ophthalmology",
 		desription:
 			"We develop innovative treatments for autoimmune diseases like rheumatoid arthritis and lupus through clinical trials.",
 		link: "/expertise/ophthalmology",
 	},
 	{
-		image: "/assets/images/expertise/icons/Pediatrics.png",
+		image: "/assets/images/expertise/icons/Pedia.png",
 		title: "Pediatrics",
 		desription:
 			"We develop innovative treatments for autoimmune diseases like rheumatoid arthritis and lupus through clinical trials.",
@@ -127,7 +127,7 @@ const TherapeuticAreas = () => {
 						return (
 							<CarouselItem
 								key={index}
-								className="h-[180px] bg-brandColorLs1 rounded-lg basis-[10%] mb-4"
+								className="h-[180px] bg-brandColorLs1 hover:bg-brandPrimaryLs2 transition-all duration-300 group rounded-lg basis-[10%] mb-4"
 							>
 								<div className="flex pb-4">
 									<div className="w-1/4 flex flex-col items-center justify-center gap-4 px-4">
@@ -150,7 +150,7 @@ const TherapeuticAreas = () => {
 											<div className="">
 												<Link
 													href={area.link}
-													className="font-bold text-brandPrimaryLs2"
+													className="font-bold text-brandPrimaryLs2 group-hover:text-bgPrimary"
 												>
 													Learn More
 												</Link>
@@ -177,7 +177,7 @@ const TherapeuticAreas = () => {
 						return (
 							<CarouselItem
 								key={index}
-								className=" bg-brandColorLs1 rounded-lg basis-1/3 mx-4 p-4"
+								className="bg-brandColorLs1 hover:bg-brandPrimaryLs2 rounded-lg basis-1/3 lg:basis-1/5 mx-4 p-4 group"
 							>
 								<Link href={area.link}>
 									<div className="flex flex-col items-center justify-center gap-4 px-4">

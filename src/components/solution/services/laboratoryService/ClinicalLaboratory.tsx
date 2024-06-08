@@ -71,6 +71,8 @@ const ClinicalLaboratory = () => {
 				</div>
 			</div>
 
+			{/* <div>
+
 			<div className="my-6">
 				<p className="text-brandPrimaryLs2 font-bold mb-2">
 					CLINICAL CHEMISTRY & IMMUNOLOGY:
@@ -380,6 +382,8 @@ const ClinicalLaboratory = () => {
 					</ul>
 				</div>
 			</div>
+
+			</div> */}
 		</div>
 	);
 };

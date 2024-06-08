@@ -97,7 +97,7 @@ function ManagementTeam() {
 						</div>
 
 						<div>
-							<p className="font-bold text-bgPrimary"> Bio </p>
+							{/* <p className="font-bold text-bgPrimary"> Bio </p> */}
 							<p className="text-bgPrimary">
 								Being the Head of Operations of this organization, I think I own
 								the best team so far. They are assets that I have fashioned

@@ -24,7 +24,7 @@ const Radiology = () => {
 
 				<div className="w-full md:w-1/2">
 					<Image
-						src="/assets/images/solutions/laboratory-service/radiology.jpg"
+						src="/assets/images/solutions/laboratory-service/radio.jpg"
 						height={320}
 						width={480}
 						className="w-full h-auto rounded-lg"
@@ -33,7 +33,7 @@ const Radiology = () => {
 				</div>
 			</div>
 
-			<div className="my-6">
+			{/* <div className="my-6">
 				<p className="text-brandPrimaryLs2 font-bold mb-4">
 					MACHINES FACILITIES ARE:
 				</p>
@@ -74,7 +74,7 @@ const Radiology = () => {
 						<li> FPicture Archiving and Communication System (PACS).</li>
 					</ul>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
