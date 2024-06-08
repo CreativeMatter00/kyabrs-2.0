@@ -89,16 +89,16 @@ export default function Home() {
         direction="justify-start"
         text="specialized in providing support to the pharmaceutical, biotechnology, and medical device industries"
       >
-        <p className="text-5xl text-[#F5F5F5] font-normal leading-[3.5rem] ">
-          Specialized in providing <br />
-          support to the <br />
+        <p className="text-5xl text-[#F5F5F5] font-normal leading-[3.5rem] break-words max-md:text-3xl">
+          Specialized in providing <br className="max-lg:hidden" />
+          support to the <br className="max-lg:hidden" />
           <span className="text-[#FF6A5E] font-bold">Pharmaceutical</span>,
-          <br />
+          <br className="max-lg:hidden" />
           <span className="text-[#FF6A5E] font-bold">Biotechnology&nbsp;</span>
           and
           <span className="text-[#FF6A5E] font-bold">
             &nbsp;Medical
-            <br /> Device Industries
+            <br className="max-lg:hidden" /> Device Industries
           </span>
         </p>
       </SectionFinal>
@@ -109,17 +109,18 @@ export default function Home() {
         direction="justify-end"
         text="KYAMCH-BRS plays a crucial role in the drug development process by assisting in various aspects of clinical trials and research studies"
       >
-        <p className="leading-[3.5rem] text-4xl text-[#F5F5F5] font-normal content-center">
-          KYAMCH-BRS plays a crucial role is the <br />
-          <span className="text-[#FF6A5E] text-5xl">
+        <p className="leading-[3.5rem] text-4xl text-[#F5F5F5] font-normal content-center break-words max-md:text-3xl">
+          KYAMCH-BRS plays a crucial role is the{" "}
+          <br className="max-lg:hidden" />
+          <span className="text-[#FF6A5E] text-5xl max-md:text-4xl">
             drug development process&nbsp;
           </span>
-          by <br /> assisting in various aspects of
-          <span className="text-[#FF6A5E] text-5xl">
-            &nbsp;clinical <br /> trials&nbsp;
+          by <br className="max-lg:hidden" /> assisting in various aspects of
+          <span className="text-[#FF6A5E] text-5xl max-md:text-4xl">
+            &nbsp;clinical <br className="max-lg:hidden" /> trials&nbsp;
           </span>
           and
-          <span className="text-[#FF6A5E] text-5xl">
+          <span className="text-[#FF6A5E] text-5xl max-md:text-4xl">
             &nbsp; research studies
           </span>
         </p>
@@ -131,29 +132,27 @@ export default function Home() {
         direction="justify-start"
         text="We offer services ranging from clinical trial management, data management, regulatory affairs, pharmacovigilance, biostatistics, and medical writing"
       >
-        <p className="leading-[3.5rem] text-5xl text-[#F5F5F5] font-normal ">
-          We offer services ranging <br />{" "}
-          <span className="text-[#FF6A5E]  font-bold">
-            from Clinical Trial <br /> Management{" "}
+        <p className="leading-[3.5rem] text-5xl text-[#F5F5F5] font-normal max-md:text-3xl">
+          We offer services ranging <br className="max-lg:hidden" />{" "}
+          <span className="text-[#FF6A5E]  font-bold break-words ">
+            from Clinical Trial <br className="max-lg:hidden" /> Management{" "}
           </span>{" "}
           ,{" "}
           <span className="text-[#FF6A5E]  font-bold">
-            Data <br />
+            Data <br className="max-lg:hidden" />
             Management{" "}
           </span>
           ,
           <span className="text-[#FF6A5E]  font-bold">
             {" "}
-            Regulatory <br /> Affairs{" "}
+            Regulatory <br className="max-lg:hidden" /> Affairs{" "}
           </span>
           ,
           <span className="text-[#FF6A5E]  font-bold"> Pharmacovigilance </span>
-          , <br />{" "}
+          , <br className="max-lg:hidden" />{" "}
+          <span className="text-[#FF6A5E]  font-bold">Biostatistics </span> and{" "}
           <span className="text-[#FF6A5E]  font-bold">
-            Biostatistics{" "}
-          </span> and{" "}
-          <span className="text-[#FF6A5E]  font-bold">
-            Medical <br /> Writing
+            Medical <br className="max-lg:hidden" /> Writing
           </span>
         </p>
       </SectionFinal>
@@ -164,12 +163,14 @@ export default function Home() {
         direction="justify-start"
         text="Aims to tailor medical treatments to individual patients based on their unique genetic makeup, environmental exposures, and lifestyle factors."
       >
-        <p className="leading-[3.5rem] text-5xl text-[#F5F5F5] font-normal">
-          Aims to tailor medical <br /> treatments to individual <br /> patients
-          based on their <br />{" "}
+        <p className="leading-[3.5rem] text-5xl text-[#F5F5F5] font-normal break-words max-md:text-3xl">
+          Aims to tailor medical <br className="max-lg:hidden" /> treatments to
+          individual <br className="max-lg:hidden" /> patients based on their{" "}
+          <br className="max-lg:hidden" />{" "}
           <span className="font-bold">
             {" "}
-            Unique Genetic Makeup, <br /> Environmental Exposures <br /> and
+            Unique Genetic Makeup, <br className="max-lg:hidden" />{" "}
+            Environmental Exposures <br className="max-lg:hidden" /> and
             Lifestyle Factors{" "}
           </span>
         </p>
