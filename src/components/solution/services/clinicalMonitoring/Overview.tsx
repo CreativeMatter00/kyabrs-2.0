@@ -17,8 +17,8 @@ const Overview = () => {
 					Clinical trial management and monitoring must adapt with the new
 					complexities which we are facing in modern clinical trials. By
 					implementing quality risk management systems such as Risk Mitigation
-					Plans and protocol evaluations, KYABRS collaborates to maintain focus
-					and flexibility with specific attention to the study objective,
+					Plans and protocol evaluations, KYAMCH-BRS collaborates to maintain
+					focus and flexibility with specific attention to the study objective,
 					design, complexity, size and endpoints1. Striking the delicate balance
 					between centralized and on-site monitoring needs, as well as careful
 					consideration of targeted source data verification, our monitoring

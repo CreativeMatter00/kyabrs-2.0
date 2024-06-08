@@ -48,12 +48,12 @@ const Pediatrics = () => {
 						inclusion/exclusion criteria, subject compliance and retention. The
 						enrollment of pediatric subjects in clinical trials has the
 						additional complexity of family dynamics, legal status, and
-						requirements of informed consent and assent. KYABRS understands that
-						successfully implementing regulations and ethical standards into
-						study conduct requires a comprehensive understanding of the unique
-						concerns raised by ethics committees, investigators and parents.
-						KYABRS has built an experience base in the management of pediatric
-						patients over a long time.
+						requirements of informed consent and assent. KYAMCH-BRS understands
+						that successfully implementing regulations and ethical standards
+						into study conduct requires a comprehensive understanding of the
+						unique concerns raised by ethics committees, investigators and
+						parents. KYAMCH-BRS has built an experience base in the management
+						of pediatric patients over a long time.
 					</p>
 				</div>
 

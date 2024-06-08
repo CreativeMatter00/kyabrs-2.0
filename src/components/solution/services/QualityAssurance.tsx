@@ -68,7 +68,7 @@ const QualityAssurance = () => {
 					</ul>
 
 					<p className="font-bold text-brandPrimaryLs2 mb-4">
-						KYABRS CAN ALSO PROVIDE THE FOLLOWING AUDITING SERVICES FOR
+						KYAMCH-BRS CAN ALSO PROVIDE THE FOLLOWING AUDITING SERVICES FOR
 						SPONSORS:
 					</p>
 

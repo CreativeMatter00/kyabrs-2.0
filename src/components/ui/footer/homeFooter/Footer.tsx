@@ -164,8 +164,8 @@ const Footer = () => {
             Creative Matter
           </Link>
           . All rights reserved. <br />
-          Trade marks are owned by or licensed to the Khwaja Yunus Ali
-          Bioresearch Services.
+          Trade marks are owned by or licensed to the Khwaja Yunus Ali Medical
+          College & Hospital Bioresearch Services.
         </div>
       </div>
     </footer>

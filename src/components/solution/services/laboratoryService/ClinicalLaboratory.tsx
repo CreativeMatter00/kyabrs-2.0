@@ -8,21 +8,15 @@ const ClinicalLaboratory = () => {
 					<p className="text-2xl mb-6"> Clinical Laboratory </p>
 
 					<p>
-						Our Clinical laboratory is equipped with latest state of the art
-						technology&nbsp;
-						<span className="font-bold">
-							Total Laboratory Automation System
-						</span>
-						&nbsp;which enables
-						<span className="font-bold"> Reduced Human Handling Error </span> &
-						provides reliable <span className="font-bold"> accurate test </span>{" "}
-						results within
-						<span className="font-bold"> the fastest time period. </span>
+						Our Clinical laboratory is equipped with the latest state-of-the-art
+						technology Total Laboratory Automation System which enables Reduced
+						Human Handling Error & provides reliable accurate test results
+						within the fastest period.
 					</p>
 
 					<div className="py-6">
 						<p className="text-brandPrimaryLs2 font-bold mb-4">
-							THE QUALITY RESULT IS THE UTMOST TARGET/PRIORITY:
+							The Quality Result Is the Utmost Priority:
 						</p>
 						<div className="mb-4">
 							<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
@@ -32,21 +26,35 @@ const ClinicalLaboratory = () => {
 									of ISO 15189 standard.{" "}
 								</li>
 								<li>
-									{" "}
-									Participate external Quality Assurance (QA) program (a monthly
-									program with Randox International Quality Assurance Scheme),
-									USA.{" "}
+									Participate in external Quality Assurance (QA) program (a
+									monthly program with Randox International Quality Assurance
+									Scheme), USA.
 								</li>
 								<li>
-									{" "}
-									Regularly calibrate all auto analyzers, reagents and
-									accessories like centrifuges, Micropipettes.{" "}
+									Regularly calibrate all auto analyzers, reagents, and
+									accessories like centrifuges and micropipettes.
 								</li>
 								<li>
-									{" "}
 									High Quality Reagents are used & stored maintaining standard
-									temperature strictly.{" "}
+									temperature strictly.
 								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div className="py-6">
+						<p className="text-brandPrimaryLs2 font-bold mb-4">
+							Our service departments:
+						</p>
+						<div className="mb-4">
+							<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
+								<li>Clinical chemistry & immunology</li>
+								<li>Hematology & coagulation</li>
+								<li>Clinical pathology</li>
+								<li>Histopathology</li>
+								<li>Cytopathology</li>
+								<li>Immunohistochemistry</li>
+								<li>Microbiology</li>
 							</ul>
 						</div>
 					</div>
@@ -62,6 +70,8 @@ const ClinicalLaboratory = () => {
 					/>
 				</div>
 			</div>
+
+			{/* <div>
 
 			<div className="my-6">
 				<p className="text-brandPrimaryLs2 font-bold mb-2">
@@ -372,6 +382,8 @@ const ClinicalLaboratory = () => {
 					</ul>
 				</div>
 			</div>
+
+			</div> */}
 		</div>
 	);
 };

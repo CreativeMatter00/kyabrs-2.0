@@ -70,8 +70,8 @@ function ManagementTeam() {
 								Amjad Hussain, was elected Chairman of Khwaja Yunus Ali Medical
 								College & Hospital and Khwaja Yunus Ali Medical College. He also
 								oversees other industries such as Drug International Limited,
-								KYA Bio Research Services, ATI Software Limited, ATI Ceramics,
-								Taj Printers, Harnest Label Industries, and Amzad Tea.
+								KYAMCH Bio Research Services, ATI Software Limited, ATI
+								Ceramics, Taj Printers, Harnest Label Industries, and Amzad Tea.
 							</p>
 						</div>
 					</div>
@@ -97,7 +97,7 @@ function ManagementTeam() {
 						</div>
 
 						<div>
-							<p className="font-bold text-bgPrimary"> Bio </p>
+							{/* <p className="font-bold text-bgPrimary"> Bio </p> */}
 							<p className="text-bgPrimary">
 								Being the Head of Operations of this organization, I think I own
 								the best team so far. They are assets that I have fashioned

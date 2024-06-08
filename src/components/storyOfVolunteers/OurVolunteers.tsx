@@ -9,7 +9,7 @@ const OurVolunteers = () => {
 			<div className="flex flex-col md:flex-row gap-4">
 				<div className="w-full md:w-[50%]">
 					Our volunteers are the heart and soul of Khwaja Yunus Ali-Bio Research
-					Services (KYA-BRS). Coming from diverse backgrounds, including
+					Services (KYAMCH-BRS). Coming from diverse backgrounds, including
 					students, professionals, and retirees, they bring unique skills,
 					experiences, and perspectives to our community. United by a commitment
 					to advancing scientific knowledge and improving patient outcomes, they
@@ -17,11 +17,11 @@ const OurVolunteers = () => {
 					support various research projects.
 					<br />
 					<br />
-					Volunteers at KYA-BRS are involved in a wide range of activities, from
-					assisting in clinical trials and engaging with study participants to
-					helping with data collection and analysis. They also play a key role
-					in community outreach, educating the public about the importance of
-					clinical research and encouraging participation in studies. Through
+					Volunteers at KYAMCH-BRS are involved in a wide range of activities,
+					from assisting in clinical trials and engaging with study participants
+					to helping with data collection and analysis. They also play a key
+					role in community outreach, educating the public about the importance
+					of clinical research and encouraging participation in studies. Through
 					training sessions and workshops, our volunteers continuously enhance
 					their skills and stay updated on the latest developments in clinical
 					research.

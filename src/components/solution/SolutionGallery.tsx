@@ -25,7 +25,7 @@ const solutions: Solution[] = [
     imageSrc: "/assets/images/solutions/feasibility.jpg",
     imageAlt: "Feasibility study",
     details:
-      "KYA-BRS conducts thorough feasibility studies to assess the viability of clinical trials. With meticulous analysis, we ensure optimal trial design and execution.",
+      "KYAMCH-BRS conducts thorough feasibility studies to assess the viability of clinical trials. With meticulous analysis, we ensure optimal trial design and execution.",
     title: "Feasibility study",
   },
 
@@ -43,7 +43,7 @@ const solutions: Solution[] = [
     imageSrc: "/assets/images/solutions/quality.jpg",
     imageAlt: "Quality Assurance",
     details:
-      "At KYA-BRS, quality assurance is paramount. We maintain the highest standards of quality throughout the research process, ensuring compliance and reliability.",
+      "At KYAMCH-BRS, quality assurance is paramount. We maintain the highest standards of quality throughout the research process, ensuring compliance and reliability.",
     title: "Quality Assurance",
   },
 
@@ -52,7 +52,7 @@ const solutions: Solution[] = [
     imageSrc: "/assets/images/solutions/clinic-trial.jpg",
     imageAlt: "Clinical Trial Management",
     details:
-      "KYA-BRS provides end-to-end clinical trial management services. From protocol development to regulatory submission, we oversee every aspect of the trial process.",
+      "KYAMCH-BRS provides end-to-end clinical trial management services. From protocol development to regulatory submission, we oversee every aspect of the trial process.",
     title: "Clinical Trial Management",
   },
 
@@ -61,7 +61,7 @@ const solutions: Solution[] = [
     imageSrc: "/assets/images/solutions/bioanalytic.jpg",
     imageAlt: "Laboratory Services",
     details:
-      "KYA-BRS operates a fully equipped clinical laboratory, providing a wide range of diagnostic and testing services. Our experienced team ensures accurate and timely results for research studies.",
+      "KYAMCH-BRS operates a fully equipped clinical laboratory, providing a wide range of diagnostic and testing services. Our experienced team ensures accurate and timely results for research studies.",
     title: "Laboratory Services",
   },
 
@@ -70,7 +70,7 @@ const solutions: Solution[] = [
     imageSrc: "/assets/images/solutions/clinical-monitoring/overview.jpg",
     imageAlt: "Clinical Monitoring",
     details:
-      "KYA-BRS conducts thorough clinical monitoring to ensure the integrity and reliability of research data. Our experienced monitors oversee every stage of the trial, ensuring compliance and quality.",
+      "KYAMCH-BRS conducts thorough clinical monitoring to ensure the integrity and reliability of research data. Our experienced monitors oversee every stage of the trial, ensuring compliance and quality.",
     title: "Clinical Monitoring",
   },
 
@@ -87,7 +87,7 @@ const solutions: Solution[] = [
 const SolutionGallery: FC = () => {
   return (
     <div className="container p-4 flex flex-col mt-8">
-      <div className="grid lg:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-x-6 gap-y-10 ">
+      <div className="grid lg:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-x-6 gap-y-10">
         {solutions.map((solution, index) => (
           <div
             key={index}

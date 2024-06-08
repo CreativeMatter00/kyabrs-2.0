@@ -38,10 +38,10 @@ const Nephrology = () => {
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						KYABRS leverages its expertise to design and implement nephrology
-						trials, supported by dedicated renal specialists with extensive
-						experience. Our team ensures meticulous planning and execution to
-						meet your research objectives effectively.
+						KYAMCH-BRS leverages its expertise to design and implement
+						nephrology trials, supported by dedicated renal specialists with
+						extensive experience. Our team ensures meticulous planning and
+						execution to meet your research objectives effectively.
 					</p>
 				</div>
 

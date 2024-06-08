@@ -13,15 +13,15 @@ const ClinicalMonitoringDistinction = () => {
 
 			<div className="pt-4 px-4">
 				<p className="text-base font-medium mb-10">
-					KYABRS Clinical Monitoring focuses on global consistency, support,
-					guidance, training and oversight. KYABRS CRAs are dedicated to
+					KYAMCH-BRS Clinical Monitoring focuses on global consistency, support,
+					guidance, training and oversight. KYAMCH-BRS CRAs are dedicated to
 					ensuring site compliance, risk mitigation, and building strong site
 					staff relationships. Through our dedicated Clinical Monitoring model,
 					including CRA recruitment and selection, initial and ongoing training,
 					study and site resourcing, line management support and quality
-					oversight, and continued development, KYABRS CRAs provide unparalleled
-					monitoring performance for all phases of today’s clinical research
-					trials.
+					oversight, and continued development, KYAMCH-BRS CRAs provide
+					unparalleled monitoring performance for all phases of today’s clinical
+					research trials.
 				</p>
 			</div>
 		</div>

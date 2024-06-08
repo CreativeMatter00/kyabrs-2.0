@@ -10,23 +10,49 @@ const EarlyPhase = () => {
 
 			<div className="flex flex-col-reverse md:flex-row gap-8 mb-6">
 				<div className="w-full md:w-1/2">
-					<p>
-						Proceeding quickly through the Phase I-II trial to gain proof of
-						concept is an important milestone in your strategy. At KYABRS, we
-						design our early-stage clinical trials so that patients can be
-						expected early. This is an important milestone of hope for patients
-						with unmet needs. KYABRS has the expertise to help reduce the risk
-						of study design challenges due to inappropriate scientific
-						justification of dosage, confusing safety thresholds and early-stage
-						delays.
-						<br />
-						We can bring together a team of regulatory, pharmacological and
-						translational medicine specialists for drug dosage, safety
-						selection, and PK / PD evaluation. We help you design a protocol
-						that helps create the data you need to make decisions. And when you
-						are ready to begin your Early Phase studies, our clinics provide a
-						full scope of services.
-					</p>
+					<div>
+						<p>
+							Proceeding quickly through the Phase I-II trial to gain proof of
+							concept is an important milestone in your strategy. At KYAMCH-BRS,
+							we design early-stage clinical trials so that patients can be
+							expected early.
+							<br />
+							And when you are ready to begin your Early Phase studies our
+							clinics provide a full scope of services.
+						</p>
+						<p className="font-bold text-brandPrimaryLs3 mb-4 mt-6">
+							These Services Include
+						</p>
+						<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
+							<li> Phase I, first-in-human.</li>
+							<li> Phase IIa, proof-of-concept.</li>
+							<li> Clinical PK/PD and pharmacometrics.</li>
+							<li> Ethnos bridging studies.</li>
+							<li> Bioanalytical and biomarkers.</li>
+							<li> Bioequivalence and biosimilar studies.</li>
+						</ul>
+					</div>
+
+					<div className="pt-4">
+						<p className="font-bold text-brandPrimaryLs3 mb-4">
+							Bioequivalence study
+						</p>
+						<p>
+							Bioequivalence studies are very important for the development of
+							pharmaceutical preparation in the pharmaceutical industry. Their
+							rationale is the monitoring of pharmacokinetic and pharmacodynamic
+							parameters after the administration of tested drugs. The
+							importance of bioequivalence studies is increasing also due to the
+							large growth in the production and consumption of generic
+							products. <br />
+							KYAMCH-BRS is capable of doing the bioequivalence study of any
+							dosage form. KYAMCH-BRS Bioanalytical Laboratories provide method
+							development, transfer, validation, and analysis of biological
+							samples of study volunteers. <br />
+							Data analysis for the confirmation of bioequivalence is performed
+							using industry-standard WINNONLIN® software.
+						</p>
+					</div>
 				</div>
 
 				<div className="w-full md:w-1/2">
@@ -40,42 +66,7 @@ const EarlyPhase = () => {
 				</div>
 			</div>
 
-			<div className="mb-8">
-				<p className="font-bold text-brandPrimaryLs3 mb-4">
-					These Services Include
-				</p>
-				<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
-					<li>Phase I, first-in-human</li>
-					<li>Clinical PK/PD and pharmacometrics</li>
-					<li>Bioanalytical and biomarkers</li>
-					<li>Phase IIa, proof-of-concept</li>
-					<li>Ethnobridging studies</li>
-					<li>Bioequivalence and biosimilar studies</li>
-				</ul>
-			</div>
-
-			<div>
-				<p className="font-bold text-brandPrimaryLs3 mb-4">
-					Bioequivalence Study
-				</p>
-				<p>
-					Bioequivalence studies are very important for the development of a
-					pharmaceutical preparation in the pharmaceutical industry. Their
-					rationale is the monitoring of pharmacokinetic and pharmacodynamic
-					parameters after the administration of tested drugs. The importance of
-					bioequivalence studies is increasing also due to the large growth of
-					the production and consumption of generic products. The registration
-					of generic products does not demand complicated and expensive clinical
-					studies contrary to the original product. The comparison of the
-					original and the generic product via bioequivalence study is suggested
-					as sufficient. KYABRS is capable of conducting the bioequivalence
-					study of any dosage form. KYABRS Bioanalytical Laboratories provide
-					method development, transfer, validation, and analysis of biological
-					samples of study volunteers. Data analysis for the confirmation of
-					bioequivalence is performed using industry-standard WINNONLIN®
-					software.
-				</p>
-			</div>
+			<div className="mb-8"></div>
 		</div>
 	);
 };

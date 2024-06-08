@@ -37,16 +37,18 @@ const ClinicalTrial = () => {
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						KYABRS has Experience, Wide Reach and Highly Disciplined Execution
-						of trial management. KYABRS utilizes our unique partnership
-						philosophy and team structure to provide effective, end-to-end
-						collaboration, training, and resource planning around the world in
-						clinical trial management. Our dedicated teams are designed to serve
-						as an extension of your team and to provide unparalleled support at
-						every stage of the drug development process.
+						KYAMCH-BRS has Experience, Wide Reach and Highly Disciplined
+						Execution of trial management. KYAMCH-BRS utilizes our unique
+						partnership philosophy and team structure to provide effective,
+						end-to-end collaboration, training, and resource planning around the
+						world in clinical trial management. Our dedicated teams are designed
+						to serve as an extension of your team and to provide unparalleled
+						support at every stage of the drug development process.
 					</p>
 
-					<p className="font-bold text-brandPrimaryLs2 mb-4">KYABRS OFFERS:</p>
+					<p className="font-bold text-brandPrimaryLs2 mb-4">
+						KYAMCH-BRS OFFERS:
+					</p>
 
 					<p>
 						<span className="font-bold text-brandPrimaryLs2">

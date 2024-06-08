@@ -7,23 +7,26 @@ const RegulatoryStrategy = () => {
 				<div>
 					<p className="text-2xl mb-6"> Regulatory Strategy & Development </p>
 					<p className="text-base mb-8">
-						In clinical development, we are dedicated to ensuring that every
-						moment is approached correctly. Our Regulatory Consulting Services
-						team consists of experienced advisors with decades of experience in
-						assisting teams to understand new and existing guidelines worldwide.
-						In fact, many of them are former ICH, FDA, EMA, and NMPA regulators.
+						Our Clinical Trial Regulatory Services team can help facilitate a
+						seamless experience no matter where in the world you operate. By
+						combining centralized data management with the ability to
+						simultaneously manage multiple regulatory submissions, we can guide
+						you through quicker trial start-up and follow-through. <br />
+						The KYAMCH-BRS Regulatory Affairs team works collaboratively with
+						sponsors and clients on a country, regional, and global basis to
+						help accelerate the global development of safe and effective medical
+						therapeutics.
 					</p>
 
 					<p className="text-xl mb-4 text-brandPrimaryLs2">
-						Our Service Includes:
+						Our regulatory service includes:
 					</p>
 
 					<ul className="marker:text-brandPrimaryLs2 text-base  list-disc list-inside">
-						<li> Regulatory Strategy </li>
-						<li> Health Authority Meetings </li>
-						<li> Quality system inspection </li>
-						<li> Submission support </li>
-						<li> Mergers and Acquisitions </li>
+						<li> Medical Writing Services </li>
+						<li> Strategic Development Services </li>
+						<li> Document Preparation & Submission Services </li>
+						<li> Regulatory Agency Interactions </li>
 					</ul>
 				</div>
 				<Image

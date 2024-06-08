@@ -102,14 +102,15 @@ export default function Home() {
           </span>
         </p>
       </SectionFinal>
+
       <SectionFinal
         activeSection={activeSection}
         img="url(/assets/images/home/slide-2.png)"
         direction="justify-end"
-        text="KYA-BRS plays a crucial role in the drug development process by assisting in various aspects of clinical trials and research studies"
+        text="KYAMCH-BRS plays a crucial role in the drug development process by assisting in various aspects of clinical trials and research studies"
       >
         <p className="leading-[3.5rem] text-4xl text-[#F5F5F5] font-normal content-center">
-          KYA-BRS plays a crucial role is the <br />
+          KYAMCH-BRS plays a crucial role is the <br />
           <span className="text-[#FF6A5E] text-5xl">
             drug development process&nbsp;
           </span>
@@ -244,7 +245,7 @@ export default function Home() {
 //             activeSection={activeSection}
 //             img="url(/assets/images/home/bg-2.jpg)"
 //             direction="justify-end"
-//             text="KYA-BRS plays a crucial role in the drug development process by assisting in various aspects of clinical trials and research studies"
+//             text="KYAMCH-BRS plays a crucial role in the drug development process by assisting in various aspects of clinical trials and research studies"
 //           />
 //           <Section
 //             activeSection={activeSection}

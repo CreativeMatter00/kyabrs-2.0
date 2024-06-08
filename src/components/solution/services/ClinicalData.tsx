@@ -39,47 +39,48 @@ const ClinicalData = () => {
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						KYABRS delivers high-quality Data Management and Biostatistics
-						services. We are responsive, flexible, and knowledgeable in our
-						approach, ensuring complete confidence in your data throughout the
-						entire drug development process. Our Data Management team is
-						dedicated to improving efficiency, reducing development costs, and
-						anticipating risks to the data you have diligently collected.
+						At KYAMCH-BRS, we deliver high-quality data management and
+						biostatistics services, ensuring confidence in your data throughout
+						the drug development process. Our approach is responsive, flexible,
+						and knowledgeable, with each study conducted with your goals in
+						mind. Our Data Management team enhances efficiency, reduces
+						development costs, and anticipates data risks.
 						<br />
-						In Data Management, we prioritize delivering quality data with
-						integrity. Our team collaborates with sponsored project teams to
-						create detailed plans for clinical trial data collection,
-						organization, validation, and analysis, ensuring the most
-						cost-effective, secure, and regulatory-compliant process.
 						<br />
-						With our extensive knowledge, experience, and superior therapeutic
-						and regulatory expertise, we have earned the trust of sponsors. Our
-						data collection, validation, and analysis processes adhere to robust
-						standards, focusing on precision and efficiency while upholding the
-						highest levels of data quality and integrity.
-						<br />
+						<p className="font-bold text-brandPrimaryLs2">Data Management: </p>
+						<p>
+							We deliver quality data with integrity. Our team collaborates with
+							sponsored project teams to create detailed plans for clinical
+							trial data collection, organization, validation, and analysis. We
+							ensure a cost-effective, secure, and regulatory-compliant data
+							management process. Trusted by sponsors, our extensive knowledge
+							and experience are combined with superior therapeutic and
+							regulatory expertise.
+							<br />
+							Our robust data collection, validation, and analysis processes
+							prioritize precision and efficiency while maintaining the highest
+							levels of data quality and integrity.
+						</p>
 					</p>
 
 					<p className="font-bold text-brandPrimaryLs2 mb-4">
-						Our expert team assists you with the following:
+						Our expert team help you in:
 					</p>
 
 					<ul className="marker:text-brandPrimaryLs2 text-base list-disc list-inside">
 						<li>
-							Designing case report forms (CRFs) in accordance with standard
-							regulations.
+							Design case report forms (CRFs) following standard regulations.
 						</li>
-						<li> Performing data entry of paper CRFs. </li>
+						<li> Performs data entry of paper CRFs. </li>
+
 						<li>
-							Validating all project-specific components of the data management
+							Validates all project-specific components of the data management
 							system.
 						</li>
-						<li> Reviewing clinical data for errors and trends. </li>
-						<li> Reconciling serious adverse events. </li>
-						<li> Generating real-time clinical trial metrics. </li>
-						<li>
-							Providing support for Data Monitoring Committee (DMC) activities.
-						</li>
+						<li> Reviews clinical data for errors and trends.</li>
+						<li> Reconciles serious adverse events. </li>
+						<li>Produces real-time clinical trial metrics.</li>
+						<li>Data Safety Monitoring Board (DSMB) support.</li>
 					</ul>
 				</div>
 			</div>
