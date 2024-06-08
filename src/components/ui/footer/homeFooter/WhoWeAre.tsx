@@ -3,7 +3,7 @@ import React from "react";
 
 const WhoWeAre = () => {
   return (
-    <div className="bg-[#313639] text-[#F5F5F5] flex justify-center items-center lg:p-12 p-4  border-y border-[#F5F5F5]">
+    <div className="bg-[#313639] text-[#F5F5F5] flex justify-center items-center lg:p-12 p-4  border-t border-[#F5F5F5]">
       <div className="container flex justify-center items-center flex-col gap-8 max-w-[1024px]">
         <p className="text-5xl font-bold">Who We Are</p>
         <p className="text-4xl font-normal text-center">

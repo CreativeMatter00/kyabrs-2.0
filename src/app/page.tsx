@@ -85,7 +85,7 @@ export default function Home() {
 
       <SectionFinal
         activeSection={activeSection}
-        img="url(/assets/images/home/slide-5.png)"
+        img="url(/assets/images/home/slide-8.png)"
         direction="justify-start"
         text="specialized in providing support to the pharmaceutical, biotechnology, and medical device industries"
       >

@@ -13,8 +13,7 @@ interface Solution {
 const solutions: Solution[] = [
   {
     href: "/solutions/clinical-development-service",
-    imageSrc:
-      "/assets/images/solutions/card/Clinical Development & Research Services 1.png",
+    imageSrc: "/assets/images/solutions/clinical-service/overview.jpg",
     imageAlt: "Clinical Development & Research Services",
     details:
       "We feel differently about your project. Our team is ready for you who keep solving, optimizing, developing and caring your project.",
@@ -23,7 +22,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/feasibility-study",
-    imageSrc: "/assets/images/solutions/card/Feasibility Study.png",
+    imageSrc: "/assets/images/solutions/feasibility.jpg",
     imageAlt: "Feasibility study",
     details:
       "KYA-BRS conducts thorough feasibility studies to assess the viability of clinical trials. With meticulous analysis, we ensure optimal trial design and execution.",
@@ -32,7 +31,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/clinical-data-management",
-    imageSrc: "/assets/images/solutions/card/Clinical Data Management.png",
+    imageSrc: "/assets/images/solutions/clinical data.jpg",
     imageAlt: "Clinical Data Management",
     details:
       "Our expert team manages clinical data with precision and efficiency. From collection to analysis, we ensure data integrity and compliance with regulatory standards.",
@@ -41,7 +40,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/quality-assurance",
-    imageSrc: "/assets/images/solutions/card/Quality Assurance.png",
+    imageSrc: "/assets/images/solutions/quality.jpg",
     imageAlt: "Quality Assurance",
     details:
       "At KYA-BRS, quality assurance is paramount. We maintain the highest standards of quality throughout the research process, ensuring compliance and reliability.",
@@ -50,7 +49,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/clinical-trial-management",
-    imageSrc: "/assets/images/solutions/card/Clinical Trial Management.png",
+    imageSrc: "/assets/images/solutions/clinic-trial.jpg",
     imageAlt: "Clinical Trial Management",
     details:
       "KYA-BRS provides end-to-end clinical trial management services. From protocol development to regulatory submission, we oversee every aspect of the trial process.",
@@ -59,7 +58,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/laboratory-services",
-    imageSrc: "/assets/images/solutions/card/Clinical Laboratory.png",
+    imageSrc: "/assets/images/solutions/bioanalytic.jpg",
     imageAlt: "Laboratory Services",
     details:
       "KYA-BRS operates a fully equipped clinical laboratory, providing a wide range of diagnostic and testing services. Our experienced team ensures accurate and timely results for research studies.",
@@ -68,7 +67,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/clinical-monitoring",
-    imageSrc: "/assets/images/solutions/card/Clinical Monitoring.png",
+    imageSrc: "/assets/images/solutions/clinical-monitoring/overview.jpg",
     imageAlt: "Clinical Monitoring",
     details:
       "KYA-BRS conducts thorough clinical monitoring to ensure the integrity and reliability of research data. Our experienced monitors oversee every stage of the trial, ensuring compliance and quality.",
@@ -77,7 +76,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/biostatics-services",
-    imageSrc: "/assets/images/solutions/card/Biostatics Services.png",
+    imageSrc: "/assets/images/solutions/biostatics-services.jpg",
     imageAlt: "Biostatics Services",
     details:
       "Our biostatistics services provide expert analysis and interpretation of research data. With advanced statistical methods, we ensure accurate and reliable results for clinical research studies.",
@@ -88,7 +87,7 @@ const solutions: Solution[] = [
 const SolutionGallery: FC = () => {
   return (
     <div className="container p-4 flex flex-col mt-8">
-      <div className="grid lg:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-x-6 gap-y-10">
+      <div className="grid lg:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-x-6 gap-y-10 ">
         {solutions.map((solution, index) => (
           <div
             key={index}
@@ -96,8 +95,8 @@ const SolutionGallery: FC = () => {
           >
             <Image
               src={solution.imageSrc}
-              width={350}
-              height={400}
+              width={700}
+              height={800}
               alt={solution.imageAlt}
               className="h-[400px] w-full object-cover group-hover:transition-all duration-500"
             />
