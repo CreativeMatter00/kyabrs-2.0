@@ -38,20 +38,20 @@ const HematologyOncology = () => {
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						Our experienced staff at KYABRS develop and execute studies across a
-						full spectrum of solid tumor and hematologic indications and
-						therapies. As a specialized Hematology and Oncology CRO, we offer a
-						competitive advantage in navigating the evolving landscape of drug
-						and biologic clinical development. Our unique approach to clinical
-						research has earned us a reputation for effectively managing complex
-						cancer patients.
+						Our experienced staff at KYAMCH-BRS develop and execute studies
+						across a full spectrum of solid tumor and hematologic indications
+						and therapies. As a specialized Hematology and Oncology CRO, we
+						offer a competitive advantage in navigating the evolving landscape
+						of drug and biologic clinical development. Our unique approach to
+						clinical research has earned us a reputation for effectively
+						managing complex cancer patients.
 						<br />
 						We assist our clients in developing successful strategies for novel
 						therapies, competing for high-performing global sites, expediting
 						study start-up and recruitment, and navigating the global regulatory
 						landscape for accelerated approvals. With our medical leadership and
-						trained staff in hematology and oncology, KYABRS ensures successful
-						conduct of clinical trials. We looking help our clients:
+						trained staff in hematology and oncology, KYAMCH-BRS ensures
+						successful conduct of clinical trials. We looking help our clients:
 					</p>
 
 					<ul className="marker:text-brandPrimaryLs2 text-base font-medium list-disc list-inside px-4">
@@ -63,7 +63,7 @@ const HematologyOncology = () => {
 						<li>
 							Navigate the global regulatory landscape to expedite approvals.
 							<br />
-							KYABRS has the medical leadership in hematology and oncology
+							KYAMCH-BRS has the medical leadership in hematology and oncology
 							trained staff to successfully conduct clinical trials.
 						</li>
 					</ul>

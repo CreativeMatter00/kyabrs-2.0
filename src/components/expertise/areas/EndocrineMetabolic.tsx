@@ -39,8 +39,8 @@ const EndocrineMetabolic = () => {
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						KYABRS can help navigate the complexities and regulatory scrutiny of
-						endocrine and metabolic development programs.
+						KYAmCH-BRS can help navigate the complexities and regulatory
+						scrutiny of endocrine and metabolic development programs.
 					</p>
 				</div>
 

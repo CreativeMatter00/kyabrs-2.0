@@ -6,8 +6,8 @@ import NavTest from "@/components/ui/Navbar/NavTest";
 import HomeFooter from "@/components/ui/footer/homeFooter/HomeFooter";
 
 export const metadata: Metadata = {
-	title: "KYABRS",
-	description: "KYABRS",
+	title: "KYAMCH-BRS",
+	description: "KYAMCH-BRS",
 };
 
 export default function RootLayout({

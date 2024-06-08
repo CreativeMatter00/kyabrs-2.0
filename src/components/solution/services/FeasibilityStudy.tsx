@@ -37,11 +37,11 @@ const FeasibilityStudy = () => {
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						KYABRS helps sponsors to identify sites with the highest potential
-						for hiring the right patients with our large, global investigator or
-						site database in our focused therapeutic area. When we conduct study
-						start-ups, the total start-up time is usually less than half of the
-						industry average.
+						KYAMCH-BRS helps sponsors to identify sites with the highest
+						potential for hiring the right patients with our large, global
+						investigator or site database in our focused therapeutic area. When
+						we conduct study start-ups, the total start-up time is usually less
+						than half of the industry average.
 					</p>
 				</div>
 			</div>

@@ -5,7 +5,8 @@ const page = () => {
 	return (
 		<div className="container mx-auto mt-24 lg:mt-32 py-12">
 			<p className="text-center pb-12 font-bold text-4xl">
-				Privacy Policy of Khwaja Yunus Ali Bioresearch Services
+				Privacy Policy of Khwaja Yunus Ali Medical College & Hospital
+				Bioresearch Services
 			</p>
 			<div className="pb-8">
 				<p className="text-3xl font-bold pb-4"> Privacy Policy </p>
@@ -49,8 +50,8 @@ const page = () => {
 					</li>
 					<li className="">
 						Company (referred to as either "the Company", "We", "Us" or "Our" in
-						this Agreement) refers to Khwaja Yunus Ali Bioresearch Services,
-						Enayetpur, Sirajganj, Bangladesh
+						this Agreement) refers to Khwaja Yunus Ali Medical College &
+						Hospital Bioresearch Services, Enayetpur, Sirajganj, Bangladesh
 					</li>
 					<li className="">
 						Cookies are small files that are placed on Your computer, mobile
@@ -81,8 +82,8 @@ const page = () => {
 						(for example, the duration of a page visit).
 					</li>
 					<li className="">
-						Website refers to Khwaja Yunus Ali Bioresearch Services, accessible
-						from{" "}
+						Website refers to Khwaja Yunus Ali Medical College & Hospital
+						Bioresearch Services, accessible from{" "}
 						<Link href="https://www.kyabrs.org/">https://www.kyabrs.org/</Link>
 					</li>
 					<li className="">

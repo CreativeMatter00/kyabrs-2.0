@@ -9,7 +9,7 @@ const WhatOurVolunteersDo = () => {
 				</p>
 
 				<p>
-					At Khwaja Yunus Ali-Bio Research Services (KYA-BRS), our volunteers
+					At Khwaja Yunus Ali-Bio Research Services (KYAMCH-BRS), our volunteers
 					are integral to the success of our clinical research projects. They
 					engage in a variety of activities, from assisting in the preparation
 					and execution of clinical trials to recruiting and enrolling study
@@ -31,9 +31,9 @@ const WhatOurVolunteersDo = () => {
 					participation and engagement through events, workshops, and
 					informational sessions. By educating the community about the benefits
 					and impact of our studies, our volunteers help build trust and foster
-					positive relationships between KYA-BRS and the communities we serve.
-					Their dedication and enthusiasm significantly enhance our research
-					initiatives and community connections.
+					positive relationships between KYAMCH-BRS and the communities we
+					serve. Their dedication and enthusiasm significantly enhance our
+					research initiatives and community connections.
 				</p>
 			</div>
 		</div>

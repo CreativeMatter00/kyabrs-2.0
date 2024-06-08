@@ -38,10 +38,10 @@ const NashLiverDisease = () => {
 
 				<div className="pt-4 px-4">
 					<p className="text-base font-medium mb-10">
-						KYABRS has capability to deal NAFLD/NASH trials with endpoints
+						KYAMCH-BRS has capability to deal NAFLD/NASH trials with endpoints
 						including labs, imaging and biopsy.
 						<br />
-						Accelerate your study with KYABRS’s noted medical and regulatory
+						Accelerate your study with KYAMCH-BRS’s noted medical and regulatory
 						experts, highly experienced clinical trial management teams, central
 						labs, and imaging core labs.
 					</p>

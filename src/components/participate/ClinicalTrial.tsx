@@ -17,14 +17,14 @@ const ClinicalTrial = () => {
 							laboratory, where scientists rigorously evaluate the potential new
 							drug. If these studies yield promising results, the
 							investigational medicine advances to clinical trials, where its
-							effects are studied in people. At KYA-BRS, volunteers, also known
-							as participants, may receive the specific study treatment(s), a
-							placebo, or no study treatment at all, and will complete various
-							assessments and study clinic visits. These trials follow a
-							carefully designed research protocol, which has been reviewed and
-							approved by local regulatory authorities and typically by an
-							Ethics Committee of independent medical professionals and
-							specialists to ensure participant safety.
+							effects are studied in people. At KYAMCH-BRS, volunteers, also
+							known as participants, may receive the specific study
+							treatment(s), a placebo, or no study treatment at all, and will
+							complete various assessments and study clinic visits. These trials
+							follow a carefully designed research protocol, which has been
+							reviewed and approved by local regulatory authorities and
+							typically by an Ethics Committee of independent medical
+							professionals and specialists to ensure participant safety.
 						</p>
 					</div>
 

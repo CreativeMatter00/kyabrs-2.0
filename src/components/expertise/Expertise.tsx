@@ -11,12 +11,12 @@ const Expertise = () => {
 							<p className="text-2xl">Overview</p>
 						</div>
 						<p>
-							KYABRS is a therapeutically-focused, scientifically-driven CRO
+							KYAMCH-BRS is a therapeutically-focused, scientifically-driven CRO
 							with highly accomplished and industry-renowned medical leadership.
 							In response to the challenges of clinical research, we engage a
 							team of medical experts, especially for increasingly complex
 							research. To provide early and ongoing insight and guidance,
-							KYABRS embeds therapeutic leadership throughout the trial.
+							KYAMCH-BRS embeds therapeutic leadership throughout the trial.
 						</p>
 					</div>
 					<div className="mb-6">

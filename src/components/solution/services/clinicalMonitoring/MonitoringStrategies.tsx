@@ -13,11 +13,11 @@ const MonitoringStrategy = () => {
 
 			<div className="pt-4 px-4">
 				<p className="text-base font-medium mb-10">
-					KYABRS implementing effective risk mitigation at study start is a
+					KYAMCH-BRS implementing effective risk mitigation at study start is a
 					focus for the CRA team. Multifunctional and communicative
 					relationships across Clinical Operations serve as the backbone for
 					CRAs, and the monitoring emphasis is rooted in subject safety, data
-					integrity, and risk assessment. KYABRS understand the study
+					integrity, and risk assessment. KYAMCH-BRS understand the study
 					objectives, efficacy and safety variables, and the Lead CRA outlines
 					how the CRA team should proactively identify and manage the study
 					according to critical data and processes. With the oversight, support,
@@ -25,8 +25,9 @@ const MonitoringStrategy = () => {
 					quality indicators to emphasize patient safety and data integrity. We
 					create a centralized monitoring plan review team within Clinical
 					Monitoring so our approach is consistent, yet flexible enough for
-					study-specific considerations and implementation. KYABRS Mitigation
-					Risk through Real-time Metrics, System and Process Efficiencies.
+					study-specific considerations and implementation. KYAMCH-BRS
+					Mitigation Risk through Real-time Metrics, System and Process
+					Efficiencies.
 				</p>
 			</div>
 		</div>

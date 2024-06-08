@@ -43,11 +43,11 @@ const Gastroenterology = () => {
 						gastrointestinal indications.
 						<br />
 						<br />
-						When you partner with KYABRS as your full-service CRO to support
+						When you partner with KYAMCH-BRS as your full-service CRO to support
 						your clinical development, you benefit from seamless execution of
-						your trial, made possible by our team’s expertise. The KYABRS team
-						has a deep understanding of the complex conditions that cause GI
-						disorders.
+						your trial, made possible by our team’s expertise. The KYAMCH-BRS
+						team has a deep understanding of the complex conditions that cause
+						GI disorders.
 					</p>
 				</div>
 

@@ -42,11 +42,12 @@ const NeurologyPsychiatry = () => {
 						accelerated recruitment and integrated imaging services.
 						<br />
 						Neurology/central nervous system (CNS) and psychiatric clinical
-						research is a key therapeutic focus for KYABRS. Well-established
+						research is a key therapeutic focus for KYAMCH-BRS. Well-established
 						sponsor relationships, exceptional clinical operations, and
-						committed study teams drive your success. KYABRS has built a team of
-						experienced medical, clinical, and regulatory experts who have been
-						involved with the management and execution of neuroscience trials.
+						committed study teams drive your success. KYAMCH-BRS has built a
+						team of experienced medical, clinical, and regulatory experts who
+						have been involved with the management and execution of neuroscience
+						trials.
 					</p>
 				</div>
 
