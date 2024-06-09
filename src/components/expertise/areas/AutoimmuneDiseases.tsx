@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
 import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
+import image from "../../../../public/assets/images/expertise/autoimmune.jpg";
 
 const AutoimmuneDiseases = () => {
 	return (
@@ -29,7 +30,7 @@ const AutoimmuneDiseases = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src="/assets/images/expertise/autoimmune.jpg"
+					src={image}
 					height={480}
 					width={720}
 					alt="Autoimmune Diseases"
