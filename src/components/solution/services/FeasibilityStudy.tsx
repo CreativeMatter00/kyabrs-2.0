@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FeasibilityStudy = () => {
 	return (
-		<div className="py-16 px-4 text-bgPrimary">
+		<div className="py-8 md:py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
@@ -16,8 +16,8 @@ const FeasibilityStudy = () => {
 				<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
 					<Image
 						src={"/assets/images/solutions/clinical-service/hero.jpg"}
-						height={300}
-						width={1024}
+						height={400}
+						width={1280}
 						alt="Solutions"
 						className="rounded-lg w-full"
 					/>
@@ -35,7 +35,7 @@ const FeasibilityStudy = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div className="pt-4 px-4">
+				<div className="pt-4">
 					<p className="text-base font-medium mb-10">
 						KYAMCH-BRS helps sponsors to identify sites with the highest
 						potential for hiring the right patients with our large, global
