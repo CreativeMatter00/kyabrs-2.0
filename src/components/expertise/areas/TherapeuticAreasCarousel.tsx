@@ -109,7 +109,7 @@ const TherapeuticAreasCarousel = () => {
 						return (
 							<CarouselItem
 								key={index}
-								className="bg-brandColorLs1 hover:bg-brandPrimaryLs2 rounded-lg basis-1/3 lg:basis-1/5 mx-4 p-4 group"
+								className="bg-brandColorLs1 hover:bg-brandPrimaryLs2 rounded-lg basis-1/2 lg:basis-1/5 mx-4 p-4 group"
 							>
 								<Link href={area.link}>
 									<div className="flex flex-col items-center justify-center gap-4 px-4">

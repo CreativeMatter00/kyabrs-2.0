@@ -11,7 +11,7 @@ const DynamicContactUs = dynamic(
 
 const page = () => {
 	return (
-		<div className="mp-24 lg:pt-32 bg-brandSecondary">
+		<div className="pt-24 lg:pt-32 bg-brandSecondary">
 			<DynamicContactUs />
 		</div>
 	);

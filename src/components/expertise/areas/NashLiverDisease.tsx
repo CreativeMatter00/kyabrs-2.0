@@ -4,7 +4,7 @@ import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const NashLiverDisease = () => {
 	return (
-		<div className="py-16 px-4 text-bgPrimary">
+		<div className="py-8 md:py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
@@ -36,7 +36,7 @@ const NashLiverDisease = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div className="pt-4 px-4">
+				<div className="pt-4">
 					<p className="text-base font-medium mb-10">
 						KYAMCH-BRS has capability to deal NAFLD/NASH trials with endpoints
 						including labs, imaging and biopsy.

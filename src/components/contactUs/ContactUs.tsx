@@ -18,7 +18,7 @@ const ContactUs = () => {
 				</div>
 			</div>
 
-			<div className="mt-6 text-bgPrimary">
+			<div className="py-6 text-bgPrimary">
 				<div className="container overflow-hidden px-4 mx-auto">
 					<div className="flex flex-col lg:flex-row gap-4">
 						<div className="w-full lg:w-[20%]">

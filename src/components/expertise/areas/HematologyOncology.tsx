@@ -4,7 +4,7 @@ import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const HematologyOncology = () => {
 	return (
-		<div className="py-16 px-4 text-bgPrimary">
+		<div className="py-8 md:py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
@@ -36,7 +36,7 @@ const HematologyOncology = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div className="pt-4 px-4">
+				<div className="pt-4">
 					<p className="text-base font-medium mb-10">
 						Our experienced staff at KYAMCH-BRS develop and execute studies
 						across a full spectrum of solid tumor and hematologic indications
@@ -54,7 +54,7 @@ const HematologyOncology = () => {
 						successful conduct of clinical trials. We looking help our clients:
 					</p>
 
-					<ul className="marker:text-brandPrimaryLs2 text-base font-medium list-disc list-inside px-4">
+					<ul className="marker:text-brandPrimaryLs2 text-base font-medium list-disc list-inside pb-4">
 						<li>
 							Develop successful strategies for even the most novel therapies.
 						</li>

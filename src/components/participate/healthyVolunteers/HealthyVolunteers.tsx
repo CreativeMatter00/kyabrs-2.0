@@ -6,14 +6,14 @@ const HealthyVolunteers = () => {
 	return (
 		<div className="text-bgPrimary pb-10 border-b border-bgPrimary">
 			<div className="container mx-auto mb-10 px-4">
-				<div className="py-10 pb-4">
+				<div className="py-4 md:py-8 pb-4">
 					<Breadcrumb
 						title1="Participate"
 						link1="/participate"
 						title2="Healthy Volunteers"
 					/>
 				</div>
-				<div className="relative max-h-[300px] flex items-center justify-center overflow-hidden rounded-lg">
+				<div className="relative max-h-[140px] md:max-h-[300px] flex items-center justify-center overflow-hidden rounded-lg">
 					<Image
 						src="/assets/images/participate/healthy.jpg"
 						alt="Descriptive alt text"
@@ -28,7 +28,7 @@ const HealthyVolunteers = () => {
 				</div>
 			</div>
 
-			<div className="text-center container mx-auto">
+			<div className="text-center container px-4 mx-auto">
 				<p className="text-2xl mb-4">
 					The potential to{" "}
 					<span className="text-brandPrimaryLs3"> change lives </span>

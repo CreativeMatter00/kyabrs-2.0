@@ -21,7 +21,7 @@ const Employment = () => {
 						</div>
 					</div>
 
-					<div className="h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
+					<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
 						<Image
 							src={"/assets/images/employment/hero.jpg"}
 							height={300}
