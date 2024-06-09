@@ -121,7 +121,7 @@ export default function Home() {
           </span>
           and
           <span className="text-[#FF6A5E] text-5xl max-md:text-4xl">
-            &nbsp; research studies
+            &nbsp;research studies
           </span>
         </p>
       </SectionFinal>
