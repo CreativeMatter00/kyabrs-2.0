@@ -155,6 +155,7 @@ const Footer = () => {
                   </div>
                 </div>
 
+<<<<<<< HEAD
                 <div className="text-center mt-12 text-base text-textSecondary">
                   © {currentYear}&nbsp;
                   <Link
@@ -175,6 +176,28 @@ const Footer = () => {
       )}
     </div>
   );
+=======
+								<div className="text-center mt-12 text-base text-textSecondary">
+									© {currentYear}&nbsp;
+									{/* <Link
+										href="https://www.creativematter.agency/"
+										target="_blank"
+										className=" hover:underline cursor-pointer"
+									>
+										Creative Matter
+									</Link> */}
+									All rights reserved. <br />
+									Trade marks are owned by or licensed to the Khwaja Yunus Ali
+									Medical College & Hospital Bio-Research Services.
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			)}
+		</div>
+	);
+>>>>>>> cec5f7e98b411454023d1266d943a12b9aa6a2d1
 };
 
 export default Footer;

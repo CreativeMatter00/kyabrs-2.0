@@ -1,10 +1,11 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
 import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
+import image from "../../../../public/assets/images/expertise/vaccine.jpg";
 
 const InfectiousDisease = () => {
 	return (
-		<div className="py-16 px-4 text-bgPrimary">
+		<div className="py-8 md:py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
@@ -36,7 +37,7 @@ const InfectiousDisease = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div className="pt-4 px-4">
+				<div className="pt-4">
 					<p className="text-base font-medium mb-10">
 						Our experienced team specializes in designing and conducting global
 						clinical trials for antivirals, antibacterials, antifungals, and

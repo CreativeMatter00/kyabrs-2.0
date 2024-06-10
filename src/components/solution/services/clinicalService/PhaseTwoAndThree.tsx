@@ -55,7 +55,7 @@ const PhaseTwoAndThree = () => {
 
 				<div className="w-full md:w-1/2">
 					<Image
-						src="/assets/images/solutions/clinical-service/phase-2.jpg"
+						src="/assets/images/solutions/clinical-service/phase-ii.jpg"
 						height={320}
 						width={480}
 						className="w-full h-auto rounded-lg"

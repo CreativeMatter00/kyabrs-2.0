@@ -30,7 +30,7 @@ const ClinicalTrial = () => {
 
 					<div className="w-full md:w-1/2">
 						<Image
-							src="/assets/images/participate/clinical.jpg"
+							src="/assets/images/participate/clinical-trial.jpg"
 							width={480}
 							height={320}
 							className="w-full h-auto rounded-lg"

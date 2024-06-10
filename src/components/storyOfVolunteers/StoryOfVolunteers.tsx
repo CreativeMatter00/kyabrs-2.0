@@ -7,7 +7,7 @@ import HowToGetInvolved from "./HowToGetInvolved";
 const StoryOfVolunteers = () => {
 	return (
 		<div>
-			<div className="pt-16 px-4 text-bgPrimary border-b border-textTertiary">
+			<div className="py-8 md:py-16 px-4 text-bgPrimary border-b border-textTertiary">
 				<div className="container mx-auto">
 					<div className="mb-9">
 						<div className="pt-10 pb-4 ">
@@ -20,7 +20,7 @@ const StoryOfVolunteers = () => {
 						</div>
 					</div>
 
-					<div className="h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
+					<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
 						<Image
 							src={"/assets/images/storyOfVolunteers/hero.png"}
 							height={300}

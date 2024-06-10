@@ -12,7 +12,10 @@ const DynamicConsulting = dynamic(
 const page = () => {
 	return (
 		<div className="pt-24 lg:pt-32 bg-brandSecondary">
-			<Banner image="/assets/images/consulting/hero.jpg" name="Consulting" />
+			<Banner
+				image="/assets/images/consulting/hero-consulting.jpg"
+				name="Consulting"
+			/>
 			<div className="container mx-auto">
 				<DynamicConsulting />
 			</div>

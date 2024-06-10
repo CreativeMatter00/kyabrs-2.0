@@ -1,18 +1,27 @@
 import Banner from "@/components/ui/banner/Banner";
+import Loader from "@/components/ui/loader/Loader";
 
 import dynamic from "next/dynamic";
 
-const DynamicSolution = dynamic(() => import("@/components/solution/Solution"));
+const DynamicSolution = dynamic(
+	() => import("@/components/solution/Solution"),
+	{
+		loading: () => <Loader />,
+	}
+);
 
 const page = () => {
-  return (
-    <div className="pt-24 lg:pt-32 bg-brandSecondary">
-      <Banner image="/assets/images/solutions/hero.jpg" name="Solutions" />
-      <div className="container mx-auto">
-        <DynamicSolution />
-      </div>
-    </div>
-  );
+	return (
+		<div className="pt-24 lg:pt-32 bg-brandSecondary">
+			<Banner
+				image="/assets/images/solutions/solution-hero.jpg"
+				name="Solutions"
+			/>
+			<div className="container mx-auto">
+				<DynamicSolution />
+			</div>
+		</div>
+	);
 };
 
 export default page;

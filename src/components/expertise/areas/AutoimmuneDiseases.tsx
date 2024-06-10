@@ -1,10 +1,11 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
 import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
+import image from "../../../../public/assets/images/expertise/autoimmune.jpg";
 
 const AutoimmuneDiseases = () => {
 	return (
-		<div className="py-16 px-4 text-bgPrimary">
+		<div className="py-8 md:py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
@@ -14,11 +15,11 @@ const AutoimmuneDiseases = () => {
 					/>
 				</div>
 
-				<div className="h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
+				<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
 					<Image
 						src={"/assets/images/expertise/area-hero.jpg"}
-						height={300}
-						width={1024}
+						height={400}
+						width={1280}
 						alt="Expertise"
 						className="rounded-lg w-full"
 					/>
@@ -36,7 +37,7 @@ const AutoimmuneDiseases = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div className="pt-4 px-4">
+				<div className="pt-4">
 					<p className="text-base font-medium mb-10">
 						Our experienced medical leadership possesses a thorough
 						understanding of the complex conditions that cause autoimmune

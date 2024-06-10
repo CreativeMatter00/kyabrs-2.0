@@ -4,7 +4,7 @@ const ClinicalTrial = () => {
 	return (
 		<div className="py-8 text-bgPrimary">
 			<div className="flex flex-col md:flex-row px-4 gap-8">
-				<div>
+				<div className="w-1/2 md:w-full">
 					<p className="text-2xl mb-6"> Clinical Trial Regulatory Services </p>
 					<p className="text-base mb-8">
 						Our Clinical Trial Regulatory Services team can help facilitate a
@@ -29,13 +29,15 @@ const ClinicalTrial = () => {
 						<li> Regulatory Agency Interactions </li>
 					</ul>
 				</div>
-				<Image
-					src="/assets/images/consulting/RegulatoryAffairs-02.jpg"
-					height={480}
-					width={720}
-					alt="Regulatory Affairs"
-					className="h-auto w-auto mx-auto rounded-lg mb-10"
-				/>
+				<div className="w-1/2 md:w-full">
+					<Image
+						src="/assets/images/consulting/RegulatoryAffairs-02.jpg"
+						height={480}
+						width={720}
+						alt="Regulatory Affairs"
+						className="h-auto w-auto mx-auto rounded-lg mb-10"
+					/>
+				</div>
 			</div>
 		</div>
 	);

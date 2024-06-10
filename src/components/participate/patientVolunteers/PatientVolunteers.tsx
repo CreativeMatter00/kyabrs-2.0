@@ -5,16 +5,16 @@ const PatientVolunteers = () => {
 	return (
 		<div className="text-bgPrimary pb-10 border-b border-bgPrimary">
 			<div className="container mx-auto mb-10 px-4">
-				<div className="py-10 pb-4">
+				<div className="py-4 md:py-8 pb-4">
 					<Breadcrumb
 						title1="Participate"
 						link1="/participate"
 						title2="Patient Volunteers"
 					/>
 				</div>
-				<div className="relative max-h-[300px] flex items-center justify-center overflow-hidden rounded-lg">
+				<div className="relative max-h-[140px] md:max-h-[300px] flex items-center justify-center overflow-hidden rounded-lg">
 					<Image
-						src="/assets/images/participate/patient.jpg"
+						src="/assets/images/participate/patient-hero.jpg"
 						alt="Patient Volunteers"
 						width={1024}
 						height={300}
@@ -27,7 +27,7 @@ const PatientVolunteers = () => {
 				</div>
 			</div>
 
-			<div className="text-center container mx-auto">
+			<div className="text-center container mx-auto px-4">
 				<p className="text-2xl mb-4">The Trial Experience</p>
 
 				<p>

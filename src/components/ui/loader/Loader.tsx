@@ -4,9 +4,9 @@ function Loader() {
 	return (
 		<div className="flex items-center justify-center h-screen w-screen">
 			<Image
-				src="/assets/images/loader/loader.png"
-				height={200}
-				width={200}
+				src="/assets/images/loader/loader-brs.png"
+				height={300}
+				width={224}
 				alt="loader"
 				className="animate-ping"
 			/>

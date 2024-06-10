@@ -4,7 +4,7 @@ import TherapeuticAreasCarousel from "./TherapeuticAreasCarousel";
 
 const RadiationTherapy = () => {
 	return (
-		<div className="py-16 px-4 text-bgPrimary">
+		<div className="py-8 md:py-16 px-4 text-bgPrimary">
 			<div className="container mx-auto">
 				<div className="mb-9">
 					<Breadcrumb
@@ -17,8 +17,8 @@ const RadiationTherapy = () => {
 				<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
 					<Image
 						src={"/assets/images/expertise/area-hero.jpg"}
-						height={300}
-						width={1024}
+						height={400}
+						width={1280}
 						alt="Expertise"
 						className="rounded-lg w-full"
 					/>
@@ -36,7 +36,7 @@ const RadiationTherapy = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div className="pt-4 px-4">
+				<div className="pt-4">
 					<p className="text-base font-medium mb-10">
 						Our seasoned Radiation Group excels in customizing radiation
 						protocols to meet the diverse demands of clinical trials, ensuring
