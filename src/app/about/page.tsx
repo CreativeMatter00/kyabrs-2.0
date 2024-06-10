@@ -3,18 +3,18 @@ import Loader from "@/components/ui/loader/Loader";
 import dynamic from "next/dynamic";
 
 const DynamicAboutUs = dynamic(() => import("@/components/aboutUs/AboutUs"), {
-	loading: () => <Loader />,
+  loading: () => <Loader />,
 });
 
 function page() {
-	return (
-		<div className="pt-24 lg:pt-32 bg-brandSecondary">
-			<Banner image="/assets/images/about/hero.jpg" name="About Us" />
-			<div className="container mx-auto">
-				<DynamicAboutUs />
-			</div>
-		</div>
-	);
+  return (
+    <div className="pt-20 lg:pt-28 bg-brandSecondary ">
+      <Banner image="/assets/images/about/hero.jpg" name="About Us" />
+      <div className="container mx-auto">
+        <DynamicAboutUs />
+      </div>
+    </div>
+  );
 }
 
 export default page;

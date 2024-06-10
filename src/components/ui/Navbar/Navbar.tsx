@@ -55,7 +55,7 @@ const Navbar = () => {
       {/* <div className="fixed bg-gradient-to-b from-[#5B6367] opacity-75 inset-0 z-10 h-28 top-0"></div> */}
 
       <nav
-        className={`top-0 fixed w-full  z-[100000] bg-[rgba(65, 74, 80, 0.9)] border-b ${styles.blurNav}`}
+        className={`top-0 fixed w-full  z-[100000] bg-[rgba(65, 74, 80, 0.9)] border-b ${styles.blurNav} `}
       >
         <div className="w-full  flex justify-center items-center max-lg:hidden">
           <div className="container px-4  py-5 flex justify-center items-center">

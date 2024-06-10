@@ -47,17 +47,17 @@ const NavTest = () => {
   };
 
   return (
-    <div className="flex flex-col z-[100000] mb-1 ">
+    <div className="flex flex-col z-[100000] ">
       {/* <div className="fixed bg-gradient-to-b from-[#181b1c] opacity-100 inset-0 z-10 h-32 top-0 border"></div> */}
       <div className="fixed bg-gradient-to-b from-[#333739] opacity-100 inset-0 z-10 h-32 top-0 "></div>
 
       <nav
-        className={`top-0 fixed w-full  z-[100000]  max-lg:hidden 
+        className={`top-0 fixed w-full   z-[100000]  max-lg:hidden 
         
         ${
           pathName === "/" || pathName === "/test-mahfuz"
             ? "bg-[rgba(65, 74, 80, 0.9)]"
-            : "bg-[#414A50]"
+            : "bg-[#414A50] border-b border-[#5A5A5A]"
         }
 
       `}
@@ -98,14 +98,25 @@ const NavTest = () => {
                           <div className="flex items-center justify-end font-bold text-sm gap-6  py-2 px-4">
                             <Link href={"/employment"}>
                               <p
-                                className={`${styles.linkUnderline} ${styles.linkUnderlineBlack} cursor-pointer w-fit`}
+                                className={`${styles.linkUnderline} ${
+                                  styles.linkUnderlineBlack
+                                } ${
+                                  pathName.includes("employment") &&
+                                  "text-[#FF6A5E]"
+                                } cursor-pointer w-fit`}
                               >
                                 Employment
                               </p>
                             </Link>
+
                             <Link href={"/story-of-volunteers"}>
                               <p
-                                className={`${styles.linkUnderline} ${styles.linkUnderlineBlack} cursor-pointer w-fit`}
+                                className={`${styles.linkUnderline} ${
+                                  styles.linkUnderlineBlack
+                                } ${
+                                  pathName.includes("story-of-volunteers") &&
+                                  "text-[#FF6A5E]"
+                                } cursor-pointer w-fit`}
                               >
                                 Story of Volunteers
                               </p>
@@ -122,7 +133,12 @@ const NavTest = () => {
                             <NavigationMenuList>
                               <NavigationMenuItem className="">
                                 <Link href="/about">
-                                  <NavigationMenuTrigger className="font-bold text-base bg-transparent">
+                                  <NavigationMenuTrigger
+                                    className={`font-bold text-base bg-transparent ${
+                                      pathName.includes("about") &&
+                                      "text-[#FF6A5E]"
+                                    }`}
+                                  >
                                     About
                                   </NavigationMenuTrigger>
                                 </Link>
@@ -134,7 +150,12 @@ const NavTest = () => {
 
                               <NavigationMenuItem className="">
                                 <Link href="/solutions">
-                                  <NavigationMenuTrigger className="font-bold text-base bg-transparent">
+                                  <NavigationMenuTrigger
+                                    className={`font-bold text-base bg-transparent ${
+                                      pathName.includes("solutions") &&
+                                      "text-[#FF6A5E]"
+                                    }`}
+                                  >
                                     Solution
                                   </NavigationMenuTrigger>
                                 </Link>
@@ -145,7 +166,12 @@ const NavTest = () => {
 
                               <NavigationMenuItem>
                                 <Link href="/expertise">
-                                  <NavigationMenuTrigger className="font-bold text-base bg-transparent">
+                                  <NavigationMenuTrigger
+                                    className={`font-bold text-base bg-transparent ${
+                                      pathName.includes("expertise") &&
+                                      "text-[#FF6A5E]"
+                                    }`}
+                                  >
                                     Expertise
                                   </NavigationMenuTrigger>
                                 </Link>
@@ -156,7 +182,12 @@ const NavTest = () => {
 
                               <NavigationMenuItem>
                                 <Link href="/participate">
-                                  <NavigationMenuTrigger className="font-bold text-base bg-transparent">
+                                  <NavigationMenuTrigger
+                                    className={`font-bold text-base bg-transparent ${
+                                      pathName.includes("participate") &&
+                                      "text-[#FF6A5E]"
+                                    }`}
+                                  >
                                     Participate
                                   </NavigationMenuTrigger>
                                 </Link>
@@ -167,7 +198,12 @@ const NavTest = () => {
 
                               <NavigationMenuItem>
                                 <Link href="/consulting">
-                                  <NavigationMenuTrigger className="font-bold text-base bg-transparent">
+                                  <NavigationMenuTrigger
+                                    className={`font-bold text-base bg-transparent ${
+                                      pathName.includes("consulting") &&
+                                      "text-[#FF6A5E]"
+                                    }`}
+                                  >
                                     Consulting
                                   </NavigationMenuTrigger>
                                 </Link>
@@ -197,10 +233,10 @@ const NavTest = () => {
       {/* bg-[rgba(65, 74, 80, 0.9)] */}
 
       <nav
-        className={`top-0 fixed w-full  z-[100000]  bg-[rgba(65, 74, 80, 0.1)] flex justify-center items-center lg:hidden  ${
+        className={`top-0 fixed w-full  z-[100000]  bg-[#414A50] flex justify-center items-center lg:hidden  ${
           pathName === "/" || pathName === "/test-mahfuz"
             ? "bg-[rgba(65, 74, 80, 0.9)]"
-            : "bg-[#414A50]"
+            : "bg-[#414A50] border-b border-[#5A5A5A]"
         } `}
       >
         <div

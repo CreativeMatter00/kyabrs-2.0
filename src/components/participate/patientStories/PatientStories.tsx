@@ -1,5 +1,8 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import styles from "@/styles/Navbar.module.css";
+import Link from "next/link";
+import { BsArrowRight } from "react-icons/bs";
 
 const cards = [
   {
@@ -82,7 +85,7 @@ const PatientStories = () => {
         {cards.map((card) => (
           <div
             key={card.id}
-            className={` bg-[#4F5961] hover:bg-[#FF6A5E] p-2  rounded-lg overflow-hidden group cursor-pointer`}
+            className={`bg-[#4F5961] hover:bg-[#FF6A5E] p-2  rounded-lg overflow-hidden group cursor-pointer ${styles.patientCard}`}
           >
             <Image
               src={card.imageUrl}
@@ -100,15 +103,15 @@ const PatientStories = () => {
               <h3 className="text-2xl mt-2 mb-4">{card.title}</h3>
               <p className="">{card.description}</p>
             </div>
-            {/* <Link href="/about"> */}
-            {/* <div className="text-[#FF6A5E] group-hover:text-[#F5F5F5] flex items-center gap-2 cursor-pointer group my-8">
-            Read more
-            <BsArrowRight
-              fontSize={16}
-              className=" ml-0 duration-300 group-hover:ml-2"
-            />
-          </div> */}
-            {/* </Link> */}
+            <Link href={`/participate/patient-stories/${card.title}`}>
+              <div className="text-[#FF6A5E] group-hover:text-[#F5F5F5] flex items-center gap-2 cursor-pointer group my-8 pl-2">
+                Read more
+                <BsArrowRight
+                  fontSize={16}
+                  className=" ml-0 duration-300 group-hover:ml-2"
+                />
+              </div>
+            </Link>
           </div>
         ))}
       </div>
