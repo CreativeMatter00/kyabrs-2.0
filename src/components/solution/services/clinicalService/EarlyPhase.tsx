@@ -57,7 +57,7 @@ const EarlyPhase = () => {
 
 				<div className="w-full md:w-1/2">
 					<Image
-						src="/assets/images/solutions/clinical-service/early-phase.jpg"
+						src="/assets/images/solutions/clinical-service/early.jpg"
 						height={320}
 						width={480}
 						className="w-full h-auto rounded-lg"
