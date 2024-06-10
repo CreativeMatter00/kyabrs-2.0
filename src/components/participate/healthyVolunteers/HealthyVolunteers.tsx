@@ -15,7 +15,7 @@ const HealthyVolunteers = () => {
 				</div>
 				<div className="relative max-h-[140px] md:max-h-[300px] flex items-center justify-center overflow-hidden rounded-lg">
 					<Image
-						src="/assets/images/participate/healthy.jpg"
+						src="/assets/images/participate/healthy-hero.jpg"
 						alt="Descriptive alt text"
 						width={1024}
 						height={300}

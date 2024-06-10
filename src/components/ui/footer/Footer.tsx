@@ -157,16 +157,16 @@ const Footer = () => {
 
 								<div className="text-center mt-12 text-base text-textSecondary">
 									© {currentYear}&nbsp;
-									<Link
+									{/* <Link
 										href="https://www.creativematter.agency/"
 										target="_blank"
 										className=" hover:underline cursor-pointer"
 									>
 										Creative Matter
-									</Link>
-									. All rights reserved. <br />
+									</Link> */}
+									All rights reserved. <br />
 									Trade marks are owned by or licensed to the Khwaja Yunus Ali
-									Medical College & Hospital Bioresearch Services.
+									Medical College & Hospital Bio-Research Services.
 								</div>
 							</div>
 						</div>
