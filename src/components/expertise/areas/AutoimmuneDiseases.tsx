@@ -30,7 +30,7 @@ const AutoimmuneDiseases = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src={image}
+					src="/assets/images/expertise/autoimmune.jpg"
 					height={480}
 					width={720}
 					alt="Autoimmune Diseases"

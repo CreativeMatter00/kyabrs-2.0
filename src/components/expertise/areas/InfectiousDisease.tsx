@@ -30,7 +30,7 @@ const InfectiousDisease = () => {
 
 			<div className="container mx-auto text-bgPrimary">
 				<Image
-					src={image}
+					src="/assets/images/expertise/vaccine.jpg"
 					height={480}
 					width={720}
 					alt="Infectious disease & Vaccinces"
