@@ -21,8 +21,7 @@ const Employment = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
-          <div className="h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
+          <div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
             <Image
               src={"/assets/images/employment/hero.jpg"}
               height={300}
@@ -31,17 +30,6 @@ const Employment = () => {
               className="rounded-lg w-full"
             />
           </div>
-=======
-					<div className="max-h-[140px] md:max-h-[300px] w-full flex items-center justify-center rounded-lg overflow-hidden mb-6">
-						<Image
-							src={"/assets/images/employment/hero.jpg"}
-							height={300}
-							width={1024}
-							alt="Hero"
-							className="rounded-lg w-full"
-						/>
-					</div>
->>>>>>> cec5f7e98b411454023d1266d943a12b9aa6a2d1
 
           <div className="text-4xl pb-4">Employment</div>
         </div>
