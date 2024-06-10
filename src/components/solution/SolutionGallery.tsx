@@ -58,7 +58,7 @@ const solutions: Solution[] = [
 
   {
     href: "/solutions/laboratory-services",
-    imageSrc: "/assets/images/solutions/bioanalytic.jpg",
+    imageSrc: "/assets/images/solutions/bio.jpg",
     imageAlt: "Laboratory Services",
     details:
       "KYAMCH-BRS operates a fully equipped clinical laboratory, providing a wide range of diagnostic and testing services. Our experienced team ensures accurate and timely results for research studies.",
