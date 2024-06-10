@@ -1,3 +1,5 @@
+import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
+
 /* eslint-disable react/no-unescaped-entities */
 const EmploymentId = () => {
   const jobTypes = ["In-house", "Full-time"];
@@ -38,8 +40,17 @@ const EmploymentId = () => {
   ];
 
   return (
-    <div className="">
-      <div className="mt-2 flex-col gap-6 flex justify-center items-center">
+    <div className="pt-1">
+      <div className="border-b border-[#5A5A5A] flex justify-center items-center  ">
+        <div className="container pb-4 px-2 text-bgPrimary">
+          <Breadcrumb title1="Employment" link1="/employment" title2="(CRA)" />
+          <p className="text-4xl ">
+            <span className="text-[#FFB8B1]">Job Title:</span> Clinical Research
+            Associate (CRA)
+          </p>
+        </div>
+      </div>
+      <div className=" flex-col gap-6 flex justify-center items-center">
         <div className="container px-4 py-8">
           <div>
             <p className="font-bold text-[#FF6A5E] mb-4">Job Type</p>

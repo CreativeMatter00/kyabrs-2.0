@@ -2,7 +2,7 @@ import PatientPersonalStories from "@/components/participate/patientStories/pati
 
 const page = () => {
   return (
-    <div className="bg-[#414A50]">
+    <div className="bg-[#414A50] mt-28 max-lg:mt-20">
       <PatientPersonalStories />
     </div>
   );
