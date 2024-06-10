@@ -143,7 +143,7 @@ const NavTest = () => {
                                   </NavigationMenuTrigger>
                                 </Link>
 
-                                <NavigationMenuContent className="border-none 2xl:w-[1520px]  xl:w-[1260px] lg:w-[1010px]">
+                                <NavigationMenuContent className="border-none 2xl:w-[1500px]  xl:w-[1240px] lg:w-[1000px]">
                                   <About />
                                 </NavigationMenuContent>
                               </NavigationMenuItem>
@@ -159,7 +159,7 @@ const NavTest = () => {
                                     Solution
                                   </NavigationMenuTrigger>
                                 </Link>
-                                <NavigationMenuContent className="bg-white 2xl:w-[1520px]   xl:w-[1260px] lg:w-[1010px]">
+                                <NavigationMenuContent className="bg-white 2xl:w-[1500px]  xl:w-[1240px] lg:w-[1000px]">
                                   <Solution />
                                 </NavigationMenuContent>
                               </NavigationMenuItem>
@@ -175,7 +175,7 @@ const NavTest = () => {
                                     Expertise
                                   </NavigationMenuTrigger>
                                 </Link>
-                                <NavigationMenuContent className="2xl:w-[1520px]   xl:w-[1260px] lg:w-[1010px]">
+                                <NavigationMenuContent className="bg-white 2xl:w-[1500px]  xl:w-[1240px] lg:w-[1000px]">
                                   <Expertise />
                                 </NavigationMenuContent>
                               </NavigationMenuItem>
@@ -191,7 +191,7 @@ const NavTest = () => {
                                     Participate
                                   </NavigationMenuTrigger>
                                 </Link>
-                                <NavigationMenuContent className="2xl:w-[1520px]   xl:w-[1260px] lg:w-[1010px]">
+                                <NavigationMenuContent className="bg-white 2xl:w-[1500px]  xl:w-[1240px] lg:w-[1000px]">
                                   <Participate />
                                 </NavigationMenuContent>
                               </NavigationMenuItem>
@@ -207,7 +207,7 @@ const NavTest = () => {
                                     Consulting
                                   </NavigationMenuTrigger>
                                 </Link>
-                                <NavigationMenuContent className="2xl:w-[1520px]   xl:w-[1260px] lg:w-[1010px]">
+                                <NavigationMenuContent className="bg-white 2xl:w-[1500px]  xl:w-[1240px] lg:w-[1000px]">
                                   <Consulting />
                                 </NavigationMenuContent>
                               </NavigationMenuItem>
