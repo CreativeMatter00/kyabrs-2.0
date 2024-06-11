@@ -24,24 +24,35 @@ const ContactUs = () => {
 						<div className="w-full lg:w-[20%]">
 							<div className="flex flex-row lg:flex-col gap-8 flex-wrap">
 								<div className="flex flex-col gap-8 h-full">
-									<div className="bg-brandColorDs1 rounded-md p-6 flex flex-col items-center gap-4">
-										<IoLocationOutline className="text-brandPrimary text-3xl" />
-										<p className="text-lg text-center ">
-											Enayetpur,Sirajganj <br /> Bangladesh
-										</p>
-									</div>
+									<Link
+										href={
+											"https://www.google.com/maps/place/Khwaja+Yunus+Ali+Medical+College+%26+Hospital/@24.2267272,89.7027804,15z/data=!4m2!3m1!1s0x0:0xc3f1901ce95b20ad?sa=X&ved=1t:2428&ictx=111"
+										}
+										target="_blank"
+									>
+										<div className="bg-brandColorDs1 hover:bg-brandPrimaryLs2 transition-all duration-300 group rounded-md p-6 flex flex-col items-center gap-4">
+											<IoLocationOutline className="text-brandPrimary group-hover:text-white text-3xl" />
+											<p className="text-lg text-center ">
+												Enayetpur,Sirajganj <br /> Bangladesh
+											</p>
+										</div>
+									</Link>
 								</div>
 								<div className="flex flex-col gap-8 h-full">
-									<div className="bg-brandColorDs1 rounded-md p-6 flex flex-col items-center gap-4">
-										<MdOutlineEmail className="text-brandPrimary text-3xl" />
-										<p className="text-lg text-center ">info@kyabrs.org</p>
-									</div>
+									<Link href={"mailto:info@kyabrs.org"}>
+										<div className="bg-brandColorDs1 hover:bg-brandPrimaryLs2 transition-all duration-300 group rounded-md p-6 flex flex-col items-center gap-4">
+											<MdOutlineEmail className="text-brandPrimary group-hover:text-white text-3xl" />
+											<p className="text-lg text-center">info@kyabrs.org</p>
+										</div>
+									</Link>
 								</div>
 								<div className="flex flex-col gap-8 h-full">
-									<div className="bg-brandColorDs1 rounded-md p-6 flex flex-col items-center gap-4">
-										<LuPhone className="text-brandPrimary text-3xl" />
-										<p className="text-lg text-center ">+880 1733-070041</p>
-									</div>
+									<Link href={"tel:+8801733070041"}>
+										<div className="bg-brandColorDs1 hover:bg-brandPrimaryLs2 transition-all duration-300 group rounded-md p-6 flex flex-col items-center gap-4">
+											<LuPhone className="text-brandPrimary group-hover:text-white text-3xl" />
+											<p className="text-lg text-center">+880 1733-070041</p>
+										</div>
+									</Link>
 								</div>
 							</div>
 						</div>
