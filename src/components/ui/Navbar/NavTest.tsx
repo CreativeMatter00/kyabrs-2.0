@@ -232,8 +232,6 @@ const NavTest = () => {
         </div>
       </nav>
 
-      {/* bg-[rgba(65, 74, 80, 0.9)] */}
-
       <nav
         className={`top-0 fixed w-full  z-[100000]  bg-[#414A50] flex justify-center items-center lg:hidden  ${
           pathName === "/" || pathName === "/test-mahfuz"
@@ -243,7 +241,7 @@ const NavTest = () => {
       >
         <div
           className={`relative w-full flex justify-center items-center duration-500 ${
-            mobileNav ? "opacity-100 bg-white" : "bg-transparent"
+            mobileNav ? "" : "bg-transparent"
           }`}
         >
           <div className="flex justify-between  w-full items-center  container p-2">
@@ -304,25 +302,25 @@ const NavTest = () => {
               >
                 <path
                   d="M23.0459 22H22.0459"
-                  stroke="black"
+                  stroke="white"
                   strokeWidth="3"
                   strokeLinecap="round"
                 />
                 <path
                   d="M13 12.4541L32.0919 31.546"
-                  stroke="black"
+                  stroke="white"
                   strokeWidth="3"
                   strokeLinecap="round"
                 />
                 <path
                   d="M13 31.5459L32.0919 12.454"
-                  stroke="black"
+                  stroke="white"
                   strokeWidth="3"
                   strokeLinecap="round"
                 />
                 <path
                   d="M22.0459 22H23.0459"
-                  stroke="black"
+                  stroke="white"
                   strokeWidth="3"
                   strokeLinecap="round"
                 />
