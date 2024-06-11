@@ -82,7 +82,7 @@ const NavTest = () => {
                       <div className="pb-2">
                         <Link href="/">
                           <Image
-                            className="inline-block h-20 w-44  content-end"
+                            className="inline-block h-20 w-auto content-end"
                             src="/assets/logo/bio-logo.png"
                             alt="logo"
                             width={172}
@@ -232,8 +232,10 @@ const NavTest = () => {
         </div>
       </nav>
 
+      {/* bg-[rgba(65, 74, 80, 0.9)] */}
+
       <nav
-        className={`top-0 fixed w-full  z-[100000]  flex justify-center items-center lg:hidden  ${
+        className={`top-0 fixed w-full  z-[100000]  bg-[#414A50] flex justify-center items-center lg:hidden  ${
           pathName === "/" || pathName === "/test-mahfuz"
             ? "bg-[rgba(65, 74, 80, 0.9)]"
             : "bg-[#414A50] border-b border-[#5A5A5A]"

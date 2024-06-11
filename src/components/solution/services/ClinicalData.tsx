@@ -35,42 +35,38 @@ const ClinicalData = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div className="pt-4">
-					<p className="text-base font-medium mb-10">
+				<div>
+					<p className="">
 						At KYAMCH-BRS, we deliver high-quality data management and
 						biostatistics services, ensuring confidence in your data throughout
 						the drug development process. Our approach is responsive, flexible,
 						and knowledgeable, with each study conducted with your goals in
 						mind. Our Data Management team enhances efficiency, reduces
 						development costs, and anticipates data risks.
-						<br />
-						<br />
-						<p className="font-bold text-brandPrimaryLs2">Data Management: </p>
-						<p>
-							We deliver quality data with integrity. Our team collaborates with
-							sponsored project teams to create detailed plans for clinical
-							trial data collection, organization, validation, and analysis. We
-							ensure a cost-effective, secure, and regulatory-compliant data
-							management process. Trusted by sponsors, our extensive knowledge
-							and experience are combined with superior therapeutic and
-							regulatory expertise.
-							<br />
-							Our robust data collection, validation, and analysis processes
-							prioritize precision and efficiency while maintaining the highest
-							levels of data quality and integrity.
-						</p>
 					</p>
+					<br />
 
-					<p className="font-bold text-brandPrimaryLs2 mb-4">
+					<p className="font-bold text-brandPrimaryLs2">Data Management: </p>
+					<p className="mb-4">
+						We deliver quality data with integrity. Our team collaborates with
+						sponsored project teams to create detailed plans for clinical trial
+						data collection, organization, validation, and analysis. We ensure a
+						cost-effective, secure, and regulatory-compliant data management
+						process. Trusted by sponsors, our extensive knowledge and experience
+						are combined with superior therapeutic and regulatory expertise.
+						<br />
+						Our robust data collection, validation, and analysis processes
+						prioritize precision and efficiency while maintaining the highest
+						levels of data quality and integrity.
+					</p>
+					<p className="font-bold text-brandPrimaryLs2">
 						Our expert team help you in:
 					</p>
-
 					<ul className="marker:text-brandPrimaryLs2 text-base list-disc list-inside">
 						<li>
 							Design case report forms (CRFs) following standard regulations.
 						</li>
 						<li> Performs data entry of paper CRFs. </li>
-
 						<li>
 							Validates all project-specific components of the data management
 							system.
