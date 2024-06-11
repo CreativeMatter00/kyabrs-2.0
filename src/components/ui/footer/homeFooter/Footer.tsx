@@ -21,7 +21,7 @@ const Footer = () => {
 					<div className=" col-span-4">
 						<Link href="/">
 							<Image
-								className="inline-block h-[118px] w-64 mb-8"
+								className="inline-block h-[118px] w-auto mb-8"
 								src="/assets/logo/bio-logo.png"
 								alt="logo"
 								width={300}

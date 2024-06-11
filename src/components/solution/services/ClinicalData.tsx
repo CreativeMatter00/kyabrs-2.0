@@ -43,9 +43,9 @@ const ClinicalData = () => {
 						and knowledgeable, with each study conducted with your goals in
 						mind. Our Data Management team enhances efficiency, reduces
 						development costs, and anticipates data risks.
-						<br />
-						<br />
 					</p>
+					<br />
+
 					<p className="font-bold text-brandPrimaryLs2">Data Management: </p>
 					<p className="mb-4">
 						We deliver quality data with integrity. Our team collaborates with
@@ -67,7 +67,6 @@ const ClinicalData = () => {
 							Design case report forms (CRFs) following standard regulations.
 						</li>
 						<li> Performs data entry of paper CRFs. </li>
-
 						<li>
 							Validates all project-specific components of the data management
 							system.
