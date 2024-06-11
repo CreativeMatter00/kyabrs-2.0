@@ -60,8 +60,9 @@ const Consulting = () => {
 			>
 				<div className="divide-y-2 divide-[#EBEBEB] mt-6">
 					{services.map((service, index) => (
+						<div key={index} className="divide-y-2 divide-[#EBEBEB]">
 						<Link
-							key={index}
+							
 							href={{ pathname: "/consulting", query: { tab: service.tab } }}
 						>
 							<NavigationMenuLink
@@ -74,7 +75,7 @@ const Consulting = () => {
 								</p>
 								<MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
 							</NavigationMenuLink>
-						</Link>
+						</Link></div>
 					))}
 				</div>
 			</div>

@@ -67,14 +67,15 @@ const Participate = () => {
 			>
 				<div className="divide-y-2 divide-[#EBEBEB] mt-6">
 					{services.map((service, index) => (
-						<Link key={index} className="" href={service.href}>
+						<div key={index} className="divide-y-2 divide-[#EBEBEB]">
+						<Link  className="" href={service.href}>
 							<NavigationMenuLink className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
 								<p className="text-[#414A50] text-xs font-medium">
 									{service.title}
 								</p>
 								<MdOutlineKeyboardArrowRight color="#414A50" fontSize={20} />
 							</NavigationMenuLink>
-						</Link>
+						</Link></div>
 					))}
 				</div>
 			</div>
