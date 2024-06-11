@@ -48,11 +48,13 @@ const NavTest = () => {
 
   return (
     <div className="flex flex-col z-[100000] mt-0.5">
-      <div className="fixed bg-gradient-to-b from-[#181b1c] opacity-100 inset-0 z-10 h-32 top-0  border-4 border-red-800"></div>
+      <div className="fixed bg-gradient-to-b from-[#333739] opacity-100 inset-0 z-10 h-40 top-0  "></div>
       {/* <div className="fixed bg-gradient-to-b from-[#333739] opacity-100 inset-0 z-10 h-32 top-0  border-4 border-red-800"></div> */}
 
       <nav
-        className={`top-0 fixed w-full   z-[100000]  max-lg:hidden 
+        className={`top-0 fixed w-full   z-[100000]  max-lg:hidden ${
+          styles.blurNav
+        }
         
         ${
           pathName === "/" || pathName === "/test-mahfuz"
@@ -63,7 +65,7 @@ const NavTest = () => {
       `}
       >
         <div className="w-full  flex justify-center items-center  ">
-          <div className="container px-4 pb-2 pt-2 flex justify-center items-center w-full ">
+          <div className="container px-4  pt-2 flex justify-center items-center w-full ">
             <NavigationMenu className="relative flex items-center justify-center w-full  ">
               <div className=" w-full 2xl:w-[1520px] xl:w-[1260px] lg:w-[1010px] md:w-[760px]">
                 <div
