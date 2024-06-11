@@ -42,18 +42,6 @@ const achievementsData = [
 const OurAchievements = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleNext = () => {
-    if (currentIndex < achievementsData.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-    }
-  };
-
-  const handlePrevious = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
-  };
-
   return (
     <div
       className="h-screen"
@@ -62,10 +50,12 @@ const OurAchievements = () => {
           "linear-gradient(135deg, #414A50 70%, rgba(79, 89, 97, 0.4) 30%)",
       }}
     >
-      <div className="mx-auto px-4 py-8 bg-black bg-opacity-0 text-white h-full flex justify-center items-center flex-col">
-        <div className="container flex flex-col justify-center items-center max-w-[1024px]">
-          <p className="text-5xl mb-4">Our Achievements</p>
-          <p className="text-lg text-center">
+      <div className="mx-auto px-4 py-8 bg-black bg-opacity-0 text-white h-full flex justify-center items-center flex-col ">
+        <div className="container flex flex-col justify-center items-center max-w-[1024px] max-lg:mt-20">
+          <p className="text-5xl mb-4 max-md:text-2xl max-md:font-bold">
+            Our Achievements
+          </p>
+          <p className="text-lg text-center max-md:text-base ">
             At KYAMCH-BRS, we celebrate our commitment to medical research
             through groundbreaking trials and state-of-the-art lab
             accreditations, showcasing our dedication to healthcare excellence.
