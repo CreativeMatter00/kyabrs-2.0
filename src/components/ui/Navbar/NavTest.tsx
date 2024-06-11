@@ -232,10 +232,8 @@ const NavTest = () => {
         </div>
       </nav>
 
-      {/* bg-[rgba(65, 74, 80, 0.9)] */}
-
       <nav
-        className={`top-0 fixed w-full  z-[100000]  bg-[#414A50] flex justify-center items-center lg:hidden  ${
+        className={`top-0 fixed w-full  z-[100000]  flex justify-center items-center lg:hidden  ${
           pathName === "/" || pathName === "/test-mahfuz"
             ? "bg-[rgba(65, 74, 80, 0.9)]"
             : "bg-[#414A50] border-b border-[#5A5A5A]"
