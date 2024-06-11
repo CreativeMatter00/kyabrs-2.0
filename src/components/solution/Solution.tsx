@@ -2,7 +2,7 @@ import SolutionGallery from "./SolutionGallery";
 
 const Solution = () => {
   return (
-    <div className="text-bgPrimary px-4">
+    <div className="text-bgPrimary px-4 ">
       <div className="py-6">
         <p className="text-2xl">
           <span className="text-brandPrimaryLs3"> Trusted </span> Bio-Research
