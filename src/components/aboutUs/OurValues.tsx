@@ -53,8 +53,8 @@ function OurValues() {
 				<p className="text-brandPrimaryLs2 font-bold mb-4"> Commitments </p>
 				<div className="mb-6">
 					<p className="mb-4">
-						We are dedicated to fulfilling our customers' needs through. We are
-						dedicated to serve the needs of our customers with:
+						{" "}
+						We are dedicated to serve the needs of our customers with:
 					</p>
 
 					<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">

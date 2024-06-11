@@ -7,11 +7,11 @@ const page = () => {
 			<div className="container mx-auto mt-24 lg:mt-28 py-12 px-4">
 				<p className="text-center pb-12 font-bold text-4xl">
 					Privacy Policy of Khwaja Yunus Ali Medical College & Hospital
-					Bioresearch Services s
+					Bioresearch Services
 				</p>
 				<div className="pb-8">
 					<p className="text-3xl font-bold pb-4"> Privacy Policy </p>
-					<p className="font-medium text-lg">
+					<p className="font-medium text-base">
 						This Privacy Policy describes Our policies and procedures on the
 						collection, use and disclosure of Your information when You use the
 						Service and tells You about Your privacy rights and how the law
@@ -23,7 +23,7 @@ const page = () => {
 					</p>
 					<div className="pb-8">
 						<p className="text-3xl font-bold pb-4"> Privacy Policy </p>
-						<p className="font-medium text-lg">
+						<p className="font-medium text-base">
 							This Privacy Policy describes Our policies and procedures on the
 							collection, use and disclosure of Your information when You use
 							the Service and tells You about Your privacy rights and how the
@@ -39,17 +39,17 @@ const page = () => {
 							Interpretation and Definitions
 						</p>
 						<p className="text-2xl font-bold">Interpretation</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							The words of which the initial letter is capitalized have meanings
 							defined under the following conditions. The following definitions
 							shall have the same meaning regardless of whether they appear in
 							singular or in plural.
 						</p>
 						<p className="text-2xl font-bold">Definitions</p>
-						<p className="font-medium text-lg">
+						<p className="font-medium text-base">
 							For the purposes of this Privacy Policy:
 						</p>
-						<ul className="font-medium ml-8 text-lg list-inside list-disc">
+						<ul className="font-medium ml-8 text-base list-inside list-disc">
 							<li className="">
 								Account means a unique account created for You to access our
 								Service or parts of our Service.
@@ -116,13 +116,13 @@ const page = () => {
 						</p>
 						<p className="text-2xl font-bold pb-4">Types of Data Collected</p>
 						<p className="text-2xl font-bold pb-4">Personal Data</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							While using Our Service, We may ask You to provide Us with certain
 							personally identifiable information that can be used to contact or
 							identify You. Personally identifiable information may include, but
 							is not limited to:
 						</p>
-						<ul className="font-medium ml-8 text-lg list-inside list-disc">
+						<ul className="font-medium ml-8 text-base list-inside list-disc">
 							<li className="">Email address</li>
 							<li className="">
 								Address, State, Province, ZIP/Postal code, City
@@ -132,7 +132,7 @@ const page = () => {
 					</div>
 					<div className="pb-8">
 						<p className="text-2xl font-bold pb-4">Usage Data</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							Usage Data is collected automatically when using the Service.
 							<br />
 							<br />
@@ -160,14 +160,14 @@ const page = () => {
 						<p className="text-2xl font-bold pb-4">
 							Tracking Technologies and Cookies
 						</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							We use Cookies and similar tracking technologies to track the
 							activity on Our Service and store certain information. Tracking
 							technologies used are beacons, tags, and scripts to collect and
 							track information and to improve and analyze Our Service. The
 							technologies We use may include:
 						</p>
-						<ul className="font-medium ml-8 text-lg list-inside list-disc">
+						<ul className="font-medium ml-8 text-base list-inside list-disc">
 							<li className="">
 								<span className="font-bold"> Cookies or Browser Cookies: </span>
 								A cookie is a small file placed on Your Device. You can instruct
@@ -188,7 +188,7 @@ const page = () => {
 								section and verifying system and server integrity).
 							</li>
 						</ul>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							Cookies can be "Persistent" or "Session" Cookies. Persistent
 							Cookies remain on Your personal computer or mobile device when You
 							go offline, while Session Cookies are deleted as soon as You close
@@ -197,7 +197,7 @@ const page = () => {
 							the purposes set out below:
 						</p>
 
-						<ul className="font-medium ml-8 text-lg list-inside list-disc">
+						<ul className="font-medium ml-8 text-base list-inside list-disc">
 							<li className="">
 								<span className="font-bold">
 									{" "}
@@ -240,10 +240,10 @@ const page = () => {
 					</div>
 					<div className="pb-8">
 						<p className="text-2xl font-bold pb-4">Use of Your Personal Data</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							The Company may use Personal Data for the following purposes:
 						</p>
-						<ul className="font-medium ml-8 text-lg list-inside list-disc">
+						<ul className="font-medium ml-8 text-base list-inside list-disc">
 							<li className="">
 								<span className="font-bold">
 									{" "}
@@ -301,11 +301,11 @@ const page = () => {
 							</li>
 						</ul>
 
-						<p className="font-medium text-lg pt-4">
+						<p className="font-medium text-base pt-4">
 							We may share Your personal information in the following
 							situations:
 						</p>
-						<ul className="font-medium ml-8 text-lg list-inside list-disc">
+						<ul className="font-medium ml-8 text-base list-inside list-disc">
 							<li className="">
 								<span className="font-bold">With Service Providers: </span>
 								We may share Your personal information with Service Providers to
@@ -349,7 +349,7 @@ const page = () => {
 						<p className="text-2xl font-bold pb-4">
 							Retention of Your Personal Data
 						</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							The Company will retain Your Personal Data only for as long as is
 							necessary for the purposes set out in this Privacy Policy. We will
 							retain and use Your Personal Data to the extent necessary to
@@ -370,7 +370,7 @@ const page = () => {
 						<p className="text-2xl font-bold pb-4">
 							Transfer of Your Personal Data
 						</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							Your information, including Personal Data, is processed at the
 							Company's operating offices and in any other places where the
 							parties involved in the processing are located. It means that this
@@ -395,7 +395,7 @@ const page = () => {
 
 					<div className="pb-8">
 						<p className="text-2xl font-bold pb-4">Delete Your Personal Data</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							You have the right to delete or request that We assist in deleting
 							the Personal Data that We have collected about You.
 							<br />
@@ -423,21 +423,21 @@ const page = () => {
 							Disclosure of Your Personal Data
 						</p>
 						<p className="text-2xl font-bold pb-4">Business Transactions</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							If the Company is involved in a merger, acquisition or asset sale,
 							Your Personal Data may be transferred. We will provide notice
 							before Your Personal Data is transferred and becomes subject to a
 							different Privacy Policy.
 						</p>
 						<p className="text-2xl font-bold pb-4">Law enforcement</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							Under certain circumstances, the Company may be required to
 							disclose Your Personal Data if required to do so by law or in
 							response to valid requests by public authorities (e.g. a court or
 							a government agency).
 						</p>
 						<p className="text-2xl font-bold pb-4">Other legal requirements</p>
-						<div className="font-medium text-lg pb-4">
+						<div className="font-medium text-base pb-4">
 							The Company may disclose Your Personal Data in the good faith
 							belief that such action is necessary to:
 							<ul className="ml-8 list-inside list-disc">
@@ -460,7 +460,7 @@ const page = () => {
 						<p className="text-2xl font-bold pb-4">
 							Security of Your Personal Data
 						</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							The security of Your Personal Data is important to Us, but
 							remember that no method of transmission over the Internet, or
 							method of electronic storage is 100% secure. While We strive to
@@ -471,7 +471,7 @@ const page = () => {
 
 					<div className="pb-8">
 						<p className="text-4xl font-bold pb-4">Children's Privacy</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							Our Service does not address anyone under the age of 13. We do not
 							knowingly collect personally identifiable information from anyone
 							under the age of 13. If You are a parent or guardian and You are
@@ -493,7 +493,7 @@ const page = () => {
 						<p className="text-4xl font-bold pb-4">
 							Changes to this Privacy Policy
 						</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							We may update Our Privacy Policy from time to time. We will notify
 							You of any changes by posting the new Privacy Policy on this page.
 							<br />
@@ -511,7 +511,7 @@ const page = () => {
 
 					<div className="pb-8">
 						<p className="text-4xl font-bold pb-4">Contact Us</p>
-						<p className="font-medium text-lg pb-4">
+						<p className="font-medium text-base pb-4">
 							If you have any questions about this Privacy Policy, You can
 							contact us by sending an email at:
 							<br />

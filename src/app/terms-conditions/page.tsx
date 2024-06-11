@@ -9,7 +9,7 @@ const page = () => {
 					<strong>Terms and Conditions</strong>
 				</h2>
 
-				<div className="text-lg">
+				<div className="text-base">
 					<p>Welcome to KYAMCH-BRS!</p>
 					<br />
 
@@ -52,7 +52,7 @@ const page = () => {
 					<strong>Cookies</strong>
 				</h3>
 
-				<div className="text-lg mb-8">
+				<div className="text-base mb-8">
 					<p>
 						We employ the use of cookies. By accessing KYAMCH-BRS, you agreed to
 						use cookies in agreement with the Khwaja Yunus Ali Medical College &
@@ -72,7 +72,7 @@ const page = () => {
 					<strong>License</strong>
 				</h3>
 
-				<div className="text-lg mb-8">
+				<div className="text-base mb-8">
 					<p>
 						Unless otherwise stated, Khwaja Yunus Ali Medical College & Hospital
 						Bio-Research Services and/or its licensors own the intellectual
@@ -157,7 +157,7 @@ const page = () => {
 					<strong>Hyperlinking to Our Content</strong>
 				</h3>
 
-				<div className="text-lg mb-8">
+				<div className="text-base mb-8">
 					<p>
 						The following organizations may link to our Website without prior
 						written approval:
@@ -272,7 +272,7 @@ const page = () => {
 					<strong>iFrames</strong>
 				</h3>
 
-				<p className="text-lg mb-8">
+				<p className="text-base mb-8">
 					Without prior approval and written permission, you may not create
 					frames around our Webpages that alter in any way the visual
 					presentation or appearance of our Website.
@@ -284,7 +284,7 @@ const page = () => {
 					<strong>Content Liability</strong>
 				</h3>
 
-				<p className="text-lg mb-8">
+				<p className="text-base mb-8">
 					We shall not be hold responsible for any content that appears on your
 					Website. You agree to protect and defend us against all claims that is
 					rising on your Website. No link(s) should appear on any Website that
@@ -297,7 +297,7 @@ const page = () => {
 					<strong>Reservation of Rights</strong>
 				</h3>
 
-				<p className="text-lg mb-8">
+				<p className="text-base mb-8">
 					We reserve the right to request that you remove all links or any
 					particular link to our Website. You approve to immediately remove all
 					links to our Website upon request. We also reserve the right to amen
@@ -310,7 +310,7 @@ const page = () => {
 					<strong>Removal of links from our website</strong>
 				</h3>
 
-				<p className="text-lg mb-8">
+				<p className="text-base mb-8">
 					If you find any link on our Website that is offensive for any reason,
 					you are free to contact and inform us any moment. We will consider
 					requests to remove links but we are not obligated to or so or to
@@ -319,7 +319,7 @@ const page = () => {
 
 				<br />
 
-				<p className="text-lg mb-8">
+				<p className="text-base mb-8">
 					We do not ensure that the information on this website is correct, we
 					do not warrant its completeness or accuracy; nor do we promise to
 					ensure that the website remains available or that the material on the
@@ -330,7 +330,7 @@ const page = () => {
 					<strong>Disclaimer</strong>
 				</h3>
 
-				<div className="text-lg mb-8">
+				<div className="text-base mb-8">
 					<p>
 						To the maximum extent permitted by applicable law, we exclude all
 						representations, warranties and conditions relating to our website
