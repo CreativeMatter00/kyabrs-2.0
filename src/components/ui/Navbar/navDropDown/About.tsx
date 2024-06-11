@@ -11,8 +11,10 @@ import {
 
 const About = () => {
   return (
-    <div className="p-4 bg-white flex divide-x-2 w-full h-[calc(100vh-250px)]">
-      <div className="basis-1/3 flex flex-col gap-4 p-4">
+    <div className="p-4 bg-white flex divide-x-2 w-full h-[calc(100vh-20vh)]">
+      <div
+        className={`basis-1/3 flex flex-col gap-4 p-4  h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
+      >
         <p className="text-[#414A50] text-2xl">About</p>
         <Image
           className="inline-block h-44 w-64  content-end"
@@ -21,6 +23,7 @@ const About = () => {
           width={260}
           height={174}
         />
+
         <p className="text-sm">
           Khwaja Yunus Ali Medical College & Hospital Bio Research Services
           (KYAMCH-BRS) is Bangladesh's leading contract research company,
@@ -38,8 +41,9 @@ const About = () => {
           </NavigationMenuLink>
         </Link>
       </div>
+
       <div
-        className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-300px)] overflow-auto  ${styles.customScrollbar}`}
+        className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
       >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           <div>
@@ -89,8 +93,7 @@ const About = () => {
             <Link href={{ pathname: "/about", query: { tab: 3 } }}>
               <NavigationMenuLink
                 className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
-     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
-                  "
+     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50  "
               >
                 <p className=" text-[#414A50] text-xs font-medium">
                   Accreditations & Inspections
@@ -101,7 +104,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="basis-1/3"></div>
+
+      <div
+        className={`basis-1/3 h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
+      ></div>
     </div>
   );
 };
