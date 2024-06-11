@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const page = () => {
 	return (
-		<div className="container mx-auto mt-24 lg:mt-32 py-12">
+		<div className="container mx-auto mt-24 lg:mt-32 py-12 px-4">
 			<p className="text-center pb-12 font-bold text-4xl">
 				Privacy Policy of Khwaja Yunus Ali Medical College & Hospital
 				Bioresearch Services
