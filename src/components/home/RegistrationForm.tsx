@@ -128,7 +128,7 @@ const RegistrationForm = () => {
 				<div>
 					<div className="flex items-center gap-1 mb-4">
 						<BsGenderFemale /> <BsGenderMale />
-						<p> Smoking Habit </p>
+						<p> Sex </p>
 					</div>
 
 					<div className="bg-brandColorLs1 py-3 rounded-full">
