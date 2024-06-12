@@ -15,7 +15,7 @@ const Opportunities = () => {
 
           <ul className="list-none flex flex-col gap-4">
             <li className="text-bgPrimary flex items-start">
-              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2">
+              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2 font-extrabold">
                 •
               </span>
               <div>
@@ -26,7 +26,7 @@ const Opportunities = () => {
               </div>
             </li>
             <li className="text-bgPrimary flex items-start">
-              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2">
+              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2 font-extrabold">
                 •
               </span>
               <div>
@@ -36,7 +36,7 @@ const Opportunities = () => {
               </div>
             </li>
             <li className="text-bgPrimary flex items-start">
-              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2">
+              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2 font-extrabold">
                 •
               </span>
               <div>
@@ -46,7 +46,7 @@ const Opportunities = () => {
               </div>
             </li>
             <li className="text-bgPrimary flex items-start">
-              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2">
+              <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2 font-extrabold">
                 •
               </span>
               <div>

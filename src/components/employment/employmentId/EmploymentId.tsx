@@ -90,11 +90,17 @@ const EmploymentId = () => {
         <div className="bg-[#4F5961] w-full flex justify-center items-center">
           <div className="container px-4 py-8">
             <p className="font-bold text-[#FF6A5E] mb-4">Why Work With Us</p>
-            <ul className="list-disc list-inside marker:text-[#FF6A5E] grid lg:grid-cols-2 grid-cols-1 gap-x-8 gap-y-4">
+
+            <ul className="list-none grid lg:grid-cols-2 grid-cols-1 gap-x-8 gap-y-4">
               {benefits.map((benefit, index) => (
-                <li key={index} className="text-bgPrimary">
-                  <span className="font-bold">{benefit.title}&nbsp;</span>
-                  {benefit.description}
+                <li key={index} className="text-bgPrimary flex items-start">
+                  <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2 font-extrabold">
+                    •
+                  </span>
+                  <div>
+                    <span className="font-bold">{benefit.title}&nbsp;</span>
+                    {benefit.description}
+                  </div>
                 </li>
               ))}
             </ul>
@@ -106,10 +112,14 @@ const EmploymentId = () => {
             <p className="font-bold text-[#FF6A5E] mb-4">
               Educational Qualifications
             </p>
-            <ul className="list-disc list-inside marker:text-[#FF6A5E] grid lg:grid-cols-1 grid-cols-1 gap-x-8 gap-y-4">
+
+            <ul className="list-none grid lg:grid-cols-1 grid-cols-1 gap-x-8 gap-y-4">
               {qualifications.map((qualification, index) => (
-                <li key={index} className="text-bgPrimary">
-                  {qualification}
+                <li key={index} className="text-bgPrimary flex items-start">
+                  <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2 font-extrabold">
+                    •
+                  </span>
+                  <span>{qualification}</span>
                 </li>
               ))}
             </ul>
@@ -119,10 +129,14 @@ const EmploymentId = () => {
             <p className="font-bold text-[#FF6A5E] mb-4">
               Required Skills and Experience
             </p>
-            <ul className="list-disc list-inside marker:text-[#FF6A5E] grid lg:grid-cols-2 grid-cols-1 gap-x-8 gap-y-4">
+
+            <ul className="list-none grid lg:grid-cols-2 grid-cols-1 gap-x-8 gap-y-4">
               {skills.map((skill, index) => (
-                <li key={index} className="text-bgPrimary">
-                  {skill}
+                <li key={index} className="text-bgPrimary flex items-start">
+                  <span className="marker flex-shrink-0 text-[#FF6A5E] mr-2 font-extrabold">
+                    •
+                  </span>
+                  <span>{skill}</span>
                 </li>
               ))}
             </ul>
