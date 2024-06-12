@@ -2,12 +2,12 @@ import PatientVolunteers from "@/components/participate/patientVolunteers/Patien
 import RegistrationForm from "@/components/participate/patientVolunteers/RegistrationForm";
 
 const page = () => {
-	return (
-		<div className="pt-24 lg:pt-32 bg-brandSecondary">
-			<PatientVolunteers />
-			<RegistrationForm />
-		</div>
-	);
+  return (
+    <div className="pt-20 lg:pt-28 bg-brandSecondary">
+      <PatientVolunteers />
+      <RegistrationForm />
+    </div>
+  );
 };
 
 export default page;

@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const PatientPersonalStories = () => {
   return (
-    <div className="flex justify-center items-center pb-6">
+    <div className="flex justify-center items-center pt-8">
       <div className="container text-bgPrimary p-4  flex flex-col">
         <div
-          className="relative h-[300px] bg-cover bg-center rounded-lg mb-6 mt-4"
+          className="relative h-[300px] bg-cover bg-center rounded-lg mb-6"
           style={{
             backgroundImage:
               "url('/assets/images/participate/PatientStoryBlank.png')",
