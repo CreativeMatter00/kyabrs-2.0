@@ -137,14 +137,14 @@ const RegistrationForm = () => {
 
 				<div>
 					<div className="h-9"> </div>
-					<div className="grid grid-cols-2 gap-2">
-						<button className="text-bgPrimary py-2 font-medium bg-brandPrimaryLs2 rounded-full w-full">
-							Submit
-						</button>
-						<button className="bg-transparent border-2 border-bgPrimary py-2 font-medium rounded-full w-full">
+					{/* <div className="grid grid-cols-2 gap-2"> */}
+					<button className="text-bgPrimary py-2 font-medium bg-brandPrimaryLs2 rounded-full w-full">
+						Submit
+					</button>
+					{/* <button className="bg-transparent border-2 border-bgPrimary py-2 font-medium rounded-full w-full">
 							Clear All
-						</button>
-					</div>
+						</button> */}
+					{/* </div> */}
 				</div>
 			</div>
 		</div>

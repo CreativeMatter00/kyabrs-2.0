@@ -28,10 +28,10 @@ const Footer = () => {
 								height={125}
 							/>
 						</Link>
-						<div className="flex  items-center gap-4">
+						{/* <div className="flex  items-center gap-4">
 							<p className="font-bold text-sm">Follow us</p>
 							<YoutubeIcon /> <LinkedInIcon />
-						</div>
+						</div> */}
 					</div>
 
 					<div className=" col-span-2">
