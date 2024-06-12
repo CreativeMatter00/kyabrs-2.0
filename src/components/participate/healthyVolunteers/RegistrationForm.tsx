@@ -1,3 +1,5 @@
+"use client";
+
 import { RiEditBoxLine } from "react-icons/ri";
 import { CiCalendarDate, CiMobile3 } from "react-icons/ci";
 import { MdOutlineSmokeFree } from "react-icons/md";
@@ -7,6 +9,10 @@ import { BsGenderFemale, BsGenderMale } from "react-icons/bs";
 import { LiaWeightSolid } from "react-icons/lia";
 
 const RegistrationForm = () => {
+	const handleReload = () => {
+		window.location.reload();
+	};
+
 	return (
 		<div className="py-10 border-b border-bgPrimary text-bgPrimary">
 			<div className="container mx-auto px-4">
@@ -146,14 +152,17 @@ const RegistrationForm = () => {
 
 					<div>
 						<div className="h-9"> </div>
-						<div className="grid grid-cols-2 gap-2">
-							<button className="text-bgPrimary py-2 font-medium bg-brandPrimaryLs2 rounded-full w-full">
-								Submit
-							</button>
-							<button className="bg-transparent border-2 border-bgPrimary py-2 font-medium rounded-full w-full">
+						{/* <div className="grid grid-cols-2 gap-2"> */}
+						<button
+							onClick={handleReload}
+							className="text-bgPrimary py-2 font-medium bg-brandPrimaryLs2 rounded-full w-full"
+						>
+							Submit
+						</button>
+						{/* <button className="bg-transparent border-2 border-bgPrimary py-2 font-medium rounded-full w-full">
 								Clear All
-							</button>
-						</div>
+							</button> */}
+						{/* </div> */}
 					</div>
 				</div>
 			</div>
