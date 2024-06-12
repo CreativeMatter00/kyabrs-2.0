@@ -1,6 +1,6 @@
 function WhoWeAre() {
 	return (
-		<div className="text-bgPrimary px-4">
+		<div className="text-bgPrimary pt-4">
 			<div className="pb-6">
 				<p className="text-2xl">
 					<span className="text-brandPrimaryLs3"> Trusted </span> Bio-Research

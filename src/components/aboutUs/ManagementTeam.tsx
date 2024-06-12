@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function ManagementTeam() {
   return (
-    <div className="text-bgPrimary px-4">
+    <div className="text-bgPrimary pt-4">
       <div className="pb-4">
         <p className="text-2xl">
           Our <span className="text-brandPrimaryLs3"> Management </span>
@@ -78,7 +78,7 @@ function ManagementTeam() {
         </div>
       </div>
 
-      <div className="mb-10">
+      <div className="mb-0">
         <div className="p-6 flex flex-col md:flex-row gap-8 bg-brandColorLs1 rounded-lg">
           <Image
             src="/assets/images/about/3-new.jpg"

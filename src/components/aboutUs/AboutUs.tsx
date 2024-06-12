@@ -18,7 +18,7 @@ function AboutUs() {
   }, [property]);
 
   return (
-    <div className="container mx-auto py-6">
+    <div className="container mx-auto pt-6 px-4">
       <div className="flex items-center flex-wrap text-bgPrimary font-bold max-lg:px-2 lg:px-1">
         <div
           className={`p-4 cursor-pointer ${
@@ -62,7 +62,7 @@ function AboutUs() {
         </div>
       </div>
 
-      <div className="w-full py-10">
+      <div className="w-full pt-10">
         <div>{activeSection === 0 && <WhoWeAre />}</div>
         <div>{activeSection === 1 && <ManagementTeam />}</div>
         <div>{activeSection === 2 && <OurValues />}</div>

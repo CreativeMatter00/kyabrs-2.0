@@ -219,7 +219,7 @@ const NavTest = () => {
                             </NavigationMenuList>
 
                             <Link href={`/contact-us `}>
-                              <button className="text-sm font-medium py-2.5 px-10 rounded-full bg-[#FF3726] cursor-pointer hover:bg-[#FF1501]">
+                              <button className="xl:text-sm text-xs font-medium py-2.5 px-4 xl:px-10 rounded-full bg-[#FF3726] cursor-pointer hover:bg-[#FF1501]">
                                 Contact Us
                               </button>
                             </Link>
