@@ -8,7 +8,7 @@ import ContactUs from "./ContactUs";
 const Employment = () => {
   return (
     <div>
-      <div className="px-4 text-bgPrimary border-b border-textTertiary">
+      <div className="px-4 text-bgPrimary border-b border-textTertiary ">
         <div className="container mx-auto">
           <div className="mb-9">
             <div className="pt-10 pb-4 ">
@@ -35,7 +35,7 @@ const Employment = () => {
         </div>
       </div>
       <div className="flex justify-center items-center ">
-        <div className="container p-8 flex flex-col gap-8">
+        <div className="container px-8 pt-8 flex flex-col gap-8">
           <div>
             <p className="font-bold text-[#FF6A5E] mb-4">Join Our Team</p>
             <p className="text-bgPrimary">

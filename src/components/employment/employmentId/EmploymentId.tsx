@@ -47,8 +47,8 @@ const EmploymentId = () => {
   ];
 
   return (
-    <div className="pt-1">
-      <div className="border-b border-[#5A5A5A] flex justify-center items-center  ">
+    <div className="">
+      <div className="border-b border-[#5A5A5A] flex justify-center items-center">
         <div className="container pb-4 px-2 text-bgPrimary">
           <Breadcrumb title1="Employment" link1="/employment" title2="(CRA)" />
           <p className="text-4xl ">
@@ -96,7 +96,7 @@ const EmploymentId = () => {
           </div>
         </div>
 
-        <div className="container px-4 py-8">
+        <div className="container px-4 pt-8">
           <div>
             <p className="font-bold text-[#FF6A5E] mb-4">
               Educational Qualifications

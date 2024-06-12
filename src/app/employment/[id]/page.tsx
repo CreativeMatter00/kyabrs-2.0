@@ -2,7 +2,7 @@ import EmploymentId from "@/components/employment/employmentId/EmploymentId";
 
 const page = () => {
   return (
-    <div className="bg-brandSecondary mt-28 max-lg:mt-20">
+    <div className="bg-brandSecondary lg:pt-28 pt-20 pb-12">
       <EmploymentId />
     </div>
   );

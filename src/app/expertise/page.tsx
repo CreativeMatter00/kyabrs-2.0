@@ -11,12 +11,7 @@ const DynamicExpertise = dynamic(
 
 const page = () => {
   return (
-    // <div className="mt-24 lg:mt-32 container mx-auto">
-    // 	<Banner name="Expertise" />
-    // 	<DynamicExpertise />
-    // </div>
-
-    <div className="pt-20 lg:pt-28 bg-brandSecondary">
+    <div className="pt-20 lg:pt-28 bg-brandSecondary pb-12">
       <Banner
         image="/assets/images/expertise/hero-expertise.jpg"
         name="Expertise"
