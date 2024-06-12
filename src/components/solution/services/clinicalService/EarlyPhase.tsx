@@ -23,13 +23,43 @@ const EarlyPhase = () => {
 						<p className="font-bold text-brandPrimaryLs3 mb-4 mt-6">
 							These Services Include
 						</p>
-						<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
-							<li> Phase I, first-in-human.</li>
-							<li> Phase IIa, proof-of-concept.</li>
-							<li> Clinical PK/PD and pharmacometrics.</li>
-							<li> Ethnos bridging studies.</li>
-							<li> Bioanalytical and biomarkers.</li>
-							<li> Bioequivalence and biosimilar studies.</li>
+						<ul className="list-none pl-0">
+							<li className="relative pl-6 mb-2">
+								<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+									•
+								</span>
+								Phase I, first-in-human.
+							</li>
+							<li className="relative pl-6 mb-2">
+								<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+									•
+								</span>
+								Phase IIa, proof-of-concept.
+							</li>
+							<li className="relative pl-6 mb-2">
+								<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+									•
+								</span>
+								Clinical PK/PD and pharmacometrics.
+							</li>
+							<li className="relative pl-6 mb-2">
+								<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+									•
+								</span>
+								Ethnos bridging studies.
+							</li>
+							<li className="relative pl-6 mb-2">
+								<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+									•
+								</span>
+								Bioanalytical and biomarkers.
+							</li>
+							<li className="relative pl-6 mb-2">
+								<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+									•
+								</span>
+								Bioequivalence and biosimilar studies.
+							</li>
 						</ul>
 					</div>
 

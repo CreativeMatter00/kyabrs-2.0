@@ -27,13 +27,41 @@ const BioanalyticalLaboratory = () => {
 							Instrumentation and software:
 						</p>
 						<div className="mb-4">
-							<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
-								<li> Agilent Technology HPLC 1260 infinity-II. </li>
-								<li> Agilent Technology HPLC 1290. </li>
-								<li> Agilent mass-selective detector (G6470A). </li>
-								<li> Waters Otto Specialist SPE Manifold. </li>
-								<li> Phoenix WinNonlin. </li>
-								<li>
+							<ul className="list-none pl-0">
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Agilent Technology HPLC 1260 infinity-II.
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Agilent Technology HPLC 1290.
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Agilent mass-selective detector (G6470A).
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Waters Otto Specialist SPE Manifold.
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Phoenix WinNonlin.
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
 									Fully Validated (IQ/OQ/PQ of Equipment and Software) Systems.
 								</li>
 							</ul>
@@ -45,12 +73,37 @@ const BioanalyticalLaboratory = () => {
 							Shipping, and storing biological samples services:
 						</p>
 						<div className="mb-4">
-							<ul className="marker:text-brandPrimaryLs2 list-inside list-disc">
-								<li> Refrigerated storage (2-8ºC). </li>
-								<li> Low-temperature storage (-26ºC and -86ºC). </li>
-								<li> Emergency back-up electrical services. </li>
-								<li>Video security.</li>
-								<li>Onsite archive facility.</li>
+							<ul className="list-none pl-0">
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Refrigerated storage (2-8ºC).
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Low-temperature storage (-26ºC and -86ºC).
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Emergency back-up electrical services.
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Video security.
+								</li>
+								<li className="relative pl-6 mb-2">
+									<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
+										•
+									</span>
+									Onsite archive facility.
+								</li>
 							</ul>
 						</div>
 					</div>
