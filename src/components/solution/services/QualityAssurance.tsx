@@ -37,12 +37,12 @@ const QualityAssurance = () => {
 
 				<div className="pt-4">
 					<p className="text-base font-medium mb-10">
-						KABRS has an independent Quality Assurance team provides valuable
-						input into improving internal processes and ensuring compliance with
-						regulatory requirements, protocol adherence, and global standard
-						operating procedures, promoting research subject safety and data
-						integrity. Providing insight into clinical practice at all phases of
-						study
+						KYAMCH-BRS has an independent Quality Assurance team provides
+						valuable input into improving internal processes and ensuring
+						compliance with regulatory requirements, protocol adherence, and
+						global standard operating procedures, promoting research subject
+						safety and data integrity. Providing insight into clinical practice
+						at all phases of study
 					</p>
 
 					<p className="font-bold text-brandPrimaryLs2 mb-4">
