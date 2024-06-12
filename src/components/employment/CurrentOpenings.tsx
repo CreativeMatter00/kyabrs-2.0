@@ -35,7 +35,7 @@ const CurrentOpenings = () => {
 				{jobOpenings.map((job, index) => (
 					<div
 						key={index}
-						className="bg-[#4F5961] hover:bg-brandPrimaryLs2 rounded-md p-8 text-bgPrimary flex justify-between flex-col group"
+						className="bg-[#4F5961] hover:bg-brandPrimaryLs2 rounded-md p-8 text-bgPrimary flex justify-between flex-col group relative"
 					>
 						<div>
 							{" "}
@@ -43,12 +43,18 @@ const CurrentOpenings = () => {
 							<p className="text-sm mb-8">{job.description}</p>
 						</div>
 
+						{/* No Vacancy */}
+
 						<Link
 							href={`employment/${job.title}`}
-							className="text-[#FF6A5E] text-sm font-bold hover:underline duration-300 group-hover:text-bgPrimary"
+							className="text-[#FF6A5E] text-sm font-bold  duration-300 group-hover:text-bgPrimary cursor-pointer hover:underline"
 						>
 							View Job Details
 						</Link>
+
+						<div className="absolute top-0 right-0 text-xs p-2 text-[#FF6A5E] group-hover:text-bgPrimary font-bold">
+							No Vacancy
+						</div>
 					</div>
 				))}
 			</div>
