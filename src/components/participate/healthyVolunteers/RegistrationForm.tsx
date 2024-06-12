@@ -109,7 +109,7 @@ const RegistrationForm = () => {
 
 							<input
 								type="number"
-								className="bg-brandColorLs1 py-2 px-4 rounded-full text-bgPrimary w-full"
+								className="bg-brandColorLs1 py-2 px-4 rounded-full text-bgPrimary w-full no-spinner"
 								placeholder="+880 XXX XXXXXXX"
 							/>
 						</div>
