@@ -1,3 +1,5 @@
+"use client";
+
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import { usePathname } from "next/navigation";
 
