@@ -12,7 +12,7 @@ const DynamicSolution = dynamic(
 
 const page = () => {
   return (
-    <div className="pt-20 lg:pt-28 bg-brandSecondary">
+    <div className="pt-20 lg:pt-28 bg-brandSecondary pb-10">
       <Banner
         image="/assets/images/solutions/solution-hero.jpg"
         name="Solutions"

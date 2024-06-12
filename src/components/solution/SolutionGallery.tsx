@@ -86,7 +86,7 @@ const solutions: Solution[] = [
 
 const SolutionGallery: FC = () => {
   return (
-    <div className="container p-4 flex flex-col py-8">
+    <div className="container p-4 flex flex-col pt-8">
       <div className="grid lg:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-x-6 gap-y-10">
         {solutions.map((solution, index) => (
           <div
