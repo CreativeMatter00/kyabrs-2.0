@@ -60,10 +60,10 @@ const Volunteers = () => {
 						you for contributing to the advancement of medical research.
 					</p>
 
-					<div className="mt-12">
+					<div className="">
 						<Link
 							href={"/participate/registration-form"}
-							className="text-bgPrimary py-4 px-10 rounded-full bg-brandPrimaryLs2"
+							className="text-bgPrimary py-4 px-10 rounded-full bg-brandPrimaryLs2 block w-fit mx-auto"
 						>
 							Register Now
 						</Link>

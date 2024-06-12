@@ -21,8 +21,8 @@ function WhoWeAre() {
 					Our area of expertise is clinical trials. Our over 40,000 square feet
 					clinical trial facility includes a well-designed screening space and a
 					highly developed bioanalytical laboratory. Phase I–III clinical trials
-					as well as bioequivalence studies can be conducted by KYANCH-BRS.
-					KYANCH-BRS conducts a number of clinical trials under the watchful eye
+					as well as bioequivalence studies can be conducted by KYAMCH-BRS.
+					KYAMCH-BRS conducts a number of clinical trials under the watchful eye
 					of international regulatory bodies. A team of committed specialists
 					oversees the operation. Regulations currently in effect are followed
 					in all operations.
