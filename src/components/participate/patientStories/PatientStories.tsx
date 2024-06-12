@@ -60,7 +60,7 @@ const PatientStories = () => {
     <div className="text-bgPrimary">
       <div className="text-bgPrimary border-b border-textTertiary">
         <div className="container mx-auto mb-10 px-4">
-          <div className="py-10 pb-4">
+          <div className="pb-4">
             <Breadcrumb
               title1="Participate"
               link1="/participate"
@@ -81,7 +81,7 @@ const PatientStories = () => {
         </div>
       </div>
 
-      <div className="container mx-auto p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
+      <div className="container mx-auto px-8 pt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {cards.map((card) => (
           <div
             key={card.id}

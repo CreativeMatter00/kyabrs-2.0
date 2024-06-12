@@ -11,7 +11,7 @@ const DynamicParticipate = dynamic(
 
 const page = () => {
   return (
-    <div className="pt-20 lg:pt-28 bg-brandSecondary">
+    <div className="pt-20 lg:pt-28 bg-brandSecondary ">
       <Banner
         image="/assets/images/participate/hero-participate.jpg"
         name="Participate"
