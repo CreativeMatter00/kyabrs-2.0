@@ -1,7 +1,12 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
+import { usePathname } from "next/navigation";
 
 /* eslint-disable react/no-unescaped-entities */
 const EmploymentId = () => {
+  const pathName = usePathname().toString();
+
+  console.log("pathName", pathName);
+
   const jobTypes = ["In-house", "Full-time"];
   const benefits = [
     {

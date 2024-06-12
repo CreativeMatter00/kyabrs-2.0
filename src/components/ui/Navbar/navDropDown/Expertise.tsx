@@ -82,9 +82,9 @@ const services = [
 
 const Expertise = () => {
   return (
-    <div className="p-4 bg-white flex divide-x-2 w-full h-[calc(100vh-20vh)]">
+    <div className="p-4 bg-white flex divide-x-2 w-full h-[calc(100vh-25vh)]">
       <div
-        className={`basis-1/3 flex flex-col gap-4 p-4 h-[calc(100vh-25vh)] overflow-auto ${styles.customScrollbar}`}
+        className={`basis-1/3 flex flex-col gap-4 p-4 h-[calc(100vh-30vh)] overflow-auto ${styles.customScrollbar}`}
       >
         <p className="text-[#414A50] text-2xl">Expertise</p>
         <Image
@@ -112,7 +112,7 @@ const Expertise = () => {
         </Link>
       </div>
       <div
-        className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
+        className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-30vh)] overflow-auto  ${styles.customScrollbar}`}
       >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           {services.map((service, index) => (
@@ -132,7 +132,7 @@ const Expertise = () => {
       </div>
 
       <div
-        className={`basis-1/3 h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
+        className={`basis-1/3 h-[calc(100vh-30vh)] overflow-auto  ${styles.customScrollbar}`}
       ></div>
     </div>
   );

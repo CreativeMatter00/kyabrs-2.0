@@ -11,9 +11,9 @@ import {
 
 const About = () => {
   return (
-    <div className="p-4 bg-white flex divide-x-2 w-full h-[calc(100vh-20vh)]">
+    <div className="p-4 bg-white flex divide-x-2 w-full h-[calc(100vh-25vh)]">
       <div
-        className={`basis-1/3 flex flex-col gap-4 p-4  h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
+        className={`basis-1/3 flex flex-col gap-4 p-4 h-[calc(100vh-30vh)] overflow-auto ${styles.customScrollbar}`}
       >
         <p className="text-[#414A50] text-2xl">About</p>
         <Image
@@ -31,6 +31,7 @@ const About = () => {
           conduct screening and clinical trials at our state-of-the-art
           facility, adhering to international regulatory standards.
         </p>
+
         <Link href="/about">
           <NavigationMenuLink className="text-[#0096FF] flex items-center gap-2 cursor-pointer group disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
             Know more about us
@@ -43,16 +44,12 @@ const About = () => {
       </div>
 
       <div
-        className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
+        className={`basis-1/3 p-4 flex flex-col  h-[calc(100vh-30vh)] overflow-auto  ${styles.customScrollbar}`}
       >
         <div className="divide-y-2 divide-[#EBEBEB] mt-6">
           <div>
             <Link href={{ pathname: "/about", query: { tab: 0 } }}>
-              <NavigationMenuLink
-                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
-     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
-                  "
-              >
+              <NavigationMenuLink className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
                 <p className=" text-[#414A50] text-xs font-medium">
                   Who we are
                 </p>
@@ -63,11 +60,7 @@ const About = () => {
 
           <div>
             <Link href={{ pathname: "/about", query: { tab: 1 } }}>
-              <NavigationMenuLink
-                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
-     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
-                  "
-              >
+              <NavigationMenuLink className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
                 <p className=" text-[#414A50] text-xs font-medium">
                   Management Team
                 </p>
@@ -75,13 +68,10 @@ const About = () => {
               </NavigationMenuLink>
             </Link>
           </div>
+
           <div>
             <Link href={{ pathname: "/about", query: { tab: 2 } }}>
-              <NavigationMenuLink
-                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
-     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50
-                  "
-              >
+              <NavigationMenuLink className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
                 <p className=" text-[#414A50] text-xs font-medium">
                   Mission & Values
                 </p>
@@ -89,12 +79,10 @@ const About = () => {
               </NavigationMenuLink>
             </Link>
           </div>
+
           <div>
             <Link href={{ pathname: "/about", query: { tab: 3 } }}>
-              <NavigationMenuLink
-                className="flex justify-between items-center hover:bg-[#FFB8B1]   py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 
-     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50  "
-              >
+              <NavigationMenuLink className="flex justify-between items-center hover:bg-[#FFB8B1] py-2 px-4 my-2 rounded-lg cursor-pointer duration-300 disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
                 <p className=" text-[#414A50] text-xs font-medium">
                   Accreditations & Inspections
                 </p>
@@ -106,7 +94,7 @@ const About = () => {
       </div>
 
       <div
-        className={`basis-1/3 h-[calc(100vh-25vh)] overflow-auto  ${styles.customScrollbar}`}
+        className={`basis-1/3 h-[calc(100vh-30vh)] overflow-auto  ${styles.customScrollbar}`}
       ></div>
     </div>
   );
