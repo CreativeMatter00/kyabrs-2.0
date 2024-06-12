@@ -43,12 +43,12 @@ const CurrentOpenings = () => {
 							<p className="text-sm mb-8">{job.description}</p>
 						</div>
 
-						<div
-							// href={`employment/${job.title}`}
-							className="text-[#FF6A5E] text-sm font-bold  duration-300 group-hover:text-bgPrimary"
+						<Link
+							href={`employment/${job.title}`}
+							className="text-[#FF6A5E] text-sm font-bold hover:underline duration-300 group-hover:text-bgPrimary"
 						>
-							No Vacancy
-						</div>
+							View Job Details
+						</Link>
 					</div>
 				))}
 			</div>
