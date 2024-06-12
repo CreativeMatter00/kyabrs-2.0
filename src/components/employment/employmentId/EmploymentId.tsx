@@ -7,7 +7,11 @@ import { usePathname } from "next/navigation";
 const EmploymentId = () => {
   const pathName = usePathname().toString();
 
-  console.log("pathName", pathName);
+  // Extract the last part of the pathName
+  const lastSegment: any = pathName.split("/").pop();
+
+  // Decode the URI component to handle encoded characters like %20
+  const decodedSegment: string = decodeURIComponent(lastSegment);
 
   const jobTypes = ["In-house", "Full-time"];
   const benefits = [
@@ -52,8 +56,9 @@ const EmploymentId = () => {
         <div className="container pb-4 px-2 text-bgPrimary">
           <Breadcrumb title1="Employment" link1="/employment" title2="(CRA)" />
           <p className="text-4xl ">
-            <span className="text-[#FFB8B1]">Job Title:</span> Clinical Research
-            Associate (CRA)
+            <span className="text-[#FFB8B1]">Job Title :&nbsp;</span>
+            {decodedSegment}
+            {decodedSegment === "" && "Clinical Research Associate (CRA)"}
           </p>
         </div>
       </div>
