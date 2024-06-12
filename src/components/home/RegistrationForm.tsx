@@ -5,8 +5,20 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { BsGenderFemale, BsGenderMale } from "react-icons/bs";
 import { LiaWeightSolid } from "react-icons/lia";
+import {
+	Popover,
+	PopoverContent,
+	PopoverTrigger,
+} from "@/components/ui/popover";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
+import { useState } from "react";
+import { format } from "date-fns";
 
 const RegistrationForm = () => {
+	const [date, setDate] = useState<Date>();
+
 	return (
 		<div>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -46,11 +58,32 @@ const RegistrationForm = () => {
 						<p> Date of Birth </p>
 					</div>
 
-					<input
+					{/* <input
 						type="text"
 						className="bg-brandColorLs1 py-2 px-4 rounded-full text-bgPrimary w-full"
 						placeholder="Date of Birth"
-					/>
+					/> */}
+
+					<Popover>
+						<PopoverTrigger asChild>
+							<Button
+								className={cn(
+									" justify-start text-left font-normal bg-brandColorLs1 py-2 px-4 rounded-full text-bgPrimary w-full",
+									!date && "text-muted-foreground"
+								)}
+							>
+								{date ? format(date, "PPP") : <span>Pick a date</span>}
+							</Button>
+						</PopoverTrigger>
+						<PopoverContent className="w-auto p-0 bg-brandSecondary text-bgPrimary z-[999999999999]">
+							<Calendar
+								mode="single"
+								selected={date}
+								onSelect={setDate}
+								initialFocus
+							/>
+						</PopoverContent>
+					</Popover>
 				</div>
 
 				<div>
@@ -136,9 +169,9 @@ const RegistrationForm = () => {
 				</div>
 
 				<div>
-					<div className="h-9"> </div>
+					<div className="h-[41px]"> </div>
 					{/* <div className="grid grid-cols-2 gap-2"> */}
-					<button className="text-bgPrimary py-2 font-medium bg-brandPrimaryLs2 rounded-full w-full">
+					<button className="text-bgPrimary py-[7px] font-medium bg-brandPrimaryLs2 rounded-full w-full">
 						Submit
 					</button>
 					{/* <button className="bg-transparent border-2 border-bgPrimary py-2 font-medium rounded-full w-full">

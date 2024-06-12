@@ -188,7 +188,7 @@ const RegistrationForm = () => {
 						{/* <div className="grid grid-cols-2 gap-2"> */}
 						<button
 							onClick={handleReload}
-							className="text-bgPrimary py-2 font-medium bg-brandPrimaryLs2 rounded-full w-full"
+							className="text-bgPrimary py-[7px] font-medium bg-brandPrimaryLs2 rounded-full w-full"
 						>
 							Submit
 						</button>
