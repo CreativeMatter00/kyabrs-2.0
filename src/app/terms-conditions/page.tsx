@@ -48,9 +48,7 @@ const page = () => {
 					<br />
 				</div>
 
-				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>Cookies</strong>
-				</h3>
+				<h3 className="text-2xl font-bold mb-4 text-primary">Cookies</h3>
 
 				<div className="text-base mb-8">
 					<p>
@@ -68,9 +66,7 @@ const page = () => {
 					</p>
 				</div>
 
-				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>License</strong>
-				</h3>
+				<h3 className="text-2xl font-bold mb-4 text-primary">License</h3>
 
 				<div className="text-base mb-8">
 					<p>
@@ -154,7 +150,7 @@ const page = () => {
 				</div>
 
 				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>Hyperlinking to Our Content</strong>
+					Hyperlinking to Our Content
 				</h3>
 
 				<div className="text-base mb-8">
@@ -268,9 +264,7 @@ const page = () => {
 					</p>
 				</div>
 
-				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>iFrames</strong>
-				</h3>
+				<h3 className="text-2xl font-bold mb-4 text-primary">iFrames</h3>
 
 				<p className="text-base mb-8">
 					Without prior approval and written permission, you may not create
@@ -281,7 +275,7 @@ const page = () => {
 				<br />
 
 				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>Content Liability</strong>
+					Content Liability
 				</h3>
 
 				<p className="text-base mb-8">
@@ -294,7 +288,7 @@ const page = () => {
 				</p>
 
 				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>Reservation of Rights</strong>
+					Reservation of Rights
 				</h3>
 
 				<p className="text-base mb-8">
@@ -307,7 +301,7 @@ const page = () => {
 				</p>
 
 				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>Removal of links from our website</strong>
+					Removal of links from our website
 				</h3>
 
 				<p className="text-base mb-8">
@@ -326,9 +320,7 @@ const page = () => {
 					website is kept up to date.
 				</p>
 
-				<h3 className="text-2xl font-bold mb-4 text-primary">
-					<strong>Disclaimer</strong>
-				</h3>
+				<h3 className="text-2xl font-bold mb-4 text-primary">Disclaimer</h3>
 
 				<div className="text-base mb-8">
 					<p>
