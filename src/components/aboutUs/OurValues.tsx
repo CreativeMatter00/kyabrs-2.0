@@ -56,7 +56,7 @@ function OurValues() {
 						We are dedicated to serve the needs of our customers with:
 					</p>
 
-					<ul className="list-none pl-0">
+					<ul className="list-none pl-0 text-justify max-w-[960px]">
 						<li className="relative pl-6 mb-2">
 							<span className="absolute left-0 text-brandPrimaryLs2 font-extrabold">
 								•

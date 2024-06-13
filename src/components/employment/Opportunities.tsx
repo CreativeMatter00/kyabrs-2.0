@@ -19,7 +19,7 @@ const Opportunities = () => {
 								•
 							</span>
 							<div>
-								<span className="font-bold">Who Can Volunteer?&nbsp;</span>
+								<span className="font-bold">Who Can Volunteer:&nbsp;</span>
 								We welcome volunteers from diverse backgrounds, including
 								students, professionals, and retirees who are interested in
 								clinical research.
