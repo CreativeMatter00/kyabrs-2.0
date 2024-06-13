@@ -38,10 +38,10 @@ const PatientPersonalStories = () => {
 						Sarah Johnson’s life took an unexpected turn when she was diagnosed
 						with a rare autoimmune disease. Conventional treatments offered
 						little relief, prompting her to explore alternative options. Through
-						a clinical trial at Khwaja Yunus Ali - Bio-Research Services
-						(KYAMCH-BRS), Sarah found hope and a new lease on life. This is her
-						journey of resilience, growth, and the transformative impact of
-						clinical research.
+						a clinical trial at Khwaja Yunus Ali Medical College & Hospital -
+						Bio-Research Services (KYAMCH-BRS), Sarah found hope and a new lease
+						on life. This is her journey of resilience, growth, and the
+						transformative impact of clinical research.
 					</p>
 
 					<p className="my-6 text-2xl">Discovering a New Path</p>
@@ -51,10 +51,10 @@ const PatientPersonalStories = () => {
 						a rare autoimmune disease. With conventional treatments offering
 						limited relief, she and her family began exploring alternative
 						options. It was during this search that they learned about a
-						clinical trial at Khwaja Yunus Ali - Bio-Research Services
-						(KYAMCH-BRS) offering a promising new therapy. Determined to find a
-						better solution, Sarah decided to take a leap of faith and
-						participate in the trial.
+						clinical trial at Khwaja Yunus Ali Medical College & Hospital -
+						Bio-Research Services (KYAMCH-BRS) offering a promising new therapy.
+						Determined to find a better solution, Sarah decided to take a leap
+						of faith and participate in the trial.
 					</p>
 				</div>
 
@@ -81,7 +81,7 @@ const PatientPersonalStories = () => {
 						Joining the clinical trial was both exciting and daunting for Sarah.
 						The rigorous screening process and frequent visits to the clinic
 						required a significant commitment. However, Sarah found comfort in
-						the professionalism and compassion of the KYA-BRS team. The staff
+						the professionalism and compassion of the KYAMCH-BRS team. The staff
 						provided thorough explanations of the procedures, ensuring that
 						Sarah felt informed and supported every step of the way. This
 						reassurance helped Sarah embrace the unknown and stay committed to
@@ -115,8 +115,8 @@ const PatientPersonalStories = () => {
 						Participating in the clinical trial was more than just a medical
 						decision for Sarah; it was a journey of personal growth. She learned
 						to navigate the challenges of her illness with resilience and
-						optimism. The support from fellow participants and the KYA-BRS team
-						created a sense of community that uplifted her spirits. Sarah's
+						optimism. The support from fellow participants and the KYAMCH-BRS
+						team created a sense of community that uplifted her spirits. Sarah's
 						journey also inspired others facing similar battles, showing them
 						the importance of perseverance and the potential benefits of
 						clinical trials.
@@ -128,13 +128,13 @@ const PatientPersonalStories = () => {
 
 					<p>
 						Today, Sarah continues to advocate for clinical research and the
-						importance of volunteer participation. Her experience at KYA-BRS has
-						not only improved her health but also given her a renewed purpose.
-						Sarah's journey is a powerful reminder of the impact that clinical
-						trials can have on individuals and the broader medical community. By
-						sharing her story, Sarah hopes to encourage more people to consider
-						participating in clinical research, paving the way for future
-						medical breakthroughs.
+						importance of volunteer participation. Her experience at KYAMCH-BRS
+						has not only improved her health but also given her a renewed
+						purpose. Sarah's journey is a powerful reminder of the impact that
+						clinical trials can have on individuals and the broader medical
+						community. By sharing her story, Sarah hopes to encourage more
+						people to consider participating in clinical research, paving the
+						way for future medical breakthroughs.
 					</p>
 				</div>
 			</div>
