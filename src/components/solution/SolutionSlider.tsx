@@ -23,7 +23,7 @@ const Solutions = [
 	{
 		image: "/assets/images/solutions/icons/Clinical Data Management.png",
 		title: "Clinical Data Management",
-		link: "/solutions/Clinical Data Management",
+		link: "/solutions/clinical-data-management",
 	},
 	{
 		image: "/assets/images/solutions/icons/Quality Assurance.png",
@@ -37,8 +37,8 @@ const Solutions = [
 	},
 	{
 		image: "/assets/images/solutions/icons/Laboratory Services.png",
-		title: "Infectious Diseases & Vaccines",
-		link: "/solutions/infectious-diseases",
+		title: "Laboratory Services",
+		link: "/solutions/laboratory-services",
 	},
 	{
 		image: "/assets/images/solutions/icons/Clinical Monitoring.png",
