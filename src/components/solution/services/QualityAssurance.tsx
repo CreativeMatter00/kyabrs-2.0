@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import SolutionSlider from "../SolutionSlider";
 
 const QualityAssurance = () => {
 	return (
@@ -161,6 +162,10 @@ const QualityAssurance = () => {
 							Site preparation for regulatory inspection.
 						</li>
 					</ul>
+
+					<div className="container mx-auto mt-8">
+						<SolutionSlider />
+					</div>
 				</div>
 			</div>
 		</div>

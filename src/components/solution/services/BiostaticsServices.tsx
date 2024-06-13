@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import SolutionSlider from "../SolutionSlider";
 
 const BiostaticsServices = () => {
 	return (
@@ -93,6 +94,9 @@ const BiostaticsServices = () => {
 							reduce timelines.
 						</li>
 					</ul>
+					<div className="container mx-auto mt-8">
+						<SolutionSlider />
+					</div>
 				</div>
 			</div>
 		</div>

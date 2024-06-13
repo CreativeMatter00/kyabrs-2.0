@@ -14,7 +14,7 @@ const Overview = () => {
 						all obstacles, no matter how long it takes. We are with you every
 						step of the way, resolving complex problems involved in transforming
 						scientific discoveries into desired treatments for patients. As your
-						trusted clinical research organization (CRO), we are here to support
+						trusted Contract research organization (CRO), we are here to support
 						you.
 					</p>
 					<br />

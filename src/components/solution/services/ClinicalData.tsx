@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/ui/breadcrumb/Breadcrumb";
 import Image from "next/image";
+import SolutionSlider from "../SolutionSlider";
 
 const ClinicalData = () => {
 	return (
@@ -107,6 +108,10 @@ const ClinicalData = () => {
 							Data Safety Monitoring Board (DSMB) support.
 						</li>
 					</ul>
+
+					<div className="container mx-auto mt-8">
+						<SolutionSlider />
+					</div>
 				</div>
 			</div>
 		</div>

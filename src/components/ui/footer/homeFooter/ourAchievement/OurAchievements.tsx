@@ -40,8 +40,6 @@ const achievementsData = [
 ];
 
 const OurAchievements = () => {
-	const [currentIndex, setCurrentIndex] = useState(0);
-
 	return (
 		<div
 			className="h-screen"

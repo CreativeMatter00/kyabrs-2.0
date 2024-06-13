@@ -10,7 +10,7 @@ const ContactUs = () => {
 			<div className="flex items-center flex-col md:flex-row gap-8">
 				<p className="basis-1/4">
 					For any inquiries regarding careers or volunteer opportunities at
-					KYA-BRS, please contact our HR department{" "}
+					KYAMCH-BRS, please contact our HR department{" "}
 				</p>
 
 				<div className="flex flex-col gap-8 h-full basis-1/4">

@@ -9,7 +9,7 @@ const OurVolunteers = () => {
 			<div className="flex flex-col md:flex-row gap-4">
 				<div className="w-full md:w-[50%]">
 					Our volunteers are the heart and soul of Khwaja Yunus Ali Medical
-					College & Hospital Bio Research Services (KYAMCH-BRS). Coming from
+					College & Hospital - Bio-Research Services (KYAMCH-BRS). Coming from
 					diverse backgrounds, including students, professionals, and retirees,
 					they bring unique skills, experiences, and perspectives to our
 					community. United by a commitment to advancing scientific knowledge

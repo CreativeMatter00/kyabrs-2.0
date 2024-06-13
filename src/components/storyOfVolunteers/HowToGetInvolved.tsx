@@ -8,13 +8,13 @@ const HowToGetInvolved = () => {
 
 			<div className="flex flex-col md:flex-row gap-4">
 				<div className="w-full md:w-[70%]">
-					Our volunteers are the heart and soul of Khwaja Yunus Ali-Bio Research
-					Services (KYAMCH-BRS). Coming from diverse backgrounds, including
-					students, professionals, and retirees, they bring unique skills,
-					experiences, and perspectives to our community. United by a commitment
-					to advancing scientific knowledge and improving patient outcomes, they
-					work alongside our staff, contributing their time and expertise to
-					support various research projects.
+					Our volunteers are the heart and soul of Khwaja Yunus Ali -
+					Bio-Research Services (KYAMCH-BRS). Coming from diverse backgrounds,
+					including students, professionals, and retirees, they bring unique
+					skills, experiences, and perspectives to our community. United by a
+					commitment to advancing scientific knowledge and improving patient
+					outcomes, they work alongside our staff, contributing their time and
+					expertise to support various research projects.
 					<br />
 					<br />
 					Volunteers at KYAMCH-BRS are involved in a wide range of activities,

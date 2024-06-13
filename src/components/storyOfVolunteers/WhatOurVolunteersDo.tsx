@@ -9,16 +9,16 @@ const WhatOurVolunteersDo = () => {
 				</p>
 
 				<p>
-					At Khwaja Yunus Ali-Bio Research Services (KYAMCH-BRS), our volunteers
-					are integral to the success of our clinical research projects. They
-					engage in a variety of activities, from assisting in the preparation
-					and execution of clinical trials to recruiting and enrolling study
-					participants, obtaining informed consent, and maintaining detailed
-					records. Volunteers also play a significant role in data management
-					and analysis, ensuring that all information is accurate and reliable.
-					Their meticulous work is crucial for the integrity of our research
-					findings and supports the development and review of study protocols
-					and forms.
+					At Khwaja Yunus Ali - Bio-Research Services (KYAMCH-BRS), our
+					volunteers are integral to the success of our clinical research
+					projects. They engage in a variety of activities, from assisting in
+					the preparation and execution of clinical trials to recruiting and
+					enrolling study participants, obtaining informed consent, and
+					maintaining detailed records. Volunteers also play a significant role
+					in data management and analysis, ensuring that all information is
+					accurate and reliable. Their meticulous work is crucial for the
+					integrity of our research findings and supports the development and
+					review of study protocols and forms.
 				</p>
 
 				<br />
