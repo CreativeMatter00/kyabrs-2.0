@@ -40,7 +40,7 @@ const Consulting = () => {
 					width={260}
 					height={174}
 				/>
-				<p className="text-sm">
+				<p className="text-sm text-justify">
 					Get expert regulatory consulting services at Khwaja Yunus Ali Medical
 					College & Hospital Bio Research Services (KYAMCH-BRS). Our experienced
 					team ensures your research meets international standards and

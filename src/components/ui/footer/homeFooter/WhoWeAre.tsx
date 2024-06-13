@@ -9,7 +9,7 @@ const WhoWeAre = () => {
 				<p className="text-4xl font-normal text-center">
 					KYAMCH-BRS: Bangladesh's Pioneering Clinical Research Organization
 				</p>
-				<p className="">
+				<p className="text-justify">
 					As the first contract research organization in Bangladesh, KYAMCH-BRS
 					specializes in comprehensive Phase I to III clinical trials and
 					bioequivalence studies. Our team of dedicated professionals

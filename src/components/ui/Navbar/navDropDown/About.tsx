@@ -24,7 +24,7 @@ const About = () => {
 					height={174}
 				/>
 
-				<p className="text-sm">
+				<p className="text-sm text-justify">
 					Khwaja Yunus Ali Medical College & Hospital Bio Research Services
 					(KYAMCH-BRS) is Bangladesh's leading contract research organization,
 					specializing in clinical and non-clinical research services. We

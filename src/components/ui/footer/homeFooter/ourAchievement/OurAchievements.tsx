@@ -53,7 +53,7 @@ const OurAchievements = () => {
 					<p className="text-5xl mb-4 max-md:text-2xl max-md:font-bold">
 						Our Achievements
 					</p>
-					<p className="text-lg text-center max-md:text-base ">
+					<p className="text-lg text-center max-md:text-base">
 						At KYAMCH-BRS, we celebrate our commitment to medical research
 						through groundbreaking trials and state-of-the-art lab
 						accreditations, showcasing our dedication to healthcare excellence.
@@ -76,7 +76,7 @@ const OurAchievements = () => {
 												index === 3 && "ml-8"
 											}`}
 										/>
-										<div className="flex  flex-col pt-4 px-4">
+										<div className="flex  flex-col pt-4 px-4 text-justify">
 											{/* <div className="flex justify-between flex-col pt-4 px-4"> */}
 											<p className="text-4xl mb-6">{achievement.title}</p>
 											<p className="mb-4">{achievement.description}</p>

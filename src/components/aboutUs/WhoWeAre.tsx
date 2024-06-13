@@ -8,7 +8,7 @@ function WhoWeAre() {
 				</p>
 			</div>
 
-			<div className="text-bgPrimary text-base font-medium">
+			<div className="text-bgPrimary text-base font-medium text-justify">
 				<p>
 					The first pioneering contract research organization in Bangladesh
 					offering clinical and non-clinical research services is Khwaja Yunus

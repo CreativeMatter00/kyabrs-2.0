@@ -19,7 +19,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body>
 				<NavTest />
-				<div>{children}</div>
+				<div className="text-justify">{children}</div>
 				<HomeFooter />
 			</body>
 		</html>

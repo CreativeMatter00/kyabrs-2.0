@@ -36,7 +36,7 @@ const ClinicalData = () => {
 					className="h-auto w-auto mx-auto rounded-lg mb-10"
 				/>
 
-				<div>
+				<div className="text-justify">
 					<p className="">
 						At KYAMCH-BRS, we deliver high-quality data management and
 						biostatistics services, ensuring confidence in your data throughout
